@@ -1,0 +1,102 @@
+# 表单用例
+
+<schema-card
+      schema='{
+  "state": {},
+  "methods": {
+    "onClickNew": {
+      "type": "JSFunction",
+      "value": "function onClickNew(event) {\n  console.log(111)\n}"
+    }
+  },
+  "componentName": "Page",
+  "css": "",
+  "props": {},
+  "lifeCycles": {},
+  "children": [
+    {
+      "componentName": "TinyForm",
+      "props": {
+        "labelWidth": "80px",
+        "labelPosition": "top"
+      },
+      "children": [
+        {
+          "componentName": "TinyFormItem",
+          "props": {
+            "label": "人员"
+          },
+          "children": [
+            {
+              "componentName": "TinyInput",
+              "props": {
+                "placeholder": "请输入",
+                "modelValue": ""
+              },
+              "id": "1555f756"
+            }
+          ],
+          "id": "f2442424"
+        },
+        {
+          "componentName": "TinyFormItem",
+          "props": {
+            "label": "密码"
+          },
+          "children": [
+            {
+              "componentName": "TinyInput",
+              "props": {
+                "placeholder": "请输入",
+                "modelValue": "",
+                "type": "password"
+              },
+              "id": "226426d2"
+            }
+          ],
+          "id": "46e3432e"
+        },
+        {
+          "componentName": "TinyFormItem",
+          "props": {
+            "label": ""
+          },
+          "children": [
+            {
+              "componentName": "TinyButton",
+              "props": {
+                "text": "提交",
+                "type": "primary",
+                "style": "margin-right: 10px",
+                "onClick": {
+                  "type": "JSExpression",
+                  "value": "this.onClickNew"
+                }
+              },
+              "id": "66112255"
+            },
+            {
+              "componentName": "TinyButton",
+              "props": {
+                "text": "重置",
+                "type": "primary"
+              },
+              "id": "55ea712b"
+            }
+          ],
+          "id": "31c254d5"
+        }
+      ],
+      "id": "8a36b2f2"
+    }
+  ],
+  "dataSource": {
+    "list": []
+  },
+  "utils": [],
+  "bridge": [],
+  "inputs": [],
+  "outputs": [],
+  "fileName": "Untitled"
+}'
+    ></schema-card>

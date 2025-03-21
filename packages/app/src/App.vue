@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import AiChat from 'ai-dialog'
 import HelloWorld from './components/HelloWorld.vue'
 </script>
 
@@ -11,7 +12,7 @@ import HelloWorld from './components/HelloWorld.vue'
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <HelloWorld msg="Vite + Vue" />
+  <ai-chat></ai-chat>
 </template>
 
 <style scoped>
