@@ -9,7 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@opentiny/vue": "^3.21.3",
+    "@opentiny/vue": "^3.22.0",
+    "@opentiny/vue-button": "^3.22.0",
+    "@opentiny/vue-icon": "^3.22.0",
     "vue": "^3.3.11"
   },
   "devDependencies": {
