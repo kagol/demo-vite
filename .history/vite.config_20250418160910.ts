@@ -26,5 +26,14 @@ export default defineConfig({
         })
       ]
     })
-  ]
+  ],
+  resolve: {
+    alias: [
+      // XDesign 主题
+      {
+        find: /\@opentiny\/vue-theme\/(?!(dark))/,
+        replacement: '@opentiny/vue-theme/dark-theme/'
+      }
+    ]
+  }
 })

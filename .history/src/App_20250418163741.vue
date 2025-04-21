@@ -15,7 +15,7 @@ import DemoButton from './components/DemoButton.vue'
   </div>
   <!-- <HelloWorld msg="Vite + Vue" /> -->
   <DemoButton />
-  <!-- <DemoIcons /> -->
+  <DemoIcons />
 </template>
 
 <style scoped>

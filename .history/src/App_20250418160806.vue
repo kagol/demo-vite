@@ -13,9 +13,9 @@ import DemoButton from './components/DemoButton.vue'
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <!-- <HelloWorld msg="Vite + Vue" /> -->
+  <HelloWorld msg="Vite + Vue" />
   <DemoButton />
-  <!-- <DemoIcons /> -->
+  <DemoIcons />
 </template>
 
 <style scoped>

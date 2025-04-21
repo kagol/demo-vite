@@ -3,14 +3,6 @@
 
 body {
   color: var(--tv-color-text);
-  background-color: var(--tv-color-bg-3);
+  background-color: var(--tv-color-bg-primary);
   padding: 100px;
-}
-
-html {
-  --docs-color-bg: #fff;
-}
-
-html.dark {
-  --docs-color-bg: #000;
 }

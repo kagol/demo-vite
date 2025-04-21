@@ -3,7 +3,7 @@
 
 body {
   color: var(--tv-color-text);
-  background-color: var(--tv-color-bg-3);
+  background-color: var(--docs-color-bg);
   padding: 100px;
 }
 

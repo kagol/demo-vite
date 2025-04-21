@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
 import DemoIcons from './components/DemoIcons.vue'
-import DemoButton from './components/DemoButton.vue'
 </script>
 
 <template>
@@ -13,9 +12,8 @@ import DemoButton from './components/DemoButton.vue'
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <!-- <HelloWorld msg="Vite + Vue" /> -->
-  <DemoButton />
-  <!-- <DemoIcons /> -->
+  <HelloWorld msg="Vite + Vue" />
+  <DemoIcons />
 </template>
 
 <style scoped>
