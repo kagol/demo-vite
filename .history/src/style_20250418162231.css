@@ -1,7 +1,0 @@
-/* @import "@opentiny/icons/style/all.css"; */
-@import '@opentiny/vue-theme/dark-theme-index.css';
-
-body {
-  color: var(--tv-color-text);
-  background-color: var(--tv-color-bg-dark);
-}

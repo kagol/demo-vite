@@ -2,6 +2,9 @@
 import HelloWorld from './components/HelloWorld.vue'
 import DemoIcons from './components/DemoIcons.vue'
 import DemoButton from './components/DemoButton.vue'
+import DemoForm from './components/DemoForm.vue'
+import DemoTreeSelect from './components/DemoTreeSelect.vue'
+// import DemoDrawer from './components/DemoDrawer.vue'
 </script>
 
 <template>
@@ -13,9 +16,12 @@ import DemoButton from './components/DemoButton.vue'
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <!-- <HelloWorld msg="Vite + Vue" /> -->
+  <HelloWorld msg="Vite + Vue" />
+  <DemoTreeSelect />
+  <!-- <DemoDrawer /> -->
+  <DemoForm />
   <DemoButton />
-  <!-- <DemoIcons /> -->
+  <DemoIcons />
 </template>
 
 <style scoped>
