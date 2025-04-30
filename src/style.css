@@ -5,6 +5,7 @@ body {
   color: var(--tv-color-text);
   background-color: var(--tv-color-bg-3);
   padding: 100px;
+  font-family: -apple-system, HuaweiSans, Helvetica Neue, Helvetica, Arial, PingFang SC, Hiragino Sans GB, STHeiti, Microsoft YaHei, Microsoft JhengHei, SimSun, sans-serif;
 }
 
 html {

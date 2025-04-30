@@ -14,6 +14,7 @@
     "@opentiny/tiny-robot-ai-adapter": "^0.1.0",
     "@opentiny/tiny-robot-svgs": "^0.1.0",
     "@opentiny/vue": "^3.22.1",
+    "@opentiny/vue-fluent-editor": "^3.22.0",
     "@opentiny/vue-icon": "^3.22.0",
     "@opentiny/vue-theme": "^3.22.1",
     "@opentiny/vue-tree-select": "^3.22.0",
