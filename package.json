@@ -13,6 +13,8 @@
     "@modelcontextprotocol/sdk": "^1.11.4",
     "@opentiny/next": "^0.1.1",
     "@opentiny/vue": "^3.21.3",
+    "less": "^4.3.0",
+    "unocss": "^66.1.2",
     "vue": "^3.3.11",
     "zod": "^3.24.4"
   },

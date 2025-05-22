@@ -2,6 +2,7 @@ import { createApp, reactive } from 'vue'
 import './style.css'
 import App from './App.vue'
 import { setupMcp } from '@opentiny/mcp-tiny-vue'
+import 'virtual:uno.css'
 
 const globalState = reactive({
   selectModelValue: ''
