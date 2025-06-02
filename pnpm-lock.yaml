@@ -1,0 +1,3803 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@opentiny/vue':
+        specifier: ^3.23.0
+        version: 3.23.0
+      vue:
+        specifier: ^3.3.11
+        version: 3.5.16(typescript@5.8.3)
+    devDependencies:
+      '@vitejs/plugin-vue':
+        specifier: ^4.5.2
+        version: 4.6.2(vite@5.4.19)(vue@3.5.16(typescript@5.8.3))
+      typescript:
+        specifier: ^5.2.2
+        version: 5.8.3
+      vite:
+        specifier: ^5.0.8
+        version: 5.4.19
+      vue-tsc:
+        specifier: ^1.8.25
+        version: 1.8.27(typescript@5.8.3)
+
+packages:
+
+  '@babel/helper-string-parser@7.27.1':
+    resolution: {integrity: sha512-qMlSxKbpRlAridDExk92nSobyDdpPijUq2DW6oDnUqd0iOGxmQjyqhMIihI9+zv4LPyZdRje2cavWPbCbWm3eA==}
+    engines: {node: '>=6.9.0'}
+
+  '@babel/helper-validator-identifier@7.27.1':
+    resolution: {integrity: sha512-D2hP9eA+Sqx1kBZgzxZh0y1trbuU+JoDkiEwqhQ36nodYqJwyEIhPSdMNd7lOm/4io72luTPWH20Yda0xOuUow==}
+    engines: {node: '>=6.9.0'}
+
+  '@babel/parser@7.27.4':
+    resolution: {integrity: sha512-BRmLHGwpUqLFR2jzx9orBuX/ABDkj2jLKOXrHDTN2aOKL+jFDDKaRNo9nyYsIl9h/UE/7lMKdDjKQQyxKKDZ7g==}
+    engines: {node: '>=6.0.0'}
+    hasBin: true
+
+  '@babel/types@7.27.3':
+    resolution: {integrity: sha512-Y1GkI4ktrtvmawoSq+4FCVHNryea6uR+qUQy0AGxLSsjCX0nVmkYQMBLHDkXZuo5hGx7eYdnIaslsdBFm7zbUw==}
+    engines: {node: '>=6.9.0'}
+
+  '@better-scroll/core@2.5.0':
+    resolution: {integrity: sha512-+3aKf8T3kUl4Gj1M7NKV3fNFhsrBpTWwHoDClkXVmQ8S3TxMMHf6Kyw6l1zKsg4r+9ukW5lDDkyif7/gY76qXQ==}
+
+  '@better-scroll/shared-utils@2.5.1':
+    resolution: {integrity: sha512-AplkfSjXVYP9LZiD6JsKgmgQJ/mG4uuLmBuwLz8W5OsYc7AYTfN8kw6GqZ5OwCGoXkVhBGyd8NeC4xwYItp0aw==}
+
+  '@esbuild/aix-ppc64@0.21.5':
+    resolution: {integrity: sha512-1SDgH6ZSPTlggy1yI6+Dbkiz8xzpHJEVAlF/AM1tHPLsf5STom9rwtjE4hKAF20FfXXNTFqEYXyJNWh1GiZedQ==}
+    engines: {node: '>=12'}
+    cpu: [ppc64]
+    os: [aix]
+
+  '@esbuild/android-arm64@0.21.5':
+    resolution: {integrity: sha512-c0uX9VAUBQ7dTDCjq+wdyGLowMdtR/GoC2U5IYk/7D1H1JYC0qseD7+11iMP2mRLN9RcCMRcjC4YMclCzGwS/A==}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [android]
+
+  '@esbuild/android-arm@0.21.5':
+    resolution: {integrity: sha512-vCPvzSjpPHEi1siZdlvAlsPxXl7WbOVUBBAowWug4rJHb68Ox8KualB+1ocNvT5fjv6wpkX6o/iEpbDrf68zcg==}
+    engines: {node: '>=12'}
+    cpu: [arm]
+    os: [android]
+
+  '@esbuild/android-x64@0.21.5':
+    resolution: {integrity: sha512-D7aPRUUNHRBwHxzxRvp856rjUHRFW1SdQATKXH2hqA0kAZb1hKmi02OpYRacl0TxIGz/ZmXWlbZgjwWYaCakTA==}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [android]
+
+  '@esbuild/darwin-arm64@0.21.5':
+    resolution: {integrity: sha512-DwqXqZyuk5AiWWf3UfLiRDJ5EDd49zg6O9wclZ7kUMv2WRFr4HKjXp/5t8JZ11QbQfUS6/cRCKGwYhtNAY88kQ==}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@esbuild/darwin-x64@0.21.5':
+    resolution: {integrity: sha512-se/JjF8NlmKVG4kNIuyWMV/22ZaerB+qaSi5MdrXtd6R08kvs2qCN4C09miupktDitvh8jRFflwGFBQcxZRjbw==}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [darwin]
+
+  '@esbuild/freebsd-arm64@0.21.5':
+    resolution: {integrity: sha512-5JcRxxRDUJLX8JXp/wcBCy3pENnCgBR9bN6JsY4OmhfUtIHe3ZW0mawA7+RDAcMLrMIZaf03NlQiX9DGyB8h4g==}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [freebsd]
+
+  '@esbuild/freebsd-x64@0.21.5':
+    resolution: {integrity: sha512-J95kNBj1zkbMXtHVH29bBriQygMXqoVQOQYA+ISs0/2l3T9/kj42ow2mpqerRBxDJnmkUDCaQT/dfNXWX/ZZCQ==}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [freebsd]
+
+  '@esbuild/linux-arm64@0.21.5':
+    resolution: {integrity: sha512-ibKvmyYzKsBeX8d8I7MH/TMfWDXBF3db4qM6sy+7re0YXya+K1cem3on9XgdT2EQGMu4hQyZhan7TeQ8XkGp4Q==}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [linux]
+
+  '@esbuild/linux-arm@0.21.5':
+    resolution: {integrity: sha512-bPb5AHZtbeNGjCKVZ9UGqGwo8EUu4cLq68E95A53KlxAPRmUyYv2D6F0uUI65XisGOL1hBP5mTronbgo+0bFcA==}
+    engines: {node: '>=12'}
+    cpu: [arm]
+    os: [linux]
+
+  '@esbuild/linux-ia32@0.21.5':
+    resolution: {integrity: sha512-YvjXDqLRqPDl2dvRODYmmhz4rPeVKYvppfGYKSNGdyZkA01046pLWyRKKI3ax8fbJoK5QbxblURkwK/MWY18Tg==}
+    engines: {node: '>=12'}
+    cpu: [ia32]
+    os: [linux]
+
+  '@esbuild/linux-loong64@0.21.5':
+    resolution: {integrity: sha512-uHf1BmMG8qEvzdrzAqg2SIG/02+4/DHB6a9Kbya0XDvwDEKCoC8ZRWI5JJvNdUjtciBGFQ5PuBlpEOXQj+JQSg==}
+    engines: {node: '>=12'}
+    cpu: [loong64]
+    os: [linux]
+
+  '@esbuild/linux-mips64el@0.21.5':
+    resolution: {integrity: sha512-IajOmO+KJK23bj52dFSNCMsz1QP1DqM6cwLUv3W1QwyxkyIWecfafnI555fvSGqEKwjMXVLokcV5ygHW5b3Jbg==}
+    engines: {node: '>=12'}
+    cpu: [mips64el]
+    os: [linux]
+
+  '@esbuild/linux-ppc64@0.21.5':
+    resolution: {integrity: sha512-1hHV/Z4OEfMwpLO8rp7CvlhBDnjsC3CttJXIhBi+5Aj5r+MBvy4egg7wCbe//hSsT+RvDAG7s81tAvpL2XAE4w==}
+    engines: {node: '>=12'}
+    cpu: [ppc64]
+    os: [linux]
+
+  '@esbuild/linux-riscv64@0.21.5':
+    resolution: {integrity: sha512-2HdXDMd9GMgTGrPWnJzP2ALSokE/0O5HhTUvWIbD3YdjME8JwvSCnNGBnTThKGEB91OZhzrJ4qIIxk/SBmyDDA==}
+    engines: {node: '>=12'}
+    cpu: [riscv64]
+    os: [linux]
+
+  '@esbuild/linux-s390x@0.21.5':
+    resolution: {integrity: sha512-zus5sxzqBJD3eXxwvjN1yQkRepANgxE9lgOW2qLnmr8ikMTphkjgXu1HR01K4FJg8h1kEEDAqDcZQtbrRnB41A==}
+    engines: {node: '>=12'}
+    cpu: [s390x]
+    os: [linux]
+
+  '@esbuild/linux-x64@0.21.5':
+    resolution: {integrity: sha512-1rYdTpyv03iycF1+BhzrzQJCdOuAOtaqHTWJZCWvijKD2N5Xu0TtVC8/+1faWqcP9iBCWOmjmhoH94dH82BxPQ==}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [linux]
+
+  '@esbuild/netbsd-x64@0.21.5':
+    resolution: {integrity: sha512-Woi2MXzXjMULccIwMnLciyZH4nCIMpWQAs049KEeMvOcNADVxo0UBIQPfSmxB3CWKedngg7sWZdLvLczpe0tLg==}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [netbsd]
+
+  '@esbuild/openbsd-x64@0.21.5':
+    resolution: {integrity: sha512-HLNNw99xsvx12lFBUwoT8EVCsSvRNDVxNpjZ7bPn947b8gJPzeHWyNVhFsaerc0n3TsbOINvRP2byTZ5LKezow==}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [openbsd]
+
+  '@esbuild/sunos-x64@0.21.5':
+    resolution: {integrity: sha512-6+gjmFpfy0BHU5Tpptkuh8+uw3mnrvgs+dSPQXQOv3ekbordwnzTVEb4qnIvQcYXq6gzkyTnoZ9dZG+D4garKg==}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [sunos]
+
+  '@esbuild/win32-arm64@0.21.5':
+    resolution: {integrity: sha512-Z0gOTd75VvXqyq7nsl93zwahcTROgqvuAcYDUr+vOv8uHhNSKROyU961kgtCD1e95IqPKSQKH7tBTslnS3tA8A==}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [win32]
+
+  '@esbuild/win32-ia32@0.21.5':
+    resolution: {integrity: sha512-SWXFF1CL2RVNMaVs+BBClwtfZSvDgtL//G/smwAc5oVK/UPu2Gu9tIaRgFmYFFKrmg3SyAjSrElf0TiJ1v8fYA==}
+    engines: {node: '>=12'}
+    cpu: [ia32]
+    os: [win32]
+
+  '@esbuild/win32-x64@0.21.5':
+    resolution: {integrity: sha512-tQd/1efJuzPC6rCFwEvLtci/xNFcTZknmXs98FYDfGE4wP9ClFV98nyKrzJKVPMhdDnjzLhdUyMX4PsQAPjwIw==}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [win32]
+
+  '@floating-ui/core@1.7.0':
+    resolution: {integrity: sha512-FRdBLykrPPA6P76GGGqlex/e7fbe0F1ykgxHYNXQsH/iTEtjMj/f9bpY5oQqbjt5VgZvgz/uKXbGuROijh3VLA==}
+
+  '@floating-ui/dom@1.7.0':
+    resolution: {integrity: sha512-lGTor4VlXcesUMh1cupTUTDoCxMb0V6bm3CnxHzQcw8Eaf1jQbgQX4i02fYgT0vJ82tb5MZ4CZk1LRGkktJCzg==}
+
+  '@floating-ui/utils@0.2.9':
+    resolution: {integrity: sha512-MDWhGtE+eHw5JW7lq4qhc5yRLS11ERl1c7Z6Xd0a58DozHES6EnNNwUWbMiG4J9Cgj053Bhk8zvlhFYKVhULwg==}
+
+  '@jridgewell/sourcemap-codec@1.5.0':
+    resolution: {integrity: sha512-gv3ZRaISU3fjPAgNsriBRqGWQL6quFx04YMPW/zD8XMLsU32mhCCbfbO6KZFLjvYpCZ8zyDEgqsgf+PwPaM7GQ==}
+
+  '@opentiny/fluent-editor@3.25.4':
+    resolution: {integrity: sha512-jdXXsBq2AIy9e8L8RkNXVo0ittDhfG7ELVs4lGUmnewIvdNOs64axttj2GGfW9Lup95oeMqdoOW0kf09GAx0Vw==}
+
+  '@opentiny/utils@3.23.0':
+    resolution: {integrity: sha512-9qnraYwLjFvWaQEUd/VyDTorLxlfLsSep0U3JioypOu6D9OLExSaOx2Xmpexdubmg1gopvykjkr1FxGT75ni5A==}
+
+  '@opentiny/vue-action-menu@3.23.0':
+    resolution: {integrity: sha512-liPZcV8Bu5DdxWZ/0yOFNRdtPCvLNrYJYRat2jCV3KVRRVMOKtMV+7vGDLeYCM03mJtvGXB4IkRNVLNm0iKWtw==}
+
+  '@opentiny/vue-action-sheet@3.23.0':
+    resolution: {integrity: sha512-SF9t+ykly8yYmB7rjMZe5E8aLTfX8jnBBTgYIZC3dOGx2RHwszvEEkDQVQrh2siE1qlQEmn4fnyMCX0V1/1wXw==}
+
+  '@opentiny/vue-alert@3.23.0':
+    resolution: {integrity: sha512-6F2WfIws8ADxgjXWASKb5B91IBp4OKPPE7XEwEVPE3/bnmESkwfSg6ejZ7Q6IsA+aQ+dnyq1ERWOXXFt5KobZQ==}
+
+  '@opentiny/vue-amount@3.23.0':
+    resolution: {integrity: sha512-mjOmLMEb3mxYYp1GlyxnJbdUunjcZ9oY+V774vgoyDs/f0gnTb6EoPGeSQDowLbZCinSCGcwog3Q/iHan4prVA==}
+
+  '@opentiny/vue-anchor@3.23.0':
+    resolution: {integrity: sha512-qUXYfO6f6ge07nUmNGgRSqaJYK5baAWLMRS/YdWhGYavZHuMADsKKUZ1Ybu5gRhHFmuvoN3lUUNclUPtvohimw==}
+
+  '@opentiny/vue-area@3.23.0':
+    resolution: {integrity: sha512-YN3bwCf1cbvm0dDEXTcZuj95fgfLm1gyPELEq357/JuBh3Fk2q1l1VihVsaqlgc0q/q9O8WJBIetZWt746tFXQ==}
+
+  '@opentiny/vue-async-flowchart@3.23.0':
+    resolution: {integrity: sha512-UocJSIs3tQyvq++QrODJjQkeerEFcPllNFhg9BphdODVAH9LCuO/dCyDNCslAshmbFAaV4g6zbdkKm/g3L6VJg==}
+
+  '@opentiny/vue-autocomplete@3.23.0':
+    resolution: {integrity: sha512-NqnWABbBMDaYrkNa0ugqfECMaACytP50BniBRnG5ddUeuK8TMTTRxnXSObsEL/M9YHZseQgQZfRkNUnIa3XpCg==}
+
+  '@opentiny/vue-badge@3.23.0':
+    resolution: {integrity: sha512-bxSzNm/L3gryVsRqEbewEBXc38MZ7h+WOdQNBuSJ1cBZZ8M9LUEx8fgdmAs1/6eZCXnRcp9AMFvKAHB17OYmTQ==}
+
+  '@opentiny/vue-base-select@3.23.0':
+    resolution: {integrity: sha512-FVuVap6c3cij10ian4rUyPtdnutHt62gahHdec2ldIx8l96LuHHMW8iN+1jt/PR+g6SRSzNiL/Tj+k9lvtSG+Q==}
+
+  '@opentiny/vue-breadcrumb-item@3.23.0':
+    resolution: {integrity: sha512-ZllphSV4MhmUCzf6CihBnpC7ezbbX3Hb6ryB4mQNDe7V3Zz9j4L4BU/se65P/7FHOPruv/7Qmz/yrJ6keUZFXA==}
+
+  '@opentiny/vue-breadcrumb@3.23.0':
+    resolution: {integrity: sha512-oSJw4suc5bjV5S71VUIXxkwCHAX0SZ+mEoXh2a7nnYp5CC1+P0UZd425o2JNr5vaF/7KB9jIQkk3tTCjfLywVQ==}
+
+  '@opentiny/vue-bulletin-board@3.23.0':
+    resolution: {integrity: sha512-QmGE6dBr0oIHuvPfRdGdPWN2KlZsUPTo6/zS3moESWF4+zN3XtikCWBZxspXVDy1m5FXGuiDIrAns4IKceMAqw==}
+
+  '@opentiny/vue-button-group@3.23.0':
+    resolution: {integrity: sha512-eF2n14bQmMV6zGePcx1xNSSexqdS4+i5vR0EZDaBYcKzEk0hLYfSAs4CTfHgtl4B2wtNCcZPkUY7Q/KhdIay+A==}
+
+  '@opentiny/vue-button@3.23.0':
+    resolution: {integrity: sha512-B2/fNVFK+HFcT3arXSsCCHjypXF76xECHif4iQhsVBf4dakqRUQeDpw4E9RQTFO10z1e12v4hi02q0v3cllJTg==}
+
+  '@opentiny/vue-calendar-bar@3.23.0':
+    resolution: {integrity: sha512-ZC+qU/wYbxGSddBhULs5rCe4JcBjTV1033q4MtPu8rLlvYsR8GqcKAqQv6iZrZTnmuuW9V4kYRlG0OqeHxVQGg==}
+
+  '@opentiny/vue-calendar-view@3.23.0':
+    resolution: {integrity: sha512-fRfvN7haExY4KadmbPdZpLcsvPER48c3ANbJ4dcEInDfF8KgJIu65skXJ7dc+p+sBZSnWAYEjfN1CgZw5Dvztg==}
+
+  '@opentiny/vue-calendar@3.23.0':
+    resolution: {integrity: sha512-1bbz2PFeSluYQlxpnLW1PqJ7dXIAy+FaQneCHs/5P25QWFVFcw6wCY8k3bpvJxznaDlTpD3j7rJxFRRwIiRQeA==}
+
+  '@opentiny/vue-card-group@3.23.0':
+    resolution: {integrity: sha512-6I1ZNbJt95H1EWPrAbn9S/vcSRRvmowvofRpNHdrmYxGnFzE06MIypYt6TuzP7/ZwIf63GIQ/UAbvPqiTU63Qg==}
+
+  '@opentiny/vue-card-template@3.23.0':
+    resolution: {integrity: sha512-C+V86Smtphg05LoTL/mP/NwqL/NeragzKSpieUwz1rZZybi6zqLI4rScKnKkbAmgw7dBgu7PJ1rYDwBKG4OBxQ==}
+
+  '@opentiny/vue-card@3.23.0':
+    resolution: {integrity: sha512-6ewAHagCJQ4CAHGXjP81cG32ARbOuC969WALVDkzwYxLPoj2wlwI9fCQDYhNV7GzNMl9yiFlKWZIPlNlRj/pjA==}
+
+  '@opentiny/vue-carousel-item@3.23.0':
+    resolution: {integrity: sha512-f2FO+8KTJhQzkpWQsULhx/PpKTe33nUCyciu3lH0UZcIO5aAXcINWpI8lNF4RjXxFScZY0OFfFmDGv/UzLdl9Q==}
+
+  '@opentiny/vue-carousel@3.23.0':
+    resolution: {integrity: sha512-lJwt9bPeW+O7s+CGX4argssB83WVng6WgsJYCemEBRq/pqysETadyau2lcbu+DfW3DR8z7x5PlUvmGcv7ff7Ng==}
+
+  '@opentiny/vue-cascader-menu@3.23.0':
+    resolution: {integrity: sha512-HMYJDQaoPTPg4UApu6oIz+y2MIOtll1uPVyZE2iFzxAhT6YUsWWLR3TQ7/kKDpcWFJhNUm/hyxu4/nHqRKp2kQ==}
+
+  '@opentiny/vue-cascader-mobile@3.23.0':
+    resolution: {integrity: sha512-UjDPQ7khJVAhWgwdjn3CnJRNhBgk3i5zJOsGdtHMmIUiHtMki8A7re7rJzTJMGDYJGMqx+At396cGX81rMNRUw==}
+
+  '@opentiny/vue-cascader-node@3.23.0':
+    resolution: {integrity: sha512-0PIEECLpYaEBlfDrOu7FanuyHCsE+fdxPDCTarmUvBaAkP4pIOLFlorCKF5wUq2KN4gNYV4NuG2YFOrHyLF8DA==}
+
+  '@opentiny/vue-cascader-panel@3.23.0':
+    resolution: {integrity: sha512-beDAtFJChaAv2Pm1UWcgLz69zfybRi7Zn61z+eDGqibRzLdCgiwlldRfkRSdMf+EU4Uww3tpZY6qjuuxNcfoOQ==}
+
+  '@opentiny/vue-cascader-select@3.23.0':
+    resolution: {integrity: sha512-BNOC7FPHWVWQuZuw8wxpM6sEXz1ZubRLUNujA+EZbV5HiCg14M4t4oIB2YDLLWbWpDvK0w1rsNby6gg43Ps2TA==}
+
+  '@opentiny/vue-cascader-view@3.23.0':
+    resolution: {integrity: sha512-4GtQf3klsmMRn60Ohai0RCXVFWw9SgA9SOK0lGBVrfqtIgK5VLwDn/4gn8WicT0/9z5XwHIMpCv0YIz+DeNo6w==}
+
+  '@opentiny/vue-cascader@3.23.0':
+    resolution: {integrity: sha512-32IhEHwBXh9rNrWRiGAa7rG7PdY/gN/KOW1C8//A5xc9i4jdmMM5xgbv8eJIzg5E0Cm/796q1KlDfBcTbG9Dtg==}
+
+  '@opentiny/vue-cell@3.23.0':
+    resolution: {integrity: sha512-tZbrydFnXSfseqmozLTVAamgcAkjqQwTD+woKGq1bdLBKsHbWiTZYupFmc8wrgTlS0kP2oRUfEjmQHi3oddbsA==}
+
+  '@opentiny/vue-checkbox-button@3.23.0':
+    resolution: {integrity: sha512-Qcw8neRLlbBFmxMZ+v6NshrtRy6KKkbcwbBjU4KmDVvth4kk3oOhXgI7vJSVArL7H3t0r5QcCGXoeBhCdTH27Q==}
+
+  '@opentiny/vue-checkbox-group@3.23.0':
+    resolution: {integrity: sha512-GGUr+I5cAyOs8WQhyu8YS3cZq5HQr3Tzl1evNS9UIlNq4Qs2R1y1/3WgOQU5i+A0y3c9ws61+kClAELDpj1TkQ==}
+
+  '@opentiny/vue-checkbox@3.23.0':
+    resolution: {integrity: sha512-3sSR0GW18sxGnqzu/nThPEB7gj92wmfYsz12MoHJbBQjiwb+4g5U9UMsvtKKhrYjMSdVZw0yxTcevlEYJP96Tw==}
+
+  '@opentiny/vue-col@3.23.0':
+    resolution: {integrity: sha512-FILcsfKrNzwt/iN6rzvek5VMG+YTOAlcbT3YjtQPDBJ715/p4NV+/ikpCirnnk+YEyzMeusAdVo8PH2bxxJ28g==}
+
+  '@opentiny/vue-collapse-item@3.23.0':
+    resolution: {integrity: sha512-9RyIE4lT4cxZRj/fYwrNh+KJp416zHOnpP+TfTV1RUVUUZyDblJ2e5MxG4sCuAVh3Ck0FA8swKgzozR/C8+6FQ==}
+
+  '@opentiny/vue-collapse-transition@3.23.0':
+    resolution: {integrity: sha512-RLhzqBm6IGwMClP00BmGqWFNw8UgO81+pU/A0pYbunbilyKD05bWhRx/ozhByOmi+7kTw4i6K+Kdg+7fHK4YnQ==}
+
+  '@opentiny/vue-collapse@3.23.0':
+    resolution: {integrity: sha512-RhXD+WjHr6VlEaBUfa8dHsdHWwEq2HIm/05zbunn9Duyc1RLGnWyj6vXQxE1J3Lyh3y0LkVO9zPotS91h3Hi9A==}
+
+  '@opentiny/vue-color-picker@3.23.0':
+    resolution: {integrity: sha512-FUFofZABpBZcOCUZAC6xiaqpS3IF11BHGMlWNxIebYUj1rSCLnlrNRHQoieg6CrlUrjfZYilK5m+CZJpfPsQgg==}
+
+  '@opentiny/vue-color-select-panel@3.23.0':
+    resolution: {integrity: sha512-VPLYmML3RLmYBSSLKHMUrMgmyPIi+rBoV+TeWoKYUalCQKQ4mfSTsHk2B0mOVyj7HEJN87NEiD8vX9gUocdSyQ==}
+
+  '@opentiny/vue-column-list-group@3.23.0':
+    resolution: {integrity: sha512-jSKO1ddQ2aTmKBeCuwKrl8iBqlSVEHx3Lpp6tOg1BHxS0RUxcTwPSs0wEg3HtUjRRQ/zPDjIL+pUcwe/hmvUzQ==}
+
+  '@opentiny/vue-column-list-item@3.23.0':
+    resolution: {integrity: sha512-QqvmSGW1F+bFFejHYujiSV2oSy0yeR+1iR7Ugg/CHRPMYdnLyyphG2o5/oIgkryPLPbFk5gbQ9PRnVIwFv1Vpw==}
+
+  '@opentiny/vue-common@3.23.0':
+    resolution: {integrity: sha512-ksm8+H4PigskjjCFIFpLQNAXsoGZ2tNDvZgsI/WqbjeQewbGGAw/oQBY7u5O1Q3ulys84ra2DXXPJqAx+6F9yw==}
+
+  '@opentiny/vue-company@3.23.0':
+    resolution: {integrity: sha512-7+EzQf3xxLAy2DLFaerLz9uipxAzkwa0M32ExxNJlaZEvjofzvzt8QrsPMRx/s6ZwmijmYDeKj2BAwpjPlSIpg==}
+
+  '@opentiny/vue-config-provider@3.23.0':
+    resolution: {integrity: sha512-xiJoiM5KrZS9K1gfgd5VhMN4W6vLseVXpZq7vyLR366/IjxM+FF/IBbS5NzIWd7LZgi+3iex58sgIHta/KSi0A==}
+
+  '@opentiny/vue-container@3.23.0':
+    resolution: {integrity: sha512-bX4cUwt427+rSvPknwx+C5e8MJDCWu0j/mcSFYtEkB8Id3pagfJEmvoOEIvlrtbFQIZI+jZ1L8SFxi4tq2XIPQ==}
+
+  '@opentiny/vue-country@3.23.0':
+    resolution: {integrity: sha512-aPGl0SwkHqIwfHCNjl1TNAeWWjEMlHPuBazkvjbEaw/4ffxn6MZM4B6yFpcO+CrG+djgebd/E6p2AdCmh6kEVw==}
+
+  '@opentiny/vue-crop@3.23.0':
+    resolution: {integrity: sha512-epSbnhcocu14E/gcHleCbSOKozZVi4/3NIPoReeasqpifFCCKo8GjLpoHfQMZue23RZduJMn9qWb2neUr01bsg==}
+
+  '@opentiny/vue-currency@3.23.0':
+    resolution: {integrity: sha512-8G2XvHJjqRsIZ1/X5DcBoHHmGxQTwpIr5nQnF3Gfp3MywVZU2GE1GV3QTHF0M+LWwsnkBZ7a6H68T9s013ixWA==}
+
+  '@opentiny/vue-date-panel@3.23.0':
+    resolution: {integrity: sha512-eZyWqTAoy5nFPyFik3zsihga0geGzviC5mW4LvMWFbeBhFPwtmo3F2Do14M0pGu+TbA2xe5eiOUj9x1INgjYgg==}
+
+  '@opentiny/vue-date-picker-mobile-first@3.23.0':
+    resolution: {integrity: sha512-9yzMige2qFrNaNiLYlbaHpqabsBPNPlsx9a7dvmhxhnwKzQi/KCiM2hRF1dJNnv3sXJIm+s7WuLFpvnLO34GwA==}
+
+  '@opentiny/vue-date-picker@3.23.0':
+    resolution: {integrity: sha512-32te+o5OEQqNhmGsrjLu+/A9HvQIrspE94DWAUXtqYUt8wUeVvwGiTg9VhDr/PFAKAF+l7sQP0U5Yv0ETm6b/g==}
+
+  '@opentiny/vue-date-range@3.23.0':
+    resolution: {integrity: sha512-k75ZyGHx8ORaBUarBRUoKQZm+RQhPHDWYrTUxrtdRy0dvYMomhK1jlRh54pXvDfpZaz+5pXQ5aFwmtWyeRaylw==}
+
+  '@opentiny/vue-date-table@3.23.0':
+    resolution: {integrity: sha512-1uul3QUcBcLTnUZNvUp0kY/TPWvAlgdRqZdMWfwPHKex/32UPmnj+acD84/k0vqpIpUUeTJHIXGOWF+3LNWT9w==}
+
+  '@opentiny/vue-dept@3.23.0':
+    resolution: {integrity: sha512-30ts5j4Kc1QHPvjBohFMPtYz48nPAtrLgHX0MIOJ8jOMlmDB9FEHGiYFxnzuDxELLy7Y0Ol6GnDm2nMmVn1bCw==}
+
+  '@opentiny/vue-dialog-box@3.23.0':
+    resolution: {integrity: sha512-LSqi+if8xIt3I6tdRkEFD2NcaolzZuWsukEynkI0U12uEOeH8FqqjrZzNtLS5SxzvtKcEHq0HTlJbC+Pa6Dkhg==}
+
+  '@opentiny/vue-dialog-select@3.23.0':
+    resolution: {integrity: sha512-ZEYFeBqHJpoY0VCOJM4KQ/ZGQQqz0ZmJRL6N63i6ysx/Hz1e4LBe+VDJOJdsldoyphwfImCGaStKPha+vREsvw==}
+
+  '@opentiny/vue-directive@3.23.0':
+    resolution: {integrity: sha512-YN6Ca1uLKeZ6yNMXrbQW/KKhlmKrVA3C5XMIKutSr9d4rRwjt8Lioptv46Uk+DT9DUkTFb7NlI2+tRJX5QcuMg==}
+
+  '@opentiny/vue-divider@3.23.0':
+    resolution: {integrity: sha512-oIgnZ5TC1fMiLdhp7/Xw1JqK3a+ycYlP9zB+sB0DAmWfRCeYhMczRaI/LFCNqO2ebGI4asYXI5+AVujkQFW42Q==}
+
+  '@opentiny/vue-drawer@3.23.0':
+    resolution: {integrity: sha512-1IrsOL0hE7DrfILsx96egfl8mc4pvAsDep6ZrPKjrcM6qEQofgtNOf4qSWiSpiNWIiWL+AtbReyKi6QWzkU4mw==}
+
+  '@opentiny/vue-drop-roles@3.23.0':
+    resolution: {integrity: sha512-9YnEBZB4oNLrJsmWf9Bg9IViuQLBGqZcAibVlCWKHA0LGo0UN9DcfEYRJiYHKWgyemlvgZtbId4WsgC6E2DRcg==}
+
+  '@opentiny/vue-drop-times@3.23.0':
+    resolution: {integrity: sha512-0TxxxdnxcJk73ZxnE4Z8l6j+tLFiM4PNaskNFk/jN9sIMQkigGg6O9kDMynV5abDjrMGZfo/elIY5WX6kdGWRQ==}
+
+  '@opentiny/vue-dropdown-item@3.23.0':
+    resolution: {integrity: sha512-xn4NP9ZnwWpJWCUvGDQf8JbQ1k1dfiQHgcC42b7ZCcD2eKqczgDiUEGqSNhzWiP0ysVH6cz3QJpdSLMuim+/xQ==}
+
+  '@opentiny/vue-dropdown-menu@3.23.0':
+    resolution: {integrity: sha512-W6raBI9XOREyOth6FE8+5JOD3vMqAQ/pSXCoXpL2WMd/v4ftJJvds2V6pqOWAOp1h1V5+6r3betsBc4wuHiNgw==}
+
+  '@opentiny/vue-dropdown@3.23.0':
+    resolution: {integrity: sha512-7iTp6aB6pNTPVxMowjad6Vy5vAsMWAeS+IcLefxILigpoZVYHED93DWnfCatWdbihFxlM0uUibnspoZCOdbODA==}
+
+  '@opentiny/vue-dynamic-scroller-item@3.23.0':
+    resolution: {integrity: sha512-7dfRbtLkjBy+ANFrdvvUbXA6yRxCy4FeBCBzO1gIhp68F/lm0vN2uGPk0c1COaSD80NtirHFh6Fs4n8t5fmHzg==}
+
+  '@opentiny/vue-dynamic-scroller@3.23.0':
+    resolution: {integrity: sha512-f3Rfjr0xM5vGQVkH0o5WyXBKUtFfYmu9DAmtNgkGDfqbfEtxR7KMlz/mIhx4jfZ7bfOCQohBJGvMwNMe0cD+FA==}
+
+  '@opentiny/vue-espace@3.23.0':
+    resolution: {integrity: sha512-NbOdi7dGDAxJRvYWnzGp9+d3y6gL+loCT/XUF8CYIZ978PehF5UEFgOtlMw2NQkbPZKM+ThMbaxSNZHYkj4W+A==}
+
+  '@opentiny/vue-exception@3.23.0':
+    resolution: {integrity: sha512-ujVb4eMYnm7lH7s3HZz5BCU7QiEx4+gynyAQbXX5X6Hay0iiV4HmqxAN+CNgLnz1RbFNBuafdr9/N9P4vrFWgA==}
+
+  '@opentiny/vue-fall-menu@3.23.0':
+    resolution: {integrity: sha512-BMozJlFHB/M8YLZY/eOd1Kv+TxHWkDbMb1Kvbilwlr+bzBPZRV06LNKsN8mRxkAMpi0sJxol3IAm3dSRePkKKw==}
+
+  '@opentiny/vue-file-upload@3.23.0':
+    resolution: {integrity: sha512-5zYUpeU3Ak22zoS2pb6eg9cwj3gkCZAmcC6GeXtdIBqqesWWUAs0ypQk/yqEMDh1C77R0I8eNWfsbjPvHyE3RQ==}
+
+  '@opentiny/vue-filter-bar@3.23.0':
+    resolution: {integrity: sha512-NTUNKyWMGwcoLxPXfZqtMusAAnRAs+YGX+NfzJXVTCtZIi2vp7QwzUIS5rEPLIvjXUa4qoRVe8u2w9uUajOV7A==}
+
+  '@opentiny/vue-filter-box@3.23.0':
+    resolution: {integrity: sha512-gsRa+6F3RrSeE9rgp7C5spMWIcP1K5Oq4TmX8+rllEGrqUQWvi7u81/v0cf+5x9U42TiRh1kzN5J7kFoaU8TVQ==}
+
+  '@opentiny/vue-filter-panel@3.23.0':
+    resolution: {integrity: sha512-a97At2GXd7/hdbbULX8iPFz0Ld9m3wjyiLBnlTDwMdD6xF5ZrjQxamc61/V8XBZHkx5/h0hsM74HkKMwdbsPdg==}
+
+  '@opentiny/vue-filter@3.23.0':
+    resolution: {integrity: sha512-k7fXxn50w5HT2kw5jdd6Rgjge4ui96l7eugZt4Bp/a0auAaDj3ZPGdDeTWEA/m43Pc9U+wxDZxbB4l847Gv+qQ==}
+
+  '@opentiny/vue-float-button@3.23.0':
+    resolution: {integrity: sha512-cgnxA1qxhaICxonBq5+aAZJnaykMDtomoB0gj7aiznMa/vDKGiLG1AgG1Bc9wMsCA0C95L2Z63IguMzcfNURgA==}
+
+  '@opentiny/vue-floatbar@3.23.0':
+    resolution: {integrity: sha512-AOPBCG+NYE7MVRc5fuCjDqnpSJfIzzwAgbCIP9JWNAhsAWxmZ5X6ok2rj6wFZ5n+CgUDOr/dcTf08/YuPBElvQ==}
+
+  '@opentiny/vue-floating-button@3.23.0':
+    resolution: {integrity: sha512-nc9CdcsaPMJ+IQ/P5rL67VEnHYzqAdOXxA82PWXxAxbsCzovFS16u1mccTqCGP31rJ3/bMDF2KyWPdYJVUPweg==}
+
+  '@opentiny/vue-flowchart@3.23.0':
+    resolution: {integrity: sha512-z/lL+lbxIhQMpvUlsgKy5/jlpmakFyk+ugWL3sUcrrE8cwkUxoLrQ2LnHkKwkhJMlOvfAkKIuXe3eF2CBFzyjw==}
+
+  '@opentiny/vue-fluent-editor@3.23.0':
+    resolution: {integrity: sha512-cyWNpmEHlX/lr5DDfESf+F8HhJBM+z/mZAmwfsuj+OzQ/f2YlDf/Qr8fPkrjJp70KJ8Ui42tykKc7wGWzpeQRg==}
+
+  '@opentiny/vue-form-item@3.23.0':
+    resolution: {integrity: sha512-wXcj2+dQkxe8RHD5XRMdpjl8roJvC5dZlgsETUox4WmIAIaKO9h3PNyja1kcChRM/D3ffkeGmlNy6yU7fSXqjw==}
+
+  '@opentiny/vue-form@3.23.0':
+    resolution: {integrity: sha512-GxkQhkh2gebnKA/wZkeo3rjiooZbZ3EQ1lyoaTa2whSRFb3YEOG0lywDNacjOQ/E3TM0e0OlzUdtRwwEZkzAQA==}
+
+  '@opentiny/vue-fullscreen@3.23.0':
+    resolution: {integrity: sha512-2sDMDKkcrE+BCVOPyevr79yTTgFvz0FIs3HusYAZspoD+4NlHx/S2+u4IZsX8Fhibc/ds7O/9z8yjAHPSGiGDg==}
+
+  '@opentiny/vue-grid-column@3.23.0':
+    resolution: {integrity: sha512-siNOEmCaqVtU08QSshccUGYXJR24FbUnxOGazIxSapKG2w1P5FRmWEljP+/WH52IZ2H+UWIixeqIujhJkmUrgg==}
+
+  '@opentiny/vue-grid-manager@3.23.0':
+    resolution: {integrity: sha512-m1ssykqXvLbo4tGHx/VJmO5oznmCSw5OYbW0dxZaptPVlrauTHv1hURqaSbAUWvhRCfPtlXFoOUjDmTWK23jaw==}
+
+  '@opentiny/vue-grid-select@3.23.0':
+    resolution: {integrity: sha512-kIGIBwYgm5oOO2JmB+G2LyhBEka8abpNPos9PWldTh5qy8dWWyJypNDe62hgZY1i8TT4O9DxDsqsD43mGGPUTA==}
+
+  '@opentiny/vue-grid-toolbar@3.23.0':
+    resolution: {integrity: sha512-a6weNrvwN/2nGR+CQCNkecmklM6lTLtr/BIegpFp3wyYg3MfSQxpM47Jgdp7oVe5HJsywTgBN2oolfBMbdiV0w==}
+
+  '@opentiny/vue-grid@3.23.0':
+    resolution: {integrity: sha512-6x3DzyJnF1s+743BJkVBYtnSZdS32IJAynva9C0MREY7qYBrJliwQR0JWc7W7UyKZBVgxqwkes4eLrYBNJ0KwA==}
+
+  '@opentiny/vue-guide@3.23.0':
+    resolution: {integrity: sha512-/76bC18FSv/g96BXS/hCLPJOcCmmv1N8galIAO15ROhlJucNBgdCAkTzmixeetvzsERMMAj3AICPzkfNyO+muw==}
+
+  '@opentiny/vue-hooks@3.23.0':
+    resolution: {integrity: sha512-tkEvJnYNFlVW0tuajyJYG8ZKjaD1/ZMSTkLim6UMPIBb85HpeRD0m0/9SRHtNuLrYaqPmh69qrTonY6ddyQIFg==}
+
+  '@opentiny/vue-hrapprover@3.23.0':
+    resolution: {integrity: sha512-vHHloUICah/0swmm+IR5oMujCwttpKFkzLV5/1c9AF/wgnCHUgjYNb3VZwqsvB1uKoXxSpct8Ie3ilEetRLPSw==}
+
+  '@opentiny/vue-icon@3.23.0':
+    resolution: {integrity: sha512-bpALeNWflAyerSEZVSeq9s64tkPHBCgk8peKT+gXxVzg+0GcM0NOs6ufJSG4JmOVtEaf9dQztMPo8u9S0s4g4g==}
+
+  '@opentiny/vue-image-viewer@3.23.0':
+    resolution: {integrity: sha512-13qGmJ8zSXx1BvkrUg8fO/sf+VzrtD57IJRIfeVU6XdZrqmXtRHrjBetju57OiNjC0bPWzSci1aj1kBtrTBFYQ==}
+
+  '@opentiny/vue-image@3.23.0':
+    resolution: {integrity: sha512-DyuPDOBNBSli61V8Sih1DogCUNStvz4aje0JUNdCBuKeVePk7l20Gm3MusxglOKfPuwmvppONraEc3zUCxn3dA==}
+
+  '@opentiny/vue-input@3.23.0':
+    resolution: {integrity: sha512-q1fJa2IS2Q6kwTTtUSTWKdzD2lxVm3Ypdz+ypeZ2SWj7rv/2FzcxxteTiX7JF53c1cl1T5opWfGarzTbMwkQmA==}
+
+  '@opentiny/vue-ip-address@3.23.0':
+    resolution: {integrity: sha512-3WW+ME251VoG/B64pEdhrHUe270FqAL18vffrlDE7i0Xo5nXcs6kPhNSAb7KMg6JGCmQMKdBFBFZfLSl4OTe0g==}
+
+  '@opentiny/vue-layout@3.23.0':
+    resolution: {integrity: sha512-8+cEg3HqbN/wLu5g7tTimM/9AnHIVEx9MAU+IMAGSxvta6y2v0fF7Gul7vDjKBH/Krv3YXbdqxQ4QYdFPXQc4Q==}
+
+  '@opentiny/vue-link-menu@3.23.0':
+    resolution: {integrity: sha512-2mG6S0Ajs86qHh97w0mIvRSjdVkkfR/yxmJx5OIeYeRgbz19L934W9bbmlcy2m0yj1/b3MvSqX7RT6zmx/n2uA==}
+
+  '@opentiny/vue-link@3.23.0':
+    resolution: {integrity: sha512-gImW2UAXFCZyTbESiCMaj2YUPT/kk7LTQwAWUoEWxEjZSVO+0XHJfVRN3LWmuR7fk+YcRCUScHpbAVA1zhehYg==}
+
+  '@opentiny/vue-load-list@3.23.0':
+    resolution: {integrity: sha512-l86Uaegy/uCu0luNes5eUAo+MSgl5utvreoNElg+VJvfIevpToHkYlRpkGPtTiZVOcqii4aDDGTq7+w1FpBz6A==}
+
+  '@opentiny/vue-loading@3.23.0':
+    resolution: {integrity: sha512-0QEzTxfTOgTDE65xwPuxIlJbyGvQ3ri1VvGG662z0iUD2cTNJ7muoz3JfBstdwpNAR0ryacMwF8Q/l6LNAWyoA==}
+
+  '@opentiny/vue-locale@3.23.0':
+    resolution: {integrity: sha512-I3Gq+4a9zHQrZb2fi7TAHVHmM0zl9T1KUbYOh5i2oOj39RAxbo6SKlmJSSYuGnNVd7DlBmwnl1HqQLU+wb8pWg==}
+
+  '@opentiny/vue-locales@3.23.0':
+    resolution: {integrity: sha512-iFwUbx6zySCn6Iui9I1NFzg3MQSI//GUykKDNxmUQT0x0mz1jcwJ3uQABTM8W4t2kgdwq7Q6KSDPu8wcZcyudA==}
+
+  '@opentiny/vue-logon-user@3.23.0':
+    resolution: {integrity: sha512-JhJaYGN0gOpiFtMPqBg05QkXj64sAvTvio0WE0mgrg/wxk9ALZpzU5n7HfPcRgxHkFdA1dPjnsyMfD07hQj2yA==}
+
+  '@opentiny/vue-logout@3.23.0':
+    resolution: {integrity: sha512-yd1qc+bo4DPcIw7tfUnIk7tHo3Cc4o3ajt0QItVnG2Ju6uZn+8hTshhAvM78XzYaJXUFPbgujldshbjX6WVS2Q==}
+
+  '@opentiny/vue-menu@3.23.0':
+    resolution: {integrity: sha512-4EnhuYbg63TbeonhC0/PYvSQbeaH2J2UHkWAMLPqsPTLgvJNSuyyH7PyOPvOLj9cbzkfDbuQqROFGUgOlpZNgQ==}
+
+  '@opentiny/vue-message@3.23.0':
+    resolution: {integrity: sha512-rrN5AxydNZKnkvBPBqRJm24L3OA1VStpSfOr66aMXG1FBWr/F0lasX2wsRKjw8TOmSGLgHQslC+GIeGvj9jxLQ==}
+
+  '@opentiny/vue-milestone@3.23.0':
+    resolution: {integrity: sha512-ViRnyC7CBkBiqg4axCmdGt5eWjl1VDb8ezYWOKVSV/+/moXce1Zt1lnD0YjlMZQXO5POKGim+ArpEsajSL/xyQ==}
+
+  '@opentiny/vue-mind-map@3.23.0':
+    resolution: {integrity: sha512-z2yqWkTaF/fIcRAUv+A49N6W1cG3yQN0w+HY0ioYJ5mU/h0XRziccyR5glYupWOUpzbsTjoKuN82RpI9dYx2pg==}
+
+  '@opentiny/vue-modal@3.23.0':
+    resolution: {integrity: sha512-QPFseaKA9eFWI+u5CAFcYhw8OJR7EHIJp4nA8WllwJ1x36SJCo7iD4y3k7orVhmDjfL1OOSdyEJrV/fUJ93m1w==}
+
+  '@opentiny/vue-month-range@3.23.0':
+    resolution: {integrity: sha512-LapdJDKtSAgl/Vib9Iti8hhbTNFSlDwwZx5JkfacF60wDX1b4PXouY4nu9G9m1DaOXKxyaSbVNkMHhIbgtqTOg==}
+
+  '@opentiny/vue-month-table@3.23.0':
+    resolution: {integrity: sha512-rzTx1/zRfT6c9o8vxTUY5uybgz7E+jjLmld4Tcashasgx5AT+hPt7NGVnP1PwVW6R/sQMhmAfV5PEFG8h3BXng==}
+
+  '@opentiny/vue-nav-menu@3.23.0':
+    resolution: {integrity: sha512-BoSuFRRv+cZC/ZMDJgdSd6xj103lUQfEYTK0Xobetkfn88QoG0pPq00Cy1EQq6qEsaim1hiduYYMf4Q42TeaSQ==}
+
+  '@opentiny/vue-notify@3.23.0':
+    resolution: {integrity: sha512-/jtY0ZqNKT8RJZMO4y0IZOC72VgI0Ww6Hr5owWWO22uI6tu/U2lUQm3zexHZuR8lcj/LWJNJ9y2+SlL8gKUm4A==}
+
+  '@opentiny/vue-number-animation@3.23.0':
+    resolution: {integrity: sha512-DuqpX/P3NrK2ItYGOcxQrrcqKQRWvYGFsQcjPvtFGRu4ByiR7rmxHlDDgGpimstI31JB4wcfyl3WzN6raUe8nQ==}
+
+  '@opentiny/vue-numeric@3.23.0':
+    resolution: {integrity: sha512-iLCMD4/MZqpxCFBIlys7rw32RG848MIwI4TWGsYPU/+juqzUA3mitZRjzfIJdjRZ/mGoIwVkqHSWGBxJXv4cOQ==}
+
+  '@opentiny/vue-option-group@3.23.0':
+    resolution: {integrity: sha512-DvvxR69QAeLVE0hp5P17p+ytVdT0TTwaX0B0H1+WTu9zgYl7hWDT+15/vyZcG7X0HQPvorSqIV0ibOWMgddQUA==}
+
+  '@opentiny/vue-option@3.23.0':
+    resolution: {integrity: sha512-uwrrjcg6OECA5rQ9rsmx7xTwT0oE5doTq2kV7vMuekIvLiFn9mM1fUhV3jhXCgGvxyCYj88Eqyk2Wk7DZHTxEg==}
+
+  '@opentiny/vue-pager-item@3.23.0':
+    resolution: {integrity: sha512-u3QAJL9/xHNaz7ndFEZCt9p/s98hdZYSyXTSmPO8l6m+w1mAB47CY+OxataELKZr4Du1Hx8zooQaUUp+Ibr4Zg==}
+
+  '@opentiny/vue-pager@3.23.0':
+    resolution: {integrity: sha512-V043j9i+qe3s6tw57Gw2z7jZ8fDmfjuehznfv28eYPq02amtpd05z3j5UQndPXNf8ge+MBQwosWyxADagSabkg==}
+
+  '@opentiny/vue-panel@3.23.0':
+    resolution: {integrity: sha512-aRf684EBkA0DOappkJwWxLxvpyrIBARIf42x6ZUFN0LoNaiTq2fvD7iYlEb756A2KH1W2ZjXUrfds7SsONBNfw==}
+
+  '@opentiny/vue-picker@3.23.0':
+    resolution: {integrity: sha512-T9DoRwInBKtpbuuyaWJYJohWfg2Q/YWl0PZi+RXsmVYEfs6tFzdilBV8g5I3oSlmyDgxDjhxwQNuM7C5eEkNFQ==}
+
+  '@opentiny/vue-pop-upload@3.23.0':
+    resolution: {integrity: sha512-iezULFd8K+h6VsGUZ6/LoextGwUD/lnicHCatAHfDhPDzlteLBXyf576xTPiLdqO92xOM8JxGaAhnhFES5JUcQ==}
+
+  '@opentiny/vue-popconfirm@3.23.0':
+    resolution: {integrity: sha512-0l98Kcbtka8VU65FZb20lMXnUK+3hG9dX57A8FEPJsXeHt4leKZ6W3Ft562YugTZ+qiuuellyabo896S+CPhOQ==}
+
+  '@opentiny/vue-popeditor@3.23.0':
+    resolution: {integrity: sha512-Z8eSn7epa6wuV9OKWcYFFH/KdFGqe+0ar61fJyieOK7q5xMUDtBVfCP1+pbM7sQQDk46SxsdGsw1guI9Q4z8eA==}
+
+  '@opentiny/vue-popover@3.23.0':
+    resolution: {integrity: sha512-DBzLWw/d0rlP8CQ60ltyeW6FR3NiJ929Z1zc+KyaNoUMOSSyObR6FF2RkioFPkgR5QvUA6cWaLoimhaVC0KNdA==}
+
+  '@opentiny/vue-popup@3.23.0':
+    resolution: {integrity: sha512-hUoEqWTdh7X1krT1IG+PRghI0+OUp9GXl/AfZRhQ/wjnscI5u810I7NvIp/7px+Xo5gULd/CjyHGrXOpPfoTMQ==}
+
+  '@opentiny/vue-progress@3.23.0':
+    resolution: {integrity: sha512-+hKnLZt3FxtSrAW/K7n1RrsQRTXSJIHwlglg+t7Q2U0XRo6pvwpwIHwAGJEkxN4aZy3/LfwFsCFyqCPE7ofM3A==}
+
+  '@opentiny/vue-pull-refresh@3.23.0':
+    resolution: {integrity: sha512-kSX3FOqDeJ95VJGXiMZYVQmhRQzDXYMYNK4ijRTPWSuy9ej0XGkSoOsM8zqSHsehDSQJhVui55y5YFmrmhqkfA==}
+
+  '@opentiny/vue-qr-code@3.23.0':
+    resolution: {integrity: sha512-mBgiqe5iG/w+zusTBNc6TM51NEul3XdZU3nn4R6XyZlCFJlJ5JwvdCl0D/75MLT1n+Lnvz999+9ImwkO3+Qhmw==}
+
+  '@opentiny/vue-quarter-panel@3.23.0':
+    resolution: {integrity: sha512-ApvWbVBBEtZU1AaS9OH2BpJc64eLYbzuJsJ0wSxWXzxmaaYXa29AmqSzlqEQQmCBMPj/rJ1CaNFEp2EuMCjMbw==}
+
+  '@opentiny/vue-query-builder@3.23.0':
+    resolution: {integrity: sha512-7wNrKzsAJDTjtqsmYdodL6Bu5FB7JBwAKVcE6sg3/jLhvOOKh8lKJgqipyvGrB+xS9to7zO0PdKHrXxse93sOQ==}
+
+  '@opentiny/vue-radio-button@3.23.0':
+    resolution: {integrity: sha512-8XMnnuevl+WbuRkhgMtIomS35zkGdV6JLSFaBt2z3wsJ+jzEMlsOU4CLt1BioZT//N6PEMyomDDN/Zs0vJsyqQ==}
+
+  '@opentiny/vue-radio-group@3.23.0':
+    resolution: {integrity: sha512-Iyualpkh4LnnFDFhbaz4V9paPMb9H1hhzRCKVF95O4mET713CsGwemnqut1YxtqU3qx9Z6k0+u5KjYpFB5WRDQ==}
+
+  '@opentiny/vue-radio@3.23.0':
+    resolution: {integrity: sha512-YoUzuWl9NXO6WH9z6F6oaZ9Ag5IaDB4Qfnaa4ZnHbwoDpXHBtaPoknVQCQ5YusCQJwG91Jdsd45cUb3vJTcDxA==}
+
+  '@opentiny/vue-rate@3.23.0':
+    resolution: {integrity: sha512-iHx3BsCpIztxpwzk/2Hlzd1Zj3LENu0UH4+SQvSGIliw4Gs2O/kw4KqE8gg8cYuEKFjJ+uJEgQxnu/ok+i/S4g==}
+
+  '@opentiny/vue-record@3.23.0':
+    resolution: {integrity: sha512-KXfraqw78i3owaL9vTh3e9tVbDUBC7i9qN1xczOA9D8JXRUNxBRuYZVSX8sCDDNOwDlHBqV0Gyp6wO+PiSxg2g==}
+
+  '@opentiny/vue-recycle-scroller@3.23.0':
+    resolution: {integrity: sha512-ayZndBJWi67h3dqQ7MJiao4tXmImY57ThmNE7RyQHK0qO65MhGy42oVWRiZgM4MhMQzY1WyQa5Ed3npZMAY+Bw==}
+
+  '@opentiny/vue-renderless@3.23.0':
+    resolution: {integrity: sha512-Jaznwjz8LV4OA1uPGv0yYn2qz0yrNE4KvEApJxZBgcxG+LAGGXQjNWSm+PLQrWuce7xE5c3P5IxF19+9xAHC0Q==}
+
+  '@opentiny/vue-river@3.23.0':
+    resolution: {integrity: sha512-xnH6WP2Ykp44CAwilq7Uyzchp7Mvq8/q4aLubisgbZDgyl95j71kSouSnWTvQwxdcqw/HsPdD9IC5aZ7lJjO6g==}
+
+  '@opentiny/vue-roles@3.23.0':
+    resolution: {integrity: sha512-IkW+inIz7g6XhZRdafyhX24rjVQP2zL6eXRhCiNziKL9cJN1+8jzxGr5DxzVaFgOEz1VgOcSO14dQgG3LK6Qqw==}
+
+  '@opentiny/vue-row@3.23.0':
+    resolution: {integrity: sha512-uPvQEBw3TUzIkNTExQHv71GjsarC/DqiKyTLfYnbrb8oMnLglcpW3nLI3xCQwZ2az5cMk+MsSVTCWZ5xeiWsmg==}
+
+  '@opentiny/vue-scroll-text@3.23.0':
+    resolution: {integrity: sha512-A9/o2yiEmVKbIvemvvf2ZtM81f2PPhB3uxIgTHbnFa9zSYdLRFVHDWgdDUCg0NZNqEaYDzNhktVGmeIF30hfKw==}
+
+  '@opentiny/vue-scrollbar@3.23.0':
+    resolution: {integrity: sha512-/HRr8y8fVkf5Jv+CzouaeIQNHs06Mjzlr3o+z+YcertJ7XSzntlBDaPSEAJ5rjL5qq+PjqkrtERTSAgqbaQijQ==}
+
+  '@opentiny/vue-search@3.23.0':
+    resolution: {integrity: sha512-vfzvyLtfTzhvVcTs4jKFQQIulbkuxuVFFKsEbk0VZbXvfo/vMvzDRKj3IeatFmkqZB+qKjEyWw3A4OYpKh9tgw==}
+
+  '@opentiny/vue-select-dropdown@3.23.0':
+    resolution: {integrity: sha512-/cSph8aNHz8fc/6ASz/YE2IIcb7o8Gk9GMws8JYYg3zx9zloXHfMr6Z35f7w+Do11bEpS/Wz2Gw+h74Ovs0Wdg==}
+
+  '@opentiny/vue-select-mobile@3.23.0':
+    resolution: {integrity: sha512-5dUuL00F6wRqoV6zYHU95Z/yK5HEUYJKTddcbOUdXa4sla+ZE58Ng4pnRj6C3J3nBcXHQlxD+ER6/CSORI+Lxg==}
+
+  '@opentiny/vue-select-view@3.23.0':
+    resolution: {integrity: sha512-kYrGaa5Sa7syVxAhDnvo1b1PwofWhH7LxXR+DEk0mn5UUQF30YN3DIR8g4YDJt4RUktIdHyXt/V7O1tVUTsWQQ==}
+
+  '@opentiny/vue-select@3.23.0':
+    resolution: {integrity: sha512-ybmPcyXZMd8ZKaJfSNImfZZ9+BGSa9QM5JPuKvEjdPa3yXj3Ynf8fYZ4Nht2mOHB1k8vaa7KnOXzFfNgv3fBQQ==}
+
+  '@opentiny/vue-selected-box@3.23.0':
+    resolution: {integrity: sha512-+Az8dLDWi8tnr2jKekbru+eo7UkJwnWkqWx5Awotx6ZSso0b1K07uWuwmPu2GzKKKSIuuBwbA31ltWY0mZjPVw==}
+
+  '@opentiny/vue-signature@3.23.0':
+    resolution: {integrity: sha512-Bj28Z+vlDW3pJXp/l+gln0+mue/FGKbRZxfpzI7Tqmr0+kIf/mbsS0oIMnTAaRB+c9psZ60ybhaiwS3+76lHnQ==}
+
+  '@opentiny/vue-skeleton-item@3.23.0':
+    resolution: {integrity: sha512-LZ9X0swAW9jLXThZIkCqKjcieJzfbTjgooipQOiOyIfSJdHAy6TmDP080T57pMH/zSBlstXRcp6qcylrOt1iWg==}
+
+  '@opentiny/vue-skeleton@3.23.0':
+    resolution: {integrity: sha512-NKj5iIArZMclOc260CSN4aqR1T94riOPcei2NrS3exzb54gVifon4v+330sN6KYpX7hRTV3CqewWyn3aJeseGg==}
+
+  '@opentiny/vue-slider-button-group@3.23.0':
+    resolution: {integrity: sha512-hihkEpn0StODY5V758tBJPTwrOZ6dSuYAlYB17pNzk++ng00f/CreMafG7XC6qjALWJ85m5eoRjhT3VLsurHhg==}
+
+  '@opentiny/vue-slider-button@3.23.0':
+    resolution: {integrity: sha512-zXTthu3FJJ/xaBsO0EFh3JIDdypZRwC+Sn3Uok6AtJ2fWl0pJczOWtuUAOw+lfpUtW5GMTnFXg4FeQTALGj+4Q==}
+
+  '@opentiny/vue-slider@3.23.0':
+    resolution: {integrity: sha512-KBHBWYn1F+8tsan1lxKPX/qLnifFUG8w0Vg5aroY6z+1J07O1vuSu648V+2tor6YMQDO1abEiodrN/ofNOI8MQ==}
+
+  '@opentiny/vue-split@3.23.0':
+    resolution: {integrity: sha512-CqcT/+HwyO7s/CAZk7LQCFBJDo3w3QrMb88tMqQoT/tL1Dh1OBHEmKciiuSG2/dWWCPn73tVe9HXmCke8Wk2xg==}
+
+  '@opentiny/vue-standard-list-item@3.23.0':
+    resolution: {integrity: sha512-t+WmxPtuoXP2qngBE/LRoRGetc5PEuMM+1p2u+fxtygjA/T7wonxovdzwUuIFRjlDLURlDW+HtkySAIpu2P4Sg==}
+
+  '@opentiny/vue-statistic@3.23.0':
+    resolution: {integrity: sha512-delAipuyS/o5Cjf4tKVqS/dxfAl9ef5iLlpXvnXkhsRisUbIt9DoBKeOkmcEAwg75T85S165VWiHZSk7JbgFzg==}
+
+  '@opentiny/vue-steps@3.23.0':
+    resolution: {integrity: sha512-KpAb/i8QQiaPkA+P2dkCAvWupQ6EFzn6x1cGwDfHBF+K05LUh3fCoDyCYvF/A6b6Q30kEIMu+9TEObNvDzLwjw==}
+
+  '@opentiny/vue-sticky@3.23.0':
+    resolution: {integrity: sha512-rZYhQzCYbjtoIgrkK9seBC5d5XJJ11hX+pSuoURCjVVjkispSwopx4tEfRfrFl9if02I5kjTBMwlaLILgkjDaQ==}
+
+  '@opentiny/vue-switch@3.23.0':
+    resolution: {integrity: sha512-E3dCwVcWLN2DsZJOj9mBexaxEnyrxwVr0M0f6rHX+nQX4insvaGY2Z8tPdDcDdXXshWrgGu73ETpj69Uemz4tA==}
+
+  '@opentiny/vue-tab-item@3.23.0':
+    resolution: {integrity: sha512-1KfAtjHrc+vDIarqWvNvNkgOfvTx5yYgtKgUpyLpuyJ9PD5D3eyf3A6zPK7KizauLnFxsItI74Se8lCDt3v7oQ==}
+
+  '@opentiny/vue-tabbar-item@3.23.0':
+    resolution: {integrity: sha512-BS34b1ShG6tm1BxopABOZXnlfjvYx3YUNbmrogrQS6REcNyWMLVQ4yfByK1EI1P7nuiUhgeRt9Xp+tJRow3OFg==}
+
+  '@opentiny/vue-tabbar@3.23.0':
+    resolution: {integrity: sha512-ECVPyotscWhcN/+vAq72NGeGsDckJKTEbOUPl0nKsJCaF8phH/LiyKB4PmoaYh8teIHEVCb+XvHHfKFpWcgvgg==}
+
+  '@opentiny/vue-table@3.23.0':
+    resolution: {integrity: sha512-FPGWA2VEP3jUKDRGN8s+IbwAYe0agv0/LghHNZNIgsFgLC3GdhxdD/Zr7Ns6dFJ97Y5lMfUuLErJXwomoJKQ2w==}
+
+  '@opentiny/vue-tabs@3.23.0':
+    resolution: {integrity: sha512-Xli2IM/JQtrV2+hTc30sihvdNIVZrUAPXB14/3wZvYnQ8HYYGzelibRcA8CM/XjOU7HPAiEEZWo+D18deiJHPg==}
+
+  '@opentiny/vue-tag-group@3.23.0':
+    resolution: {integrity: sha512-jCVwShVdayEJF1+JFupth2Odh85ocvtC0TQw7BUBgyKdRaTTfbIxIsX2Z7I5QNYmQl7PNoQKPoK512fMlejwCA==}
+
+  '@opentiny/vue-tag@3.23.0':
+    resolution: {integrity: sha512-zdjYgQ2tYxZAPd1mbQBVK9GkTu0Pni1KclNEiKa4vF4LZRJ7Cy80bN/Qt0teXhGF3oJaEJmUcKe3QIhMNEqj8w==}
+
+  '@opentiny/vue-text-popup@3.23.0':
+    resolution: {integrity: sha512-4k8e9vMf7k5WuxvA9DIsDIPeu9J3Qc7zDcr9vjWcnpGExoHG3Yt0QlFwSHIlRraThBRBiW3nGOsRbwYWKW8A8A==}
+
+  '@opentiny/vue-theme@3.23.0':
+    resolution: {integrity: sha512-yQ3LwI+eRfSKfTbe6ht+dbll9mMbNXCRXbRcK4f8jK3nOl6ie2BnBv4Wm2PsYynNYCHB5yOrL37+qNpiZ0vLYQ==}
+
+  '@opentiny/vue-time-line@3.23.0':
+    resolution: {integrity: sha512-LA6zoYm38SAXOZVSy5JDq9N+IvgVcsFPcO/bJSj8xqe0vYapoaAMkj8Ow/y/Lc3xXMQQM74ha68EWhLWlnwPuw==}
+
+  '@opentiny/vue-time-panel@3.23.0':
+    resolution: {integrity: sha512-rbIDZfDFkP99NVHurXBVSqulTIlZUuq/4RZsYsjsI0Y4g03ABbMepmoFxzfixiyrbUPpb+zjdi1O2Q09zDew7w==}
+
+  '@opentiny/vue-time-picker-mobile@3.23.0':
+    resolution: {integrity: sha512-LnaijZxfNpFKrhxDCwG69LC0Hja85v66Nae88cVWg1DqMRdbOUwUpMEFbGdkS5jYVpDVYN8snygaCyQbdnCrPA==}
+
+  '@opentiny/vue-time-picker@3.23.0':
+    resolution: {integrity: sha512-dF9wcn6sJJeKOEw7mvJ4u+2N2yJRZk4DhAi/grMS0Q2yPLhJeKFpXAjez0VC9EQ9/2OfZZh/2cioLd4t9PYguw==}
+
+  '@opentiny/vue-time-range@3.23.0':
+    resolution: {integrity: sha512-Yi5wICS96xtoFzAccXkW3/qZgen7D1wdXj11gQJtKoeLGkILx6qPyvEHRPlfvPX9DlWWQIeUsVs/xaHt7bB2Qw==}
+
+  '@opentiny/vue-time-select@3.23.0':
+    resolution: {integrity: sha512-zVY4B+vByTqt0AeQjVm9ajDv6jdiDtH7k1vB4IWwFBtVCF6D6GAMKV23dSD91h+igK7TDCX7VWLZUW35ckSJVw==}
+
+  '@opentiny/vue-time-spinner@3.23.0':
+    resolution: {integrity: sha512-45xXoYFCCvH1l9kAfQwJFrbeWTlXtQ5yXqn3qj/TqHE51bCZdZ9ZiYYlTDj3zQrZycnUXrVlJiWXnP564iLncA==}
+
+  '@opentiny/vue-time@3.23.0':
+    resolution: {integrity: sha512-/ojivuvXh4lIdJGVwTFoNAgfVHWFAkHpr5REspA+Io+lbwi6WVPqemxPnae4rbBX1Mh5iu6QDgx5Q8dCdzH+0Q==}
+
+  '@opentiny/vue-timeline-item@3.23.0':
+    resolution: {integrity: sha512-iZy6ZR2+ctelaOKjL5aTBu1fKklL+Kmh4+1QL3tcVJumDFqwj7ggHP7GODmPO+Bnefgf4nAHSJN3Xkmvp6TleQ==}
+
+  '@opentiny/vue-toggle-menu@3.23.0':
+    resolution: {integrity: sha512-kXakmdNrJAsZZMMAQiMG5fKpsMbOiAJZT+ef4FJ3//zEJgaNydXRzHYO13glr8bx+NCsvT1kMp5HTrIauVJ2Xw==}
+
+  '@opentiny/vue-tooltip@3.23.0':
+    resolution: {integrity: sha512-9WDfXe8u2CN8zOlJ7ClQr5xK/WCSD4aajcFcwleU5xOfMZRevDvZqG1kz/h0l21hUg2qp9ZRJm+4roRaJUr8ig==}
+
+  '@opentiny/vue-top-box@3.23.0':
+    resolution: {integrity: sha512-XOOugW/e8oaQa7IueqjkEjzy+lgbuNtcBZgP38RC4pPNNYeGWMhgu6G0d1X1sdz8YBVz0xtrbNciJd0WLDpyWA==}
+
+  '@opentiny/vue-transfer-panel@3.23.0':
+    resolution: {integrity: sha512-ahSKXZU31fBvyOoTyzlGo6wkOCuJJu2+da+NqkceS9p2IBJPJ4w1j3Pw0obPA1aN/5LRh7VsW2pEPv4HbvtjlQ==}
+
+  '@opentiny/vue-transfer@3.23.0':
+    resolution: {integrity: sha512-bGXm5liDHtR1adYDDaXZ7ODTePTfR1JtZk5l3YvP5zMHJm+/zIv30mBb/2wwRyDVOFq7+SwTf66CV6tQ9zSmlw==}
+
+  '@opentiny/vue-tree-menu@3.23.0':
+    resolution: {integrity: sha512-o4XfIddG7mMpP/7MMpvsJI7wSTCKHBGMHAgxJbCsan9GxAcJS1bgzfMSe1oKfjZS96kH86YsCAYq5jtdjfBhyQ==}
+
+  '@opentiny/vue-tree-select@3.23.0':
+    resolution: {integrity: sha512-eiKCShD7dDIgT2LDiS4yYbKBYCZIFPnDTyiXxeNdDODb67uz9i4EzAGpeADcma87rV1sJ9RSoC0XY+V0SVV5mg==}
+
+  '@opentiny/vue-tree@3.23.0':
+    resolution: {integrity: sha512-S4RV0LRmlUaPKCJ39SFWehUmp/9BgpLKHRpc8VuRgy7oez2tlGneS/O7Pq59i+CikARSl44kaPkwXX9QcIKV6w==}
+
+  '@opentiny/vue-upload-dragger@3.23.0':
+    resolution: {integrity: sha512-z8zcIRQSjOtiYqxB/+Fl64mGJnmuc5vyf5OnWdi0o8+mU0ef/afHH8rOQQrN7X4i08Fp7MhGvwrVJlEwfhe5eA==}
+
+  '@opentiny/vue-upload-list@3.23.0':
+    resolution: {integrity: sha512-Q4ZtzsS9oI0JAv2lGsdDAvz0Ib8pr/KylEntit0W5+CwvACDXMYL8qoPCbGdE/6IJScwOdEnt9CniaMs8RBSWQ==}
+
+  '@opentiny/vue-upload@3.23.0':
+    resolution: {integrity: sha512-uzIF+vtX8PIFNZwIDcnAzHy8V51st2x4Q9lNcIN31r0c/Z+nTJwjMxkE6zPjv8y7Wu6gcWAmPwkOajb7EhH3qw==}
+
+  '@opentiny/vue-user-account@3.23.0':
+    resolution: {integrity: sha512-9xzQfLSFJspW+Yb+1EeHNwERiiT+vG2o2eamES8ld6zNpVxKxGr48i83DVh4Bhk8XTB7tcVTfrfRC+2SiB/MDg==}
+
+  '@opentiny/vue-user-contact@3.23.0':
+    resolution: {integrity: sha512-/VgZwzZvpbXdtr1XSGmejuxsqvOV4qQyxzr5J54dwlLaDj7o0gu292j8VkpCcPNB2tOHEufRVv/MMMK3oJWQvw==}
+
+  '@opentiny/vue-user-head-group@3.23.0':
+    resolution: {integrity: sha512-Sn3fau77Kt63zquYC4PJcuTTbd5DV0nVN9gBGCe2Fmj1FU6N0dKEC681OyLDj7l31gX5FEKlmLtHkuYU+cWcwg==}
+
+  '@opentiny/vue-user-head@3.23.0':
+    resolution: {integrity: sha512-UZu9OMUzACtzsdo6EEz5N5HC/pu5SZEkhmy5G4ZM48DxnTaNSgnZEmBDnEB6oID+0JpqJNLbxkPYw8OpaOybyg==}
+
+  '@opentiny/vue-user-link@3.23.0':
+    resolution: {integrity: sha512-szqVFdV8klszdvEGVTQVAFkm3HFOwqTu/INh6/Knt9HCglLe8/lwLQ+5ZUkBfTLrXSo8BoYTDBGm3A75HqYU9w==}
+
+  '@opentiny/vue-user@3.23.0':
+    resolution: {integrity: sha512-/2JjmBCBupLxi+fwvPahBEz4vzjpQMtUUXmy7jUHjboJ9EGD3gGnMP9yljOx5FOSMlMzvfSToK7IJSUJCTjyvA==}
+
+  '@opentiny/vue-virtual-scroll-box@3.23.0':
+    resolution: {integrity: sha512-cKMXfuLT2WV2pQqnX4X+PyranVdEe5Bas2V6FT4SSDvZb6IxIatQlPnnhAJCLB6xNbRFvNg6XQ8UavgHwBRGIw==}
+
+  '@opentiny/vue-virtual-tree@3.23.0':
+    resolution: {integrity: sha512-FXV2Z1BeExiK6k+6UTEN5nSbHU+wMfxLP3Iu1w12TA6O8E/eDJTDpwgk+9dbxa646iwUb266oqizmbp/dHaCGQ==}
+
+  '@opentiny/vue-watermark@3.23.0':
+    resolution: {integrity: sha512-Jvnk5+C1SljK7Bql8T1MskNqh3UNGJoKyIjPlPcMwRkfwd4C7l+Gts8Z1KNU9ZlSMwiYjZcfIgbixM7cMTqruQ==}
+
+  '@opentiny/vue-wizard@3.23.0':
+    resolution: {integrity: sha512-ctt8ziLAMQ+Yttx7eWTx9hVugboSUan3FMx3ssiemhzgOpVEdpKrT+WN+7AdJTyC8tBfVnVGkPXPiIiby9AdVA==}
+
+  '@opentiny/vue-year-range@3.23.0':
+    resolution: {integrity: sha512-tDV+DP7bzSW4V9LBxrg+HDIvqxCaNX9l3aoJonfUd0MKBmLkvZQ5x8Z9hkztCxeK0TO/Zwa4jZMadXB42vatoQ==}
+
+  '@opentiny/vue-year-table@3.23.0':
+    resolution: {integrity: sha512-oSfIab0hJvO1tVIhfP4ioJ6PMSbSiqZ3gWYeMujmxJcw+ujKzYoWC52+DjMmxiBI6lhTXFh7XZcf3VN+tEoKtw==}
+
+  '@opentiny/vue@3.23.0':
+    resolution: {integrity: sha512-CSLjQstjBPjS01eEyeRzfJfiHPYkg+ddC3BTumOw3iUvdoitNbMYHT+6c5A2/saSZcwto9ZQORw+RJz/0/gy5A==}
+
+  '@rollup/rollup-android-arm-eabi@4.41.1':
+    resolution: {integrity: sha512-NELNvyEWZ6R9QMkiytB4/L4zSEaBC03KIXEghptLGLZWJ6VPrL63ooZQCOnlx36aQPGhzuOMwDerC1Eb2VmrLw==}
+    cpu: [arm]
+    os: [android]
+
+  '@rollup/rollup-android-arm64@4.41.1':
+    resolution: {integrity: sha512-DXdQe1BJ6TK47ukAoZLehRHhfKnKg9BjnQYUu9gzhI8Mwa1d2fzxA1aw2JixHVl403bwp1+/o/NhhHtxWJBgEA==}
+    cpu: [arm64]
+    os: [android]
+
+  '@rollup/rollup-darwin-arm64@4.41.1':
+    resolution: {integrity: sha512-5afxvwszzdulsU2w8JKWwY8/sJOLPzf0e1bFuvcW5h9zsEg+RQAojdW0ux2zyYAz7R8HvvzKCjLNJhVq965U7w==}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@rollup/rollup-darwin-x64@4.41.1':
+    resolution: {integrity: sha512-egpJACny8QOdHNNMZKf8xY0Is6gIMz+tuqXlusxquWu3F833DcMwmGM7WlvCO9sB3OsPjdC4U0wHw5FabzCGZg==}
+    cpu: [x64]
+    os: [darwin]
+
+  '@rollup/rollup-freebsd-arm64@4.41.1':
+    resolution: {integrity: sha512-DBVMZH5vbjgRk3r0OzgjS38z+atlupJ7xfKIDJdZZL6sM6wjfDNo64aowcLPKIx7LMQi8vybB56uh1Ftck/Atg==}
+    cpu: [arm64]
+    os: [freebsd]
+
+  '@rollup/rollup-freebsd-x64@4.41.1':
+    resolution: {integrity: sha512-3FkydeohozEskBxNWEIbPfOE0aqQgB6ttTkJ159uWOFn42VLyfAiyD9UK5mhu+ItWzft60DycIN1Xdgiy8o/SA==}
+    cpu: [x64]
+    os: [freebsd]
+
+  '@rollup/rollup-linux-arm-gnueabihf@4.41.1':
+    resolution: {integrity: sha512-wC53ZNDgt0pqx5xCAgNunkTzFE8GTgdZ9EwYGVcg+jEjJdZGtq9xPjDnFgfFozQI/Xm1mh+D9YlYtl+ueswNEg==}
+    cpu: [arm]
+    os: [linux]
+
+  '@rollup/rollup-linux-arm-musleabihf@4.41.1':
+    resolution: {integrity: sha512-jwKCca1gbZkZLhLRtsrka5N8sFAaxrGz/7wRJ8Wwvq3jug7toO21vWlViihG85ei7uJTpzbXZRcORotE+xyrLA==}
+    cpu: [arm]
+    os: [linux]
+
+  '@rollup/rollup-linux-arm64-gnu@4.41.1':
+    resolution: {integrity: sha512-g0UBcNknsmmNQ8V2d/zD2P7WWfJKU0F1nu0k5pW4rvdb+BIqMm8ToluW/eeRmxCared5dD76lS04uL4UaNgpNA==}
+    cpu: [arm64]
+    os: [linux]
+
+  '@rollup/rollup-linux-arm64-musl@4.41.1':
+    resolution: {integrity: sha512-XZpeGB5TKEZWzIrj7sXr+BEaSgo/ma/kCgrZgL0oo5qdB1JlTzIYQKel/RmhT6vMAvOdM2teYlAaOGJpJ9lahg==}
+    cpu: [arm64]
+    os: [linux]
+
+  '@rollup/rollup-linux-loongarch64-gnu@4.41.1':
+    resolution: {integrity: sha512-bkCfDJ4qzWfFRCNt5RVV4DOw6KEgFTUZi2r2RuYhGWC8WhCA8lCAJhDeAmrM/fdiAH54m0mA0Vk2FGRPyzI+tw==}
+    cpu: [loong64]
+    os: [linux]
+
+  '@rollup/rollup-linux-powerpc64le-gnu@4.41.1':
+    resolution: {integrity: sha512-3mr3Xm+gvMX+/8EKogIZSIEF0WUu0HL9di+YWlJpO8CQBnoLAEL/roTCxuLncEdgcfJcvA4UMOf+2dnjl4Ut1A==}
+    cpu: [ppc64]
+    os: [linux]
+
+  '@rollup/rollup-linux-riscv64-gnu@4.41.1':
+    resolution: {integrity: sha512-3rwCIh6MQ1LGrvKJitQjZFuQnT2wxfU+ivhNBzmxXTXPllewOF7JR1s2vMX/tWtUYFgphygxjqMl76q4aMotGw==}
+    cpu: [riscv64]
+    os: [linux]
+
+  '@rollup/rollup-linux-riscv64-musl@4.41.1':
+    resolution: {integrity: sha512-LdIUOb3gvfmpkgFZuccNa2uYiqtgZAz3PTzjuM5bH3nvuy9ty6RGc/Q0+HDFrHrizJGVpjnTZ1yS5TNNjFlklw==}
+    cpu: [riscv64]
+    os: [linux]
+
+  '@rollup/rollup-linux-s390x-gnu@4.41.1':
+    resolution: {integrity: sha512-oIE6M8WC9ma6xYqjvPhzZYk6NbobIURvP/lEbh7FWplcMO6gn7MM2yHKA1eC/GvYwzNKK/1LYgqzdkZ8YFxR8g==}
+    cpu: [s390x]
+    os: [linux]
+
+  '@rollup/rollup-linux-x64-gnu@4.41.1':
+    resolution: {integrity: sha512-cWBOvayNvA+SyeQMp79BHPK8ws6sHSsYnK5zDcsC3Hsxr1dgTABKjMnMslPq1DvZIp6uO7kIWhiGwaTdR4Og9A==}
+    cpu: [x64]
+    os: [linux]
+
+  '@rollup/rollup-linux-x64-musl@4.41.1':
+    resolution: {integrity: sha512-y5CbN44M+pUCdGDlZFzGGBSKCA4A/J2ZH4edTYSSxFg7ce1Xt3GtydbVKWLlzL+INfFIZAEg1ZV6hh9+QQf9YQ==}
+    cpu: [x64]
+    os: [linux]
+
+  '@rollup/rollup-win32-arm64-msvc@4.41.1':
+    resolution: {integrity: sha512-lZkCxIrjlJlMt1dLO/FbpZbzt6J/A8p4DnqzSa4PWqPEUUUnzXLeki/iyPLfV0BmHItlYgHUqJe+3KiyydmiNQ==}
+    cpu: [arm64]
+    os: [win32]
+
+  '@rollup/rollup-win32-ia32-msvc@4.41.1':
+    resolution: {integrity: sha512-+psFT9+pIh2iuGsxFYYa/LhS5MFKmuivRsx9iPJWNSGbh2XVEjk90fmpUEjCnILPEPJnikAU6SFDiEUyOv90Pg==}
+    cpu: [ia32]
+    os: [win32]
+
+  '@rollup/rollup-win32-x64-msvc@4.41.1':
+    resolution: {integrity: sha512-Wq2zpapRYLfi4aKxf2Xff0tN+7slj2d4R87WEzqw7ZLsVvO5zwYCIuEGSZYiK41+GlwUo1HiR+GdkLEJnCKTCw==}
+    cpu: [x64]
+    os: [win32]
+
+  '@types/estree@1.0.7':
+    resolution: {integrity: sha512-w28IoSUCJpidD/TGviZwwMJckNESJZXFu7NBZ5YJ4mEUnNraUn9Pm8HSZm/jDF1pDWYKspWE7oVphigUPRakIQ==}
+
+  '@vitejs/plugin-vue@4.6.2':
+    resolution: {integrity: sha512-kqf7SGFoG+80aZG6Pf+gsZIVvGSCKE98JbiWqcCV9cThtg91Jav0yvYFC9Zb+jKetNGF6ZKeoaxgZfND21fWKw==}
+    engines: {node: ^14.18.0 || >=16.0.0}
+    peerDependencies:
+      vite: ^4.0.0 || ^5.0.0
+      vue: ^3.2.25
+
+  '@volar/language-core@1.11.1':
+    resolution: {integrity: sha512-dOcNn3i9GgZAcJt43wuaEykSluAuOkQgzni1cuxLxTV0nJKanQztp7FxyswdRILaKH+P2XZMPRp2S4MV/pElCw==}
+
+  '@volar/source-map@1.11.1':
+    resolution: {integrity: sha512-hJnOnwZ4+WT5iupLRnuzbULZ42L7BWWPMmruzwtLhJfpDVoZLjNBxHDi2sY2bgZXCKlpU5XcsMFoYrsQmPhfZg==}
+
+  '@volar/typescript@1.11.1':
+    resolution: {integrity: sha512-iU+t2mas/4lYierSnoFOeRFQUhAEMgsFuQxoxvwn5EdQopw43j+J27a4lt9LMInx1gLJBC6qL14WYGlgymaSMQ==}
+
+  '@vue/compiler-core@3.5.16':
+    resolution: {integrity: sha512-AOQS2eaQOaaZQoL1u+2rCJIKDruNXVBZSiUD3chnUrsoX5ZTQMaCvXlWNIfxBJuU15r1o7+mpo5223KVtIhAgQ==}
+
+  '@vue/compiler-dom@3.5.16':
+    resolution: {integrity: sha512-SSJIhBr/teipXiXjmWOVWLnxjNGo65Oj/8wTEQz0nqwQeP75jWZ0n4sF24Zxoht1cuJoWopwj0J0exYwCJ0dCQ==}
+
+  '@vue/compiler-sfc@3.5.16':
+    resolution: {integrity: sha512-rQR6VSFNpiinDy/DVUE0vHoIDUF++6p910cgcZoaAUm3POxgNOOdS/xgoll3rNdKYTYPnnbARDCZOyZ+QSe6Pw==}
+
+  '@vue/compiler-ssr@3.5.16':
+    resolution: {integrity: sha512-d2V7kfxbdsjrDSGlJE7my1ZzCXViEcqN6w14DOsDrUCHEA6vbnVCpRFfrc4ryCP/lCKzX2eS1YtnLE/BuC9f/A==}
+
+  '@vue/language-core@1.8.27':
+    resolution: {integrity: sha512-L8Kc27VdQserNaCUNiSFdDl9LWT24ly8Hpwf1ECy3aFb9m6bDhBGQYOujDm21N7EW3moKIOKEanQwe1q5BK+mA==}
+    peerDependencies:
+      typescript: '*'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+
+  '@vue/reactivity@3.5.16':
+    resolution: {integrity: sha512-FG5Q5ee/kxhIm1p2bykPpPwqiUBV3kFySsHEQha5BJvjXdZTUfmya7wP7zC39dFuZAcf/PD5S4Lni55vGLMhvA==}
+
+  '@vue/runtime-core@3.5.16':
+    resolution: {integrity: sha512-bw5Ykq6+JFHYxrQa7Tjr+VSzw7Dj4ldR/udyBZbq73fCdJmyy5MPIFR9IX/M5Qs+TtTjuyUTCnmK3lWWwpAcFQ==}
+
+  '@vue/runtime-dom@3.5.16':
+    resolution: {integrity: sha512-T1qqYJsG2xMGhImRUV9y/RseB9d0eCYZQ4CWca9ztCuiPj/XWNNN+lkNBuzVbia5z4/cgxdL28NoQCvC0Xcfww==}
+
+  '@vue/server-renderer@3.5.16':
+    resolution: {integrity: sha512-BrX0qLiv/WugguGsnQUJiYOE0Fe5mZTwi6b7X/ybGB0vfrPH9z0gD/Y6WOR1sGCgX4gc25L1RYS5eYQKDMoNIg==}
+    peerDependencies:
+      vue: 3.5.16
+
+  '@vue/shared@3.5.16':
+    resolution: {integrity: sha512-c/0fWy3Jw6Z8L9FmTyYfkpM5zklnqqa9+a6dz3DvONRKW2NEbh46BP0FHuLFSWi2TnQEtp91Z6zOWNrU6QiyPg==}
+
+  ansi-regex@5.0.1:
+    resolution: {integrity: sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==}
+    engines: {node: '>=8'}
+
+  ansi-styles@4.3.0:
+    resolution: {integrity: sha512-zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx+IDohdPlFp222wVALIheZJQSEg==}
+    engines: {node: '>=8'}
+
+  balanced-match@1.0.2:
+    resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
+
+  brace-expansion@2.0.1:
+    resolution: {integrity: sha512-XnAIvQ8eM+kC6aULx6wuQiwVsnzsi9d3WxzV3FpWTGA19F621kwdbsAcFKXgKUHZWsy+mY6iL1sHTxWEFCytDA==}
+
+  camelcase@5.3.1:
+    resolution: {integrity: sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==}
+    engines: {node: '>=6'}
+
+  cliui@6.0.0:
+    resolution: {integrity: sha512-t6wbgtoCXvAzst7QgXxJYqPt0usEfbgQdftEPbLL/cvv6HPE5VgvqCuAIDR0NgU52ds6rFwqrgakNLrHEjCbrQ==}
+
+  color-convert@2.0.1:
+    resolution: {integrity: sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==}
+    engines: {node: '>=7.0.0'}
+
+  color-name@1.1.4:
+    resolution: {integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==}
+
+  color-string@1.9.1:
+    resolution: {integrity: sha512-shrVawQFojnZv6xM40anx4CkoDP+fZsw/ZerEMsW/pyzsRbElpsL/DBVW7q3ExxwusdNXI3lXpuhEZkzs8p5Eg==}
+
+  color@4.2.3:
+    resolution: {integrity: sha512-1rXeuUUiGGrykh+CeBdu5Ie7OJwinCgQY0bc7GCRxy5xVHy+moaqkpL/jqQq0MtQOeYcrqEz4abc5f0KtU7W4A==}
+    engines: {node: '>=12.5.0'}
+
+  commander@2.20.3:
+    resolution: {integrity: sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==}
+
+  computeds@0.0.1:
+    resolution: {integrity: sha512-7CEBgcMjVmitjYo5q8JTJVra6X5mQ20uTThdK+0kR7UEaDrAWEQcRiBtWJzga4eRpP6afNwwLsX2SET2JhVB1Q==}
+
+  cropperjs@1.6.2:
+    resolution: {integrity: sha512-nhymn9GdnV3CqiEHJVai54TULFAE3VshJTXSqSJKa8yXAKyBKDWdhHarnlIPrshJ0WMFTGuFvG02YjLXfPiuOA==}
+
+  cssfilter@0.0.10:
+    resolution: {integrity: sha512-FAaLDaplstoRsDR8XGYH51znUN0UY7nMc6Z9/fvE8EXGwvJE9hu7W2vHwx1+bd6gCYnln9nLbzxFTrcO9YQDZw==}
+
+  csstype@3.1.3:
+    resolution: {integrity: sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==}
+
+  de-indent@1.0.2:
+    resolution: {integrity: sha512-e/1zu3xH5MQryN2zdVaF0OrdNLUbvWxzMbi+iNA6Bky7l1RoP8a2fIbRocyHclXt/arDrrR6lL3TqFD9pMQTsg==}
+
+  decamelize@1.2.0:
+    resolution: {integrity: sha512-z2S+W9X73hAUUki+N+9Za2lBlun89zigOyGrsax+KUQ6wKW4ZoWpEYBkGhQjwAjjDCkWxhY0VKEhk8wzY7F5cA==}
+    engines: {node: '>=0.10.0'}
+
+  deepmerge@4.3.1:
+    resolution: {integrity: sha512-3sUqbMEc77XqpdNO7FRyRog+eW3ph+GYCbj+rK+uYyRMuwsVy0rMiVtPn+QJlKFvWP/1PYpapqYn0Me2knFn+A==}
+    engines: {node: '>=0.10.0'}
+
+  dijkstrajs@1.0.3:
+    resolution: {integrity: sha512-qiSlmBq9+BCdCA/L46dw8Uy93mloxsPSbwnm5yrKn2vMPiy8KyAskTF6zuV/j5BMsmOGZDPs7KjU+mjb670kfA==}
+
+  echarts@5.4.1:
+    resolution: {integrity: sha512-9ltS3M2JB0w2EhcYjCdmtrJ+6haZcW6acBolMGIuf01Hql1yrIV01L1aRj7jsaaIULJslEP9Z3vKlEmnJaWJVQ==}
+
+  emoji-regex@8.0.0:
+    resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
+
+  encode-utf8@1.0.3:
+    resolution: {integrity: sha512-ucAnuBEhUK4boH2HjVYG5Q2mQyPorvv0u/ocS+zhdw0S8AlHYY+GOFhP1Gio5z4icpP2ivFSvhtFjQi8+T9ppw==}
+
+  entities@4.5.0:
+    resolution: {integrity: sha512-V0hjH4dGPh9Ao5p0MoRY6BVqtwCjhz6vI5LT8AJ55H+4g9/4vbHx1I54fS0XuclLhDHArPQCiMjDxjaL8fPxhw==}
+    engines: {node: '>=0.12'}
+
+  esbuild@0.21.5:
+    resolution: {integrity: sha512-mg3OPMV4hXywwpoDxu3Qda5xCKQi+vCTZq8S9J/EpkhB2HzKXq4SNFZE3+NK93JYxc8VMSep+lOUSC/RVKaBqw==}
+    engines: {node: '>=12'}
+    hasBin: true
+
+  estree-walker@2.0.2:
+    resolution: {integrity: sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==}
+
+  eventemitter3@5.0.1:
+    resolution: {integrity: sha512-GWkBvjiSZK87ELrYOSESUYeVIc9mvLLf/nXalMOS5dYrgZq9o5OVkbZAVM06CVxYsCwH9BDZFPlQTlPA1j4ahA==}
+
+  fast-diff@1.3.0:
+    resolution: {integrity: sha512-VxPP4NqbUjj6MaAOafWeUn2cXWLcCtljklUtZf0Ind4XQ+QPtmA0b18zZy0jIQx+ExRVCR/ZQpBmik5lXshNsw==}
+
+  find-up@4.1.0:
+    resolution: {integrity: sha512-PpOwAdQ/YlXQ2vj8a3h8IipDuYRi3wceVQQGYWxNINccq40Anw7BlsEXCMbt1Zt+OLA6Fq9suIpIWD0OsnISlw==}
+    engines: {node: '>=8'}
+
+  fsevents@2.3.3:
+    resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
+    engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
+    os: [darwin]
+
+  get-caller-file@2.0.5:
+    resolution: {integrity: sha512-DyFP3BM/3YHTQOCUL/w0OZHR0lpKeGrxotcHWcqNEdnltqFwXVfhEBQ94eIo34AfQpo0rGki4cyIiftY06h2Fg==}
+    engines: {node: 6.* || 8.* || >= 10.*}
+
+  he@1.2.0:
+    resolution: {integrity: sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==}
+    hasBin: true
+
+  is-arrayish@0.3.2:
+    resolution: {integrity: sha512-eVRqCvVlZbuw3GrM63ovNSNAeA1K16kaR/LRY/92w0zxQ5/1YzwblUX652i4Xs9RwAGjW9d9y6X88t8OaAJfWQ==}
+
+  is-fullwidth-code-point@3.0.0:
+    resolution: {integrity: sha512-zymm5+u+sCsSWyD9qNaejV3DFvhCKclKdizYaJUuHA83RLjb7nSuGnddCHGv0hk+KY7BMAlsWeK4Ueg6EV6XQg==}
+    engines: {node: '>=8'}
+
+  locate-path@5.0.0:
+    resolution: {integrity: sha512-t7hw9pI+WvuwNJXwk5zVHpyhIqzg2qTlklJOf0mVxGSbe3Fp2VieZcduNYjaLDoy6p9uGpQEGWG87WpMKlNq8g==}
+    engines: {node: '>=8'}
+
+  lodash-es@4.17.21:
+    resolution: {integrity: sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==}
+
+  lodash.clonedeep@4.5.0:
+    resolution: {integrity: sha512-H5ZhCF25riFd9uB5UCkVKo61m3S/xZk1x4wA6yp/L3RFP6Z/eHH1ymQcGLo7J3GMPfm0V/7m1tryHuGVxpqEBQ==}
+
+  lodash.isequal@4.5.0:
+    resolution: {integrity: sha512-pDo3lu8Jhfjqls6GkMgpahsF9kCyayhgykjyLMNFTKWrpVdAQtYyB4muAMWozBB4ig/dtWAmsMxLEI8wuz+DYQ==}
+    deprecated: This package is deprecated. Use require('node:util').isDeepStrictEqual instead.
+
+  magic-string@0.30.17:
+    resolution: {integrity: sha512-sNPKHvyjVf7gyjwS4xGTaW/mCnF8wnjtifKBEhxfZ7E/S8tQ0rssrwGNn6q8JH/ohItJfSQp9mBtQYuTlH5QnA==}
+
+  mind-elixir@3.3.2:
+    resolution: {integrity: sha512-SHHospQXT7ARaNMMnaZLFzBsOela9tc8rgSYHPhAPrV8Jxh6MCo1X8qQxJAvuqIVvN8uSGnXf+Po4nhzzSmWWQ==}
+
+  minimatch@9.0.5:
+    resolution: {integrity: sha512-G6T0ZX48xgozx7587koeX9Ys2NYy6Gmv//P89sEte9V9whIapMNF4idKxnW2QtCcLiTWlb/wfCabAtAFWhhBow==}
+    engines: {node: '>=16 || 14 >=14.17'}
+
+  muggle-string@0.3.1:
+    resolution: {integrity: sha512-ckmWDJjphvd/FvZawgygcUeQCxzvohjFO5RxTjj4eq8kw359gFF3E1brjfI+viLMxss5JrHTDRHZvu2/tuy0Qg==}
+
+  nanoid@3.3.11:
+    resolution: {integrity: sha512-N8SpfPUnUp1bK+PMYW8qSWdl9U+wwNWI4QKxOYDy9JAro3WMX7p2OeVRF9v+347pnakNevPmiHhNmZ2HbFA76w==}
+    engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
+    hasBin: true
+
+  p-limit@2.3.0:
+    resolution: {integrity: sha512-//88mFWSJx8lxCzwdAABTJL2MyWB12+eIY7MDL2SqLmAkeKU9qxRvWuSyTjm3FUmpBEMuFfckAIqEaVGUDxb6w==}
+    engines: {node: '>=6'}
+
+  p-locate@4.1.0:
+    resolution: {integrity: sha512-R79ZZ/0wAxKGu3oYMlz8jy/kbhsNrS7SKZ7PxEHBgJ5+F2mtFW2fK2cOtBh1cHYkQsbzFV7I+EoRKe6Yt0oK7A==}
+    engines: {node: '>=8'}
+
+  p-try@2.2.0:
+    resolution: {integrity: sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==}
+    engines: {node: '>=6'}
+
+  parchment@3.0.0:
+    resolution: {integrity: sha512-HUrJFQ/StvgmXRcQ1ftY6VEZUq3jA2t9ncFN4F84J/vN0/FPpQF+8FKXb3l6fLces6q0uOHj6NJn+2xvZnxO6A==}
+
+  path-browserify@1.0.1:
+    resolution: {integrity: sha512-b7uo2UCUOYZcnF/3ID0lulOJi/bafxa1xPe7ZPsammBSpjSWQkjNxlt635YGS2MiR9GjvuXCtz2emr3jbsz98g==}
+
+  path-exists@4.0.0:
+    resolution: {integrity: sha512-ak9Qy5Q7jYb2Wwcey5Fpvg2KoAc/ZIhLSLOSBmRmygPsGwkVVt0fZa0qrtMz+m6tJTAHfZQ8FnmB4MG4LWy7/w==}
+    engines: {node: '>=8'}
+
+  picocolors@1.1.1:
+    resolution: {integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==}
+
+  pngjs@5.0.0:
+    resolution: {integrity: sha512-40QW5YalBNfQo5yRYmiw7Yz6TKKVr3h6970B2YE+3fQpsWcrbj1PzJgxeJ19DRQjhMbKPIuMY8rFaXc8moolVw==}
+    engines: {node: '>=10.13.0'}
+
+  postcss@8.5.4:
+    resolution: {integrity: sha512-QSa9EBe+uwlGTFmHsPKokv3B/oEMQZxfqW0QqNCyhpa6mB1afzulwn8hihglqAb2pOw+BJgNlmXQ8la2VeHB7w==}
+    engines: {node: ^10 || ^12 || >=14}
+
+  qrcode@1.5.1:
+    resolution: {integrity: sha512-nS8NJ1Z3md8uTjKtP+SGGhfqmTCs5flU/xR623oI0JX+Wepz9R8UrRVCTBTJm3qGw3rH6jJ6MUHjkDx15cxSSg==}
+    engines: {node: '>=10.13.0'}
+    hasBin: true
+
+  quill-delta@5.1.0:
+    resolution: {integrity: sha512-X74oCeRI4/p0ucjb5Ma8adTXd9Scumz367kkMK5V/IatcX6A0vlgLgKbzXWy5nZmCGeNJm2oQX0d2Eqj+ZIlCA==}
+    engines: {node: '>= 12.0.0'}
+
+  quill@2.0.3:
+    resolution: {integrity: sha512-xEYQBqfYx/sfb33VJiKnSJp8ehloavImQ2A6564GAbqG55PGw1dAWUn1MUbQB62t0azawUS2CZZhWCjO8gRvTw==}
+    engines: {npm: '>=8.2.3'}
+
+  require-directory@2.1.1:
+    resolution: {integrity: sha512-fGxEI7+wsG9xrvdjsrlmL22OMTTiHRwAMroiEeMgq8gzoLC/PQr7RsRDSTLUg/bZAZtF+TVIkHc6/4RIKrui+Q==}
+    engines: {node: '>=0.10.0'}
+
+  require-main-filename@2.0.0:
+    resolution: {integrity: sha512-NKN5kMDylKuldxYLSUfrbo5Tuzh4hd+2E8NPPX02mZtn1VuREQToYe/ZdlJy+J3uCpfaiGF05e7B8W0iXbQHmg==}
+
+  rollup@4.41.1:
+    resolution: {integrity: sha512-cPmwD3FnFv8rKMBc1MxWCwVQFxwf1JEmSX3iQXrRVVG15zerAIXRjMFVWnd5Q5QvgKF7Aj+5ykXFhUl+QGnyOw==}
+    engines: {node: '>=18.0.0', npm: '>=8.0.0'}
+    hasBin: true
+
+  semver@7.7.2:
+    resolution: {integrity: sha512-RF0Fw+rO5AMf9MAyaRXI4AV0Ulj5lMHqVxxdSgiVbixSCXoEmmX/jk0CuJw4+3SqroYO9VoUh+HcuJivvtJemA==}
+    engines: {node: '>=10'}
+    hasBin: true
+
+  set-blocking@2.0.0:
+    resolution: {integrity: sha512-KiKBS8AnWGEyLzofFfmvKwpdPzqiy16LvQfK3yv/fVH7Bj13/wl3JSR1J+rfgRE9q7xUJK4qvgS8raSOeLUehw==}
+
+  shepherd.js@11.1.1:
+    resolution: {integrity: sha512-7nVEgLTZUu5qQCKTlzQeKL1AQd2rG9Y9iqzZUgGvCFwMUZZhfwtZ6eEyMWMYw0zl8qKjSrjgzxFOe+SpfO43aA==}
+    engines: {node: 16.* || >= 18}
+
+  simple-swizzle@0.2.2:
+    resolution: {integrity: sha512-JA//kQgZtbuY83m+xT+tXJkmJncGMTFT+C+g2h2R9uxkYIrE2yy9sgmcLhCnw57/WSD+Eh3J97FPEDFnbXnDUg==}
+
+  source-map-js@1.2.1:
+    resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
+    engines: {node: '>=0.10.0'}
+
+  streamsaver@2.0.6:
+    resolution: {integrity: sha512-LK4e7TfCV8HzuM0PKXuVUfKyCB1FtT9L0EGxsFk5Up8njj0bXK8pJM9+Wq2Nya7/jslmCQwRK39LFm55h7NBTw==}
+
+  string-width@4.2.3:
+    resolution: {integrity: sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==}
+    engines: {node: '>=8'}
+
+  strip-ansi@6.0.1:
+    resolution: {integrity: sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==}
+    engines: {node: '>=8'}
+
+  tailwind-merge@1.14.0:
+    resolution: {integrity: sha512-3mFKyCo/MBcgyOTlrY8T7odzZFx+w+qKSMAmdFzRvqBfLlSigU6TZnlFHK0lkMwj9Bj8OYU+9yW9lmGuS0QEnQ==}
+
+  tslib@2.3.0:
+    resolution: {integrity: sha512-N82ooyxVNm6h1riLCoyS9e3fuJ3AMG2zIZs2Gd1ATcSFjSA23Q0fzjjZeh0jbJvWVDZ0cJT8yaNNaaXHzueNjg==}
+
+  typescript@5.8.3:
+    resolution: {integrity: sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
+  vite@5.4.19:
+    resolution: {integrity: sha512-qO3aKv3HoQC8QKiNSTuUM1l9o/XX3+c+VTgLHbJWHZGeTPVAg2XwazI9UWzoxjIJCGCV2zU60uqMzjeLZuULqA==}
+    engines: {node: ^18.0.0 || >=20.0.0}
+    hasBin: true
+    peerDependencies:
+      '@types/node': ^18.0.0 || >=20.0.0
+      less: '*'
+      lightningcss: ^1.21.0
+      sass: '*'
+      sass-embedded: '*'
+      stylus: '*'
+      sugarss: '*'
+      terser: ^5.4.0
+    peerDependenciesMeta:
+      '@types/node':
+        optional: true
+      less:
+        optional: true
+      lightningcss:
+        optional: true
+      sass:
+        optional: true
+      sass-embedded:
+        optional: true
+      stylus:
+        optional: true
+      sugarss:
+        optional: true
+      terser:
+        optional: true
+
+  vue-template-compiler@2.7.16:
+    resolution: {integrity: sha512-AYbUWAJHLGGQM7+cNTELw+KsOG9nl2CnSv467WobS5Cv9uk3wFcnr1Etsz2sEIHEZvw1U+o9mRlEO6QbZvUPGQ==}
+
+  vue-tsc@1.8.27:
+    resolution: {integrity: sha512-WesKCAZCRAbmmhuGl3+VrdWItEvfoFIPXOvUJkjULi+x+6G/Dy69yO3TBRJDr9eUlmsNAwVmxsNZxvHKzbkKdg==}
+    hasBin: true
+    peerDependencies:
+      typescript: '*'
+
+  vue@3.5.16:
+    resolution: {integrity: sha512-rjOV2ecxMd5SiAmof2xzh2WxntRcigkX/He4YFJ6WdRvVUrbt6DxC1Iujh10XLl8xCDRDtGKMeO3D+pRQ1PP9w==}
+    peerDependencies:
+      typescript: '*'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+
+  which-module@2.0.1:
+    resolution: {integrity: sha512-iBdZ57RDvnOR9AGBhML2vFZf7h8vmBjhoaZqODJBFWHVtKkDmKuHai3cx5PgVMrX5YDNp27AofYbAwctSS+vhQ==}
+
+  wrap-ansi@6.2.0:
+    resolution: {integrity: sha512-r6lPcBGxZXlIcymEu7InxDMhdW0KDxpLgoFLcguasxCaJ/SOIZwINatK9KY/tf+ZrlywOKU0UDj3ATXUBfxJXA==}
+    engines: {node: '>=8'}
+
+  xss@1.0.14:
+    resolution: {integrity: sha512-og7TEJhXvn1a7kzZGQ7ETjdQVS2UfZyTlsEdDOqvQF7GoxNfY+0YLCzBy1kPdsDDx4QuNAonQPddpsn6Xl/7sw==}
+    engines: {node: '>= 0.10.0'}
+    hasBin: true
+
+  y18n@4.0.3:
+    resolution: {integrity: sha512-JKhqTOwSrqNA1NY5lSztJ1GrBiUodLMmIZuLiDaMRJ+itFd+ABVE8XBjOvIWL+rSqNDC74LCSFmlb/U4UZ4hJQ==}
+
+  yargs-parser@18.1.3:
+    resolution: {integrity: sha512-o50j0JeToy/4K6OZcaQmW6lyXXKhq7csREXcDwk2omFPJEwUNOVtJKvmDr9EI1fAJZUyZcRF7kxGBWmRXudrCQ==}
+    engines: {node: '>=6'}
+
+  yargs@15.4.1:
+    resolution: {integrity: sha512-aePbxDmcYW++PaqBsJ+HYUFwCdv4LVvdnhBy78E57PIor8/OVvhMrADFFEDh8DHDFRv/O9i3lPhsENjO7QX0+A==}
+    engines: {node: '>=8'}
+
+  zrender@5.4.1:
+    resolution: {integrity: sha512-M4Z05BHWtajY2241EmMPHglDQAJ1UyHQcYsxDNzD9XLSkPDqMq4bB28v9Pb4mvHnVQ0GxyTklZ/69xCFP6RXBA==}
+
+snapshots:
+
+  '@babel/helper-string-parser@7.27.1': {}
+
+  '@babel/helper-validator-identifier@7.27.1': {}
+
+  '@babel/parser@7.27.4':
+    dependencies:
+      '@babel/types': 7.27.3
+
+  '@babel/types@7.27.3':
+    dependencies:
+      '@babel/helper-string-parser': 7.27.1
+      '@babel/helper-validator-identifier': 7.27.1
+
+  '@better-scroll/core@2.5.0':
+    dependencies:
+      '@better-scroll/shared-utils': 2.5.1
+
+  '@better-scroll/shared-utils@2.5.1': {}
+
+  '@esbuild/aix-ppc64@0.21.5':
+    optional: true
+
+  '@esbuild/android-arm64@0.21.5':
+    optional: true
+
+  '@esbuild/android-arm@0.21.5':
+    optional: true
+
+  '@esbuild/android-x64@0.21.5':
+    optional: true
+
+  '@esbuild/darwin-arm64@0.21.5':
+    optional: true
+
+  '@esbuild/darwin-x64@0.21.5':
+    optional: true
+
+  '@esbuild/freebsd-arm64@0.21.5':
+    optional: true
+
+  '@esbuild/freebsd-x64@0.21.5':
+    optional: true
+
+  '@esbuild/linux-arm64@0.21.5':
+    optional: true
+
+  '@esbuild/linux-arm@0.21.5':
+    optional: true
+
+  '@esbuild/linux-ia32@0.21.5':
+    optional: true
+
+  '@esbuild/linux-loong64@0.21.5':
+    optional: true
+
+  '@esbuild/linux-mips64el@0.21.5':
+    optional: true
+
+  '@esbuild/linux-ppc64@0.21.5':
+    optional: true
+
+  '@esbuild/linux-riscv64@0.21.5':
+    optional: true
+
+  '@esbuild/linux-s390x@0.21.5':
+    optional: true
+
+  '@esbuild/linux-x64@0.21.5':
+    optional: true
+
+  '@esbuild/netbsd-x64@0.21.5':
+    optional: true
+
+  '@esbuild/openbsd-x64@0.21.5':
+    optional: true
+
+  '@esbuild/sunos-x64@0.21.5':
+    optional: true
+
+  '@esbuild/win32-arm64@0.21.5':
+    optional: true
+
+  '@esbuild/win32-ia32@0.21.5':
+    optional: true
+
+  '@esbuild/win32-x64@0.21.5':
+    optional: true
+
+  '@floating-ui/core@1.7.0':
+    dependencies:
+      '@floating-ui/utils': 0.2.9
+
+  '@floating-ui/dom@1.7.0':
+    dependencies:
+      '@floating-ui/core': 1.7.0
+      '@floating-ui/utils': 0.2.9
+
+  '@floating-ui/utils@0.2.9': {}
+
+  '@jridgewell/sourcemap-codec@1.5.0': {}
+
+  '@opentiny/fluent-editor@3.25.4':
+    dependencies:
+      lodash-es: 4.17.21
+      quill: 2.0.3
+
+  '@opentiny/utils@3.23.0':
+    dependencies:
+      xss: 1.0.14
+
+  '@opentiny/vue-action-menu@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-dropdown': 3.23.0
+      '@opentiny/vue-dropdown-item': 3.23.0
+      '@opentiny/vue-dropdown-menu': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-action-sheet@3.23.0':
+    dependencies:
+      '@better-scroll/core': 2.5.0
+      '@opentiny/vue-button': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-drawer': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+
+  '@opentiny/vue-alert@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-amount@3.23.0':
+    dependencies:
+      '@opentiny/vue-action-sheet': 3.23.0
+      '@opentiny/vue-button': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-currency': 3.23.0
+      '@opentiny/vue-date-picker': 3.23.0
+      '@opentiny/vue-date-picker-mobile-first': 3.23.0
+      '@opentiny/vue-filter-box': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-input': 3.23.0
+      '@opentiny/vue-popover': 3.23.0
+      '@opentiny/vue-radio': 3.23.0
+      '@opentiny/vue-radio-group': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-anchor@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-directive': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-area@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-option': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-select': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-async-flowchart@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-flowchart': 3.23.0
+      '@opentiny/vue-loading': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+
+  '@opentiny/vue-autocomplete@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-directive': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-input': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-scrollbar': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-badge@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-base-select@3.23.0':
+    dependencies:
+      '@opentiny/vue-button': 3.23.0
+      '@opentiny/vue-checkbox': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-directive': 3.23.0
+      '@opentiny/vue-filter-box': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-input': 3.23.0
+      '@opentiny/vue-locale': 3.23.0
+      '@opentiny/vue-option': 3.23.0
+      '@opentiny/vue-recycle-scroller': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-scrollbar': 3.23.0
+      '@opentiny/vue-select-dropdown': 3.23.0
+      '@opentiny/vue-tag': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+      '@opentiny/vue-tooltip': 3.23.0
+      '@opentiny/vue-tree': 3.23.0
+
+  '@opentiny/vue-breadcrumb-item@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-breadcrumb@3.23.0':
+    dependencies:
+      '@opentiny/vue-breadcrumb-item': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-bulletin-board@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-tab-item': 3.23.0
+      '@opentiny/vue-tabs': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-button-group@3.23.0':
+    dependencies:
+      '@opentiny/vue-button': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-directive': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-popover': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-button@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-calendar-bar@3.23.0':
+    dependencies:
+      '@opentiny/vue-cascader-select': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+
+  '@opentiny/vue-calendar-view@3.23.0':
+    dependencies:
+      '@opentiny/vue-button': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-date-picker': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-radio-button': 3.23.0
+      '@opentiny/vue-radio-group': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-slider-button': 3.23.0
+      '@opentiny/vue-slider-button-group': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+      '@opentiny/vue-tooltip': 3.23.0
+
+  '@opentiny/vue-calendar@3.23.0':
+    dependencies:
+      '@opentiny/vue-button': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-popover': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+      '@opentiny/vue-tooltip': 3.23.0
+
+  '@opentiny/vue-card-group@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-card-template@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-card@3.23.0':
+    dependencies:
+      '@opentiny/vue-checkbox': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-dropdown': 3.23.0
+      '@opentiny/vue-dropdown-item': 3.23.0
+      '@opentiny/vue-dropdown-menu': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-radio': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-carousel-item@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-carousel@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-cascader-menu@3.23.0':
+    dependencies:
+      '@opentiny/vue-cascader-node': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-locale': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-scrollbar': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-cascader-mobile@3.23.0':
+    dependencies:
+      '@opentiny/vue-action-sheet': 3.23.0
+      '@opentiny/vue-button': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-exception': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-locale': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+
+  '@opentiny/vue-cascader-node@3.23.0':
+    dependencies:
+      '@opentiny/utils': 3.23.0
+      '@opentiny/vue-checkbox': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-radio': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-cascader-panel@3.23.0':
+    dependencies:
+      '@opentiny/vue-cascader-menu': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-cascader-select@3.23.0':
+    dependencies:
+      '@opentiny/vue-action-sheet': 3.23.0
+      '@opentiny/vue-button': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+
+  '@opentiny/vue-cascader-view@3.23.0':
+    dependencies:
+      '@opentiny/vue-action-sheet': 3.23.0
+      '@opentiny/vue-button': 3.23.0
+      '@opentiny/vue-checkbox': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-exception': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+
+  '@opentiny/vue-cascader@3.23.0':
+    dependencies:
+      '@opentiny/vue-cascader-mobile': 3.23.0
+      '@opentiny/vue-cascader-panel': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-directive': 3.23.0
+      '@opentiny/vue-filter-box': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-input': 3.23.0
+      '@opentiny/vue-locale': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-scrollbar': 3.23.0
+      '@opentiny/vue-tag': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+      '@opentiny/vue-tooltip': 3.23.0
+
+  '@opentiny/vue-cell@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-locale': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+
+  '@opentiny/vue-checkbox-button@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-checkbox-group@3.23.0':
+    dependencies:
+      '@opentiny/vue-checkbox': 3.23.0
+      '@opentiny/vue-checkbox-button': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-checkbox@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-directive': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-col@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-collapse-item@3.23.0':
+    dependencies:
+      '@opentiny/vue-collapse-transition': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-collapse-transition@3.23.0':
+    dependencies:
+      '@opentiny/utils': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-collapse@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-color-picker@3.23.0':
+    dependencies:
+      '@opentiny/vue-color-select-panel': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-color-select-panel@3.23.0':
+    dependencies:
+      '@opentiny/vue-button': 3.23.0
+      '@opentiny/vue-collapse': 3.23.0
+      '@opentiny/vue-collapse-item': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-directive': 3.23.0
+      '@opentiny/vue-input': 3.23.0
+      '@opentiny/vue-option': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-select': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-column-list-group@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+
+  '@opentiny/vue-column-list-item@3.23.0':
+    dependencies:
+      '@opentiny/vue-checkbox': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-dropdown': 3.23.0
+      '@opentiny/vue-dropdown-item': 3.23.0
+      '@opentiny/vue-dropdown-menu': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-radio': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+
+  '@opentiny/vue-common@3.23.0':
+    dependencies:
+      '@opentiny/utils': 3.23.0
+      '@opentiny/vue-hooks': 3.23.0
+      '@opentiny/vue-locale': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+      tailwind-merge: 1.14.0
+
+  '@opentiny/vue-company@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-option': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-select': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-config-provider@3.23.0':
+    dependencies:
+      '@opentiny/utils': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-container@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-country@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-option': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-select': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-crop@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+      cropperjs: 1.6.2
+
+  '@opentiny/vue-currency@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-option': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-select': 3.23.0
+      '@opentiny/vue-select-mobile': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-date-panel@3.23.0':
+    dependencies:
+      '@opentiny/vue-button': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-date-table': 3.23.0
+      '@opentiny/vue-directive': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-input': 3.23.0
+      '@opentiny/vue-locale': 3.23.0
+      '@opentiny/vue-month-table': 3.23.0
+      '@opentiny/vue-popup': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+      '@opentiny/vue-time': 3.23.0
+      '@opentiny/vue-year-table': 3.23.0
+
+  '@opentiny/vue-date-picker-mobile-first@3.23.0':
+    dependencies:
+      '@opentiny/vue-action-sheet': 3.23.0
+      '@opentiny/vue-button': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-locale': 3.23.0
+      '@opentiny/vue-recycle-scroller': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-time-picker-mobile': 3.23.0
+
+  '@opentiny/vue-date-picker@3.23.0':
+    dependencies:
+      '@opentiny/utils': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-picker': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-date-range@3.23.0':
+    dependencies:
+      '@opentiny/vue-button': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-date-table': 3.23.0
+      '@opentiny/vue-directive': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-input': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+      '@opentiny/vue-time': 3.23.0
+
+  '@opentiny/vue-date-table@3.23.0':
+    dependencies:
+      '@opentiny/utils': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-dept@3.23.0':
+    dependencies:
+      '@opentiny/vue-col': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-dialog-box': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-input': 3.23.0
+      '@opentiny/vue-option': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-row': 3.23.0
+      '@opentiny/vue-select': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-dialog-box@3.23.0':
+    dependencies:
+      '@opentiny/vue-action-sheet': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-dialog-select@3.23.0':
+    dependencies:
+      '@opentiny/vue-button': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-dialog-box': 3.23.0
+      '@opentiny/vue-grid': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-input': 3.23.0
+      '@opentiny/vue-pager': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-selected-box': 3.23.0
+      '@opentiny/vue-split': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+      '@opentiny/vue-tree': 3.23.0
+
+  '@opentiny/vue-directive@3.23.0':
+    dependencies:
+      '@opentiny/utils': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-tooltip': 3.23.0
+
+  '@opentiny/vue-divider@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-drawer@3.23.0':
+    dependencies:
+      '@opentiny/vue-button': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+      '@opentiny/vue-tooltip': 3.23.0
+
+  '@opentiny/vue-drop-roles@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-option': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-select': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-drop-times@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-option': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-select': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-dropdown-item@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-directive': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-dropdown-menu@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-dropdown-item': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+      '@opentiny/vue-tooltip': 3.23.0
+
+  '@opentiny/vue-dropdown@3.23.0':
+    dependencies:
+      '@opentiny/vue-button': 3.23.0
+      '@opentiny/vue-button-group': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-directive': 3.23.0
+      '@opentiny/vue-dropdown-menu': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-dynamic-scroller-item@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+
+  '@opentiny/vue-dynamic-scroller@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-recycle-scroller': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+
+  '@opentiny/vue-espace@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-exception@3.23.0':
+    dependencies:
+      '@opentiny/vue-button': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+
+  '@opentiny/vue-fall-menu@3.23.0':
+    dependencies:
+      '@opentiny/vue-col': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-row': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-file-upload@3.23.0':
+    dependencies:
+      '@opentiny/vue-button': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-dialog-box': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-input': 3.23.0
+      '@opentiny/vue-modal': 3.23.0
+      '@opentiny/vue-popover': 3.23.0
+      '@opentiny/vue-progress': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-switch': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+      '@opentiny/vue-tooltip': 3.23.0
+      '@opentiny/vue-upload': 3.23.0
+      '@opentiny/vue-upload-list': 3.23.0
+      streamsaver: 2.0.6
+
+  '@opentiny/vue-filter-bar@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+
+  '@opentiny/vue-filter-box@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+      '@opentiny/vue-tooltip': 3.23.0
+
+  '@opentiny/vue-filter-panel@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-filter-box': 3.23.0
+      '@opentiny/vue-popover': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-filter@3.23.0':
+    dependencies:
+      '@opentiny/vue-button': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-filter-bar': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+
+  '@opentiny/vue-float-button@3.23.0':
+    dependencies:
+      '@opentiny/utils': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-floatbar@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-floating-button@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+
+  '@opentiny/vue-flowchart@3.23.0':
+    dependencies:
+      '@opentiny/utils': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-directive': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-popover': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-fluent-editor@3.23.0':
+    dependencies:
+      '@opentiny/fluent-editor': 3.25.4
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-image-viewer': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-form-item@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-tooltip': 3.23.0
+
+  '@opentiny/vue-form@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+      '@opentiny/vue-tooltip': 3.23.0
+
+  '@opentiny/vue-fullscreen@3.23.0':
+    dependencies:
+      '@opentiny/utils': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-grid-column@3.23.0':
+    dependencies:
+      '@opentiny/vue-grid': 3.23.0
+
+  '@opentiny/vue-grid-manager@3.23.0':
+    dependencies:
+      '@opentiny/vue-grid': 3.23.0
+
+  '@opentiny/vue-grid-select@3.23.0':
+    dependencies:
+      '@opentiny/vue-base-select': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-grid': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+
+  '@opentiny/vue-grid-toolbar@3.23.0':
+    dependencies:
+      '@opentiny/utils': 3.23.0
+      '@opentiny/vue-alert': 3.23.0
+      '@opentiny/vue-button': 3.23.0
+      '@opentiny/vue-checkbox': 3.23.0
+      '@opentiny/vue-checkbox-group': 3.23.0
+      '@opentiny/vue-col': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-dialog-box': 3.23.0
+      '@opentiny/vue-directive': 3.23.0
+      '@opentiny/vue-dropdown': 3.23.0
+      '@opentiny/vue-dropdown-item': 3.23.0
+      '@opentiny/vue-dropdown-menu': 3.23.0
+      '@opentiny/vue-grid': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-input': 3.23.0
+      '@opentiny/vue-layout': 3.23.0
+      '@opentiny/vue-locale': 3.23.0
+      '@opentiny/vue-modal': 3.23.0
+      '@opentiny/vue-option': 3.23.0
+      '@opentiny/vue-popover': 3.23.0
+      '@opentiny/vue-radio': 3.23.0
+      '@opentiny/vue-radio-group': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-row': 3.23.0
+      '@opentiny/vue-search': 3.23.0
+      '@opentiny/vue-select': 3.23.0
+      '@opentiny/vue-split': 3.23.0
+      '@opentiny/vue-tab-item': 3.23.0
+      '@opentiny/vue-tabs': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+      '@opentiny/vue-tooltip': 3.23.0
+      '@opentiny/vue-tree': 3.23.0
+
+  '@opentiny/vue-grid@3.23.0':
+    dependencies:
+      '@opentiny/utils': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-directive': 3.23.0
+      '@opentiny/vue-dropdown': 3.23.0
+      '@opentiny/vue-dropdown-item': 3.23.0
+      '@opentiny/vue-dropdown-menu': 3.23.0
+      '@opentiny/vue-exception': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-loading': 3.23.0
+      '@opentiny/vue-locale': 3.23.0
+      '@opentiny/vue-modal': 3.23.0
+      '@opentiny/vue-pager': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-tag': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+      '@opentiny/vue-tooltip': 3.23.0
+
+  '@opentiny/vue-guide@3.23.0':
+    dependencies:
+      '@floating-ui/dom': 1.7.0
+      '@opentiny/utils': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+      shepherd.js: 11.1.1
+
+  '@opentiny/vue-hooks@3.23.0':
+    dependencies:
+      '@floating-ui/dom': 1.7.0
+      '@opentiny/utils': 3.23.0
+
+  '@opentiny/vue-hrapprover@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-dept': 3.23.0
+      '@opentiny/vue-loading': 3.23.0
+      '@opentiny/vue-locale': 3.23.0
+      '@opentiny/vue-modal': 3.23.0
+      '@opentiny/vue-radio': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-icon@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-image-viewer@3.23.0':
+    dependencies:
+      '@opentiny/utils': 3.23.0
+      '@opentiny/vue-action-sheet': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-dropdown': 3.23.0
+      '@opentiny/vue-dropdown-item': 3.23.0
+      '@opentiny/vue-dropdown-menu': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-image@3.23.0':
+    dependencies:
+      '@opentiny/utils': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-image-viewer': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-input@3.23.0':
+    dependencies:
+      '@opentiny/vue-button': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-dialog-box': 3.23.0
+      '@opentiny/vue-directive': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+      '@opentiny/vue-tooltip': 3.23.0
+
+  '@opentiny/vue-ip-address@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-layout@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-link-menu@3.23.0':
+    dependencies:
+      '@opentiny/vue-button': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-dialog-box': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-input': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+      '@opentiny/vue-tree': 3.23.0
+
+  '@opentiny/vue-link@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-load-list@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-locale': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+
+  '@opentiny/vue-loading@3.23.0':
+    dependencies:
+      '@opentiny/utils': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-locale@3.23.0':
+    dependencies:
+      '@opentiny/utils': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-locales@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-locale': 3.23.0
+      '@opentiny/vue-popover': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-logon-user@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+
+  '@opentiny/vue-logout@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-menu@3.23.0':
+    dependencies:
+      '@opentiny/utils': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-exception': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-input': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+
+  '@opentiny/vue-message@3.23.0':
+    dependencies:
+      '@opentiny/utils': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-modal': 3.23.0
+
+  '@opentiny/vue-milestone@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+      '@opentiny/vue-tooltip': 3.23.0
+
+  '@opentiny/vue-mind-map@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+      mind-elixir: 3.3.2
+
+  '@opentiny/vue-modal@3.23.0':
+    dependencies:
+      '@opentiny/vue-button': 3.23.0
+      '@opentiny/vue-checkbox': 3.23.0
+      '@opentiny/vue-checkbox-group': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-popconfirm': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-month-range@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-directive': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-month-table': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-month-table@3.23.0':
+    dependencies:
+      '@opentiny/utils': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-nav-menu@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+      '@opentiny/vue-tooltip': 3.23.0
+
+  '@opentiny/vue-notify@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-number-animation@3.23.0':
+    dependencies:
+      '@opentiny/vue-button': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-modal': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-statistic': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-numeric@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-directive': 3.23.0
+      '@opentiny/vue-filter-panel': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-radio': 3.23.0
+      '@opentiny/vue-radio-group': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-tag': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-option-group@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-option@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-directive': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-pager-item@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+
+  '@opentiny/vue-pager@3.23.0':
+    dependencies:
+      '@opentiny/utils': 3.23.0
+      '@opentiny/vue-base-select': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-loading': 3.23.0
+      '@opentiny/vue-pager-item': 3.23.0
+      '@opentiny/vue-popover': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-panel@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+
+  '@opentiny/vue-picker@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-date-panel': 3.23.0
+      '@opentiny/vue-date-picker-mobile-first': 3.23.0
+      '@opentiny/vue-date-range': 3.23.0
+      '@opentiny/vue-directive': 3.23.0
+      '@opentiny/vue-filter-box': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-input': 3.23.0
+      '@opentiny/vue-month-range': 3.23.0
+      '@opentiny/vue-quarter-panel': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+      '@opentiny/vue-time': 3.23.0
+      '@opentiny/vue-time-panel': 3.23.0
+      '@opentiny/vue-time-picker-mobile': 3.23.0
+      '@opentiny/vue-time-range': 3.23.0
+      '@opentiny/vue-tooltip': 3.23.0
+      '@opentiny/vue-year-range': 3.23.0
+
+  '@opentiny/vue-pop-upload@3.23.0':
+    dependencies:
+      '@opentiny/vue-alert': 3.23.0
+      '@opentiny/vue-button': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-file-upload': 3.23.0
+      '@opentiny/vue-modal': 3.23.0
+      '@opentiny/vue-popconfirm': 3.23.0
+      '@opentiny/vue-progress': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-popconfirm@3.23.0':
+    dependencies:
+      '@opentiny/vue-button': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-popover': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-popeditor@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-dialog-box': 3.23.0
+      '@opentiny/vue-directive': 3.23.0
+      '@opentiny/vue-grid': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-input': 3.23.0
+      '@opentiny/vue-pager': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-selected-box': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+      '@opentiny/vue-tree': 3.23.0
+
+  '@opentiny/vue-popover@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-popup@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-progress@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-pull-refresh@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-loading': 3.23.0
+      '@opentiny/vue-locale': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+
+  '@opentiny/vue-qr-code@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+      qrcode: 1.5.1
+
+  '@opentiny/vue-quarter-panel@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+      '@opentiny/vue-year-table': 3.23.0
+
+  '@opentiny/vue-query-builder@3.23.0':
+    dependencies:
+      '@opentiny/utils': 3.23.0
+      '@opentiny/vue-button': 3.23.0
+      '@opentiny/vue-checkbox': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-date-picker': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-input': 3.23.0
+      '@opentiny/vue-numeric': 3.23.0
+      '@opentiny/vue-option': 3.23.0
+      '@opentiny/vue-option-group': 3.23.0
+      '@opentiny/vue-radio': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-select': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+      '@opentiny/vue-time-picker': 3.23.0
+
+  '@opentiny/vue-radio-button@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+      '@opentiny/vue-tooltip': 3.23.0
+
+  '@opentiny/vue-radio-group@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-radio': 3.23.0
+      '@opentiny/vue-radio-button': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-radio@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-rate@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-locale': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-record@3.23.0':
+    dependencies:
+      '@opentiny/vue-action-sheet': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+
+  '@opentiny/vue-recycle-scroller@3.23.0':
+    dependencies:
+      '@opentiny/utils': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-directive': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-renderless@3.23.0':
+    dependencies:
+      '@opentiny/utils': 3.23.0
+      '@opentiny/vue-hooks': 3.23.0
+      color: 4.2.3
+
+  '@opentiny/vue-river@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      echarts: 5.4.1
+
+  '@opentiny/vue-roles@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-popover': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-row@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-scroll-text@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-scrollbar@3.23.0':
+    dependencies:
+      '@opentiny/utils': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-search@3.23.0':
+    dependencies:
+      '@opentiny/vue-button': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-input': 3.23.0
+      '@opentiny/vue-locale': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-select-dropdown@3.23.0':
+    dependencies:
+      '@opentiny/vue-button': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-search': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-select-mobile@3.23.0':
+    dependencies:
+      '@opentiny/vue-action-sheet': 3.23.0
+      '@opentiny/vue-button': 3.23.0
+      '@opentiny/vue-cell': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-exception': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-input': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+
+  '@opentiny/vue-select-view@3.23.0':
+    dependencies:
+      '@opentiny/vue-action-sheet': 3.23.0
+      '@opentiny/vue-button': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-directive': 3.23.0
+      '@opentiny/vue-exception': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+
+  '@opentiny/vue-select@3.23.0':
+    dependencies:
+      '@opentiny/vue-button': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-directive': 3.23.0
+      '@opentiny/vue-filter-box': 3.23.0
+      '@opentiny/vue-grid': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-input': 3.23.0
+      '@opentiny/vue-locale': 3.23.0
+      '@opentiny/vue-option': 3.23.0
+      '@opentiny/vue-recycle-scroller': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-scrollbar': 3.23.0
+      '@opentiny/vue-select-dropdown': 3.23.0
+      '@opentiny/vue-tag': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+      '@opentiny/vue-tooltip': 3.23.0
+      '@opentiny/vue-tree': 3.23.0
+
+  '@opentiny/vue-selected-box@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-popover': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-signature@3.23.0':
+    dependencies:
+      '@opentiny/vue-button': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-locale': 3.23.0
+      '@opentiny/vue-modal': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+
+  '@opentiny/vue-skeleton-item@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-skeleton@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-skeleton-item': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-slider-button-group@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-slider-button': 3.23.0
+
+  '@opentiny/vue-slider-button@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+
+  '@opentiny/vue-slider@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-input': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-split@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-standard-list-item@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-dropdown': 3.23.0
+      '@opentiny/vue-dropdown-item': 3.23.0
+      '@opentiny/vue-dropdown-menu': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-tag-group': 3.23.0
+      '@opentiny/vue-tooltip': 3.23.0
+      '@opentiny/vue-user-head': 3.23.0
+
+  '@opentiny/vue-statistic@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-steps@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-directive': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-popover': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-sticky@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-switch@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-tab-item@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+
+  '@opentiny/vue-tabbar-item@3.23.0':
+    dependencies:
+      '@opentiny/vue-badge': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+
+  '@opentiny/vue-tabbar@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-tabbar-item': 3.23.0
+
+  '@opentiny/vue-table@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-tabs@3.23.0':
+    dependencies:
+      '@opentiny/vue-carousel': 3.23.0
+      '@opentiny/vue-carousel-item': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-dropdown': 3.23.0
+      '@opentiny/vue-dropdown-item': 3.23.0
+      '@opentiny/vue-dropdown-menu': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-locale': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+      '@opentiny/vue-tooltip': 3.23.0
+
+  '@opentiny/vue-tag-group@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-popover': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-tag': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-tag@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-text-popup@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-theme@3.23.0': {}
+
+  '@opentiny/vue-time-line@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+      '@opentiny/vue-timeline-item': 3.23.0
+
+  '@opentiny/vue-time-panel@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-scrollbar': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-time-picker-mobile@3.23.0':
+    dependencies:
+      '@opentiny/vue-cascader-select': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+
+  '@opentiny/vue-time-picker@3.23.0':
+    dependencies:
+      '@opentiny/utils': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-picker': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-time-range@3.23.0':
+    dependencies:
+      '@opentiny/vue-button': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+      '@opentiny/vue-time-spinner': 3.23.0
+
+  '@opentiny/vue-time-select@3.23.0':
+    dependencies:
+      '@opentiny/utils': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-picker': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-time-spinner@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-directive': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-scrollbar': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-time@3.23.0':
+    dependencies:
+      '@opentiny/vue-button': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+      '@opentiny/vue-time-spinner': 3.23.0
+
+  '@opentiny/vue-timeline-item@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-toggle-menu@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-input': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+      '@opentiny/vue-tree': 3.23.0
+
+  '@opentiny/vue-tooltip@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-top-box@3.23.0':
+    dependencies:
+      '@opentiny/vue-button': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-transfer-panel@3.23.0':
+    dependencies:
+      '@opentiny/vue-checkbox': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-input': 3.23.0
+      '@opentiny/vue-pager': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+
+  '@opentiny/vue-transfer@3.23.0':
+    dependencies:
+      '@opentiny/vue-button': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+      '@opentiny/vue-transfer-panel': 3.23.0
+
+  '@opentiny/vue-tree-menu@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-input': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+      '@opentiny/vue-tree': 3.23.0
+
+  '@opentiny/vue-tree-select@3.23.0':
+    dependencies:
+      '@opentiny/vue-base-select': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-tree': 3.23.0
+
+  '@opentiny/vue-tree@3.23.0':
+    dependencies:
+      '@opentiny/vue-button': 3.23.0
+      '@opentiny/vue-checkbox': 3.23.0
+      '@opentiny/vue-collapse-transition': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-directive': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-input': 3.23.0
+      '@opentiny/vue-popover': 3.23.0
+      '@opentiny/vue-radio': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-switch': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-upload-dragger@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+
+  '@opentiny/vue-upload-list@3.23.0':
+    dependencies:
+      '@opentiny/vue-action-sheet': 3.23.0
+      '@opentiny/vue-button': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-modal': 3.23.0
+      '@opentiny/vue-progress': 3.23.0
+      '@opentiny/vue-record': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-tooltip': 3.23.0
+
+  '@opentiny/vue-upload@3.23.0':
+    dependencies:
+      '@opentiny/utils': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-modal': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-tooltip': 3.23.0
+      '@opentiny/vue-upload-dragger': 3.23.0
+
+  '@opentiny/vue-user-account@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-logout': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+      '@opentiny/vue-user-contact': 3.23.0
+
+  '@opentiny/vue-user-contact@3.23.0':
+    dependencies:
+      '@opentiny/vue-card-template': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-espace': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-popover': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+      '@opentiny/vue-user-head': 3.23.0
+
+  '@opentiny/vue-user-head-group@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-user-head': 3.23.0
+
+  '@opentiny/vue-user-head@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-user-link@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-loading': 3.23.0
+      '@opentiny/vue-popover': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-user@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-option': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-select': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-virtual-scroll-box@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+
+  '@opentiny/vue-virtual-tree@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-tree': 3.23.0
+      '@opentiny/vue-virtual-scroll-box': 3.23.0
+
+  '@opentiny/vue-watermark@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue-wizard@3.23.0':
+    dependencies:
+      '@opentiny/vue-button': 3.23.0
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+      '@opentiny/vue-user-contact': 3.23.0
+
+  '@opentiny/vue-year-range@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-directive': 3.23.0
+      '@opentiny/vue-icon': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-year-table': 3.23.0
+
+  '@opentiny/vue-year-table@3.23.0':
+    dependencies:
+      '@opentiny/vue-common': 3.23.0
+      '@opentiny/vue-renderless': 3.23.0
+      '@opentiny/vue-theme': 3.23.0
+
+  '@opentiny/vue@3.23.0':
+    dependencies:
+      '@opentiny/vue-action-menu': 3.23.0
+      '@opentiny/vue-action-sheet': 3.23.0
+      '@opentiny/vue-alert': 3.23.0
+      '@opentiny/vue-amount': 3.23.0
+      '@opentiny/vue-anchor': 3.23.0
+      '@opentiny/vue-area': 3.23.0
+      '@opentiny/vue-async-flowchart': 3.23.0
+      '@opentiny/vue-autocomplete': 3.23.0
+      '@opentiny/vue-badge': 3.23.0
+      '@opentiny/vue-base-select': 3.23.0
+      '@opentiny/vue-breadcrumb': 3.23.0
+      '@opentiny/vue-breadcrumb-item': 3.23.0
+      '@opentiny/vue-bulletin-board': 3.23.0
+      '@opentiny/vue-button': 3.23.0
+      '@opentiny/vue-button-group': 3.23.0
+      '@opentiny/vue-calendar': 3.23.0
+      '@opentiny/vue-calendar-bar': 3.23.0
+      '@opentiny/vue-calendar-view': 3.23.0
+      '@opentiny/vue-card': 3.23.0
+      '@opentiny/vue-card-group': 3.23.0
+      '@opentiny/vue-card-template': 3.23.0
+      '@opentiny/vue-carousel': 3.23.0
+      '@opentiny/vue-carousel-item': 3.23.0
+      '@opentiny/vue-cascader': 3.23.0
+      '@opentiny/vue-cascader-menu': 3.23.0
+      '@opentiny/vue-cascader-mobile': 3.23.0
+      '@opentiny/vue-cascader-node': 3.23.0
+      '@opentiny/vue-cascader-panel': 3.23.0
+      '@opentiny/vue-cascader-select': 3.23.0
+      '@opentiny/vue-cascader-view': 3.23.0
+      '@opentiny/vue-cell': 3.23.0
+      '@opentiny/vue-checkbox': 3.23.0
+      '@opentiny/vue-checkbox-button': 3.23.0
+      '@opentiny/vue-checkbox-group': 3.23.0
+      '@opentiny/vue-col': 3.23.0
+      '@opentiny/vue-collapse': 3.23.0
+      '@opentiny/vue-collapse-item': 3.23.0
+      '@opentiny/vue-collapse-transition': 3.23.0
+      '@opentiny/vue-color-picker': 3.23.0
+      '@opentiny/vue-color-select-panel': 3.23.0
+      '@opentiny/vue-column-list-group': 3.23.0
+      '@opentiny/vue-column-list-item': 3.23.0
+      '@opentiny/vue-company': 3.23.0
+      '@opentiny/vue-config-provider': 3.23.0
+      '@opentiny/vue-container': 3.23.0
+      '@opentiny/vue-country': 3.23.0
+      '@opentiny/vue-crop': 3.23.0
+      '@opentiny/vue-currency': 3.23.0
+      '@opentiny/vue-date-panel': 3.23.0
+      '@opentiny/vue-date-picker': 3.23.0
+      '@opentiny/vue-date-picker-mobile-first': 3.23.0
+      '@opentiny/vue-date-range': 3.23.0
+      '@opentiny/vue-date-table': 3.23.0
+      '@opentiny/vue-dept': 3.23.0
+      '@opentiny/vue-dialog-box': 3.23.0
+      '@opentiny/vue-dialog-select': 3.23.0
+      '@opentiny/vue-divider': 3.23.0
+      '@opentiny/vue-drawer': 3.23.0
+      '@opentiny/vue-drop-roles': 3.23.0
+      '@opentiny/vue-drop-times': 3.23.0
+      '@opentiny/vue-dropdown': 3.23.0
+      '@opentiny/vue-dropdown-item': 3.23.0
+      '@opentiny/vue-dropdown-menu': 3.23.0
+      '@opentiny/vue-dynamic-scroller': 3.23.0
+      '@opentiny/vue-dynamic-scroller-item': 3.23.0
+      '@opentiny/vue-espace': 3.23.0
+      '@opentiny/vue-exception': 3.23.0
+      '@opentiny/vue-fall-menu': 3.23.0
+      '@opentiny/vue-file-upload': 3.23.0
+      '@opentiny/vue-filter': 3.23.0
+      '@opentiny/vue-filter-bar': 3.23.0
+      '@opentiny/vue-filter-box': 3.23.0
+      '@opentiny/vue-filter-panel': 3.23.0
+      '@opentiny/vue-float-button': 3.23.0
+      '@opentiny/vue-floatbar': 3.23.0
+      '@opentiny/vue-floating-button': 3.23.0
+      '@opentiny/vue-flowchart': 3.23.0
+      '@opentiny/vue-fluent-editor': 3.23.0
+      '@opentiny/vue-form': 3.23.0
+      '@opentiny/vue-form-item': 3.23.0
+      '@opentiny/vue-fullscreen': 3.23.0
+      '@opentiny/vue-grid': 3.23.0
+      '@opentiny/vue-grid-column': 3.23.0
+      '@opentiny/vue-grid-manager': 3.23.0
+      '@opentiny/vue-grid-select': 3.23.0
+      '@opentiny/vue-grid-toolbar': 3.23.0
+      '@opentiny/vue-guide': 3.23.0
+      '@opentiny/vue-hrapprover': 3.23.0
+      '@opentiny/vue-image': 3.23.0
+      '@opentiny/vue-image-viewer': 3.23.0
+      '@opentiny/vue-input': 3.23.0
+      '@opentiny/vue-ip-address': 3.23.0
+      '@opentiny/vue-layout': 3.23.0
+      '@opentiny/vue-link': 3.23.0
+      '@opentiny/vue-link-menu': 3.23.0
+      '@opentiny/vue-load-list': 3.23.0
+      '@opentiny/vue-loading': 3.23.0
+      '@opentiny/vue-locales': 3.23.0
+      '@opentiny/vue-logon-user': 3.23.0
+      '@opentiny/vue-logout': 3.23.0
+      '@opentiny/vue-menu': 3.23.0
+      '@opentiny/vue-message': 3.23.0
+      '@opentiny/vue-milestone': 3.23.0
+      '@opentiny/vue-mind-map': 3.23.0
+      '@opentiny/vue-modal': 3.23.0
+      '@opentiny/vue-month-range': 3.23.0
+      '@opentiny/vue-month-table': 3.23.0
+      '@opentiny/vue-nav-menu': 3.23.0
+      '@opentiny/vue-notify': 3.23.0
+      '@opentiny/vue-number-animation': 3.23.0
+      '@opentiny/vue-numeric': 3.23.0
+      '@opentiny/vue-option': 3.23.0
+      '@opentiny/vue-option-group': 3.23.0
+      '@opentiny/vue-pager': 3.23.0
+      '@opentiny/vue-pager-item': 3.23.0
+      '@opentiny/vue-panel': 3.23.0
+      '@opentiny/vue-picker': 3.23.0
+      '@opentiny/vue-pop-upload': 3.23.0
+      '@opentiny/vue-popconfirm': 3.23.0
+      '@opentiny/vue-popeditor': 3.23.0
+      '@opentiny/vue-popover': 3.23.0
+      '@opentiny/vue-popup': 3.23.0
+      '@opentiny/vue-progress': 3.23.0
+      '@opentiny/vue-pull-refresh': 3.23.0
+      '@opentiny/vue-qr-code': 3.23.0
+      '@opentiny/vue-quarter-panel': 3.23.0
+      '@opentiny/vue-query-builder': 3.23.0
+      '@opentiny/vue-radio': 3.23.0
+      '@opentiny/vue-radio-button': 3.23.0
+      '@opentiny/vue-radio-group': 3.23.0
+      '@opentiny/vue-rate': 3.23.0
+      '@opentiny/vue-record': 3.23.0
+      '@opentiny/vue-recycle-scroller': 3.23.0
+      '@opentiny/vue-river': 3.23.0
+      '@opentiny/vue-roles': 3.23.0
+      '@opentiny/vue-row': 3.23.0
+      '@opentiny/vue-scroll-text': 3.23.0
+      '@opentiny/vue-scrollbar': 3.23.0
+      '@opentiny/vue-search': 3.23.0
+      '@opentiny/vue-select': 3.23.0
+      '@opentiny/vue-select-dropdown': 3.23.0
+      '@opentiny/vue-select-mobile': 3.23.0
+      '@opentiny/vue-select-view': 3.23.0
+      '@opentiny/vue-selected-box': 3.23.0
+      '@opentiny/vue-signature': 3.23.0
+      '@opentiny/vue-skeleton': 3.23.0
+      '@opentiny/vue-skeleton-item': 3.23.0
+      '@opentiny/vue-slider': 3.23.0
+      '@opentiny/vue-slider-button': 3.23.0
+      '@opentiny/vue-slider-button-group': 3.23.0
+      '@opentiny/vue-split': 3.23.0
+      '@opentiny/vue-standard-list-item': 3.23.0
+      '@opentiny/vue-statistic': 3.23.0
+      '@opentiny/vue-steps': 3.23.0
+      '@opentiny/vue-sticky': 3.23.0
+      '@opentiny/vue-switch': 3.23.0
+      '@opentiny/vue-tab-item': 3.23.0
+      '@opentiny/vue-tabbar': 3.23.0
+      '@opentiny/vue-tabbar-item': 3.23.0
+      '@opentiny/vue-table': 3.23.0
+      '@opentiny/vue-tabs': 3.23.0
+      '@opentiny/vue-tag': 3.23.0
+      '@opentiny/vue-tag-group': 3.23.0
+      '@opentiny/vue-text-popup': 3.23.0
+      '@opentiny/vue-time': 3.23.0
+      '@opentiny/vue-time-line': 3.23.0
+      '@opentiny/vue-time-panel': 3.23.0
+      '@opentiny/vue-time-picker': 3.23.0
+      '@opentiny/vue-time-picker-mobile': 3.23.0
+      '@opentiny/vue-time-range': 3.23.0
+      '@opentiny/vue-time-select': 3.23.0
+      '@opentiny/vue-time-spinner': 3.23.0
+      '@opentiny/vue-timeline-item': 3.23.0
+      '@opentiny/vue-toggle-menu': 3.23.0
+      '@opentiny/vue-tooltip': 3.23.0
+      '@opentiny/vue-top-box': 3.23.0
+      '@opentiny/vue-transfer': 3.23.0
+      '@opentiny/vue-transfer-panel': 3.23.0
+      '@opentiny/vue-tree': 3.23.0
+      '@opentiny/vue-tree-menu': 3.23.0
+      '@opentiny/vue-tree-select': 3.23.0
+      '@opentiny/vue-upload': 3.23.0
+      '@opentiny/vue-upload-dragger': 3.23.0
+      '@opentiny/vue-upload-list': 3.23.0
+      '@opentiny/vue-user': 3.23.0
+      '@opentiny/vue-user-account': 3.23.0
+      '@opentiny/vue-user-contact': 3.23.0
+      '@opentiny/vue-user-head': 3.23.0
+      '@opentiny/vue-user-head-group': 3.23.0
+      '@opentiny/vue-user-link': 3.23.0
+      '@opentiny/vue-virtual-scroll-box': 3.23.0
+      '@opentiny/vue-virtual-tree': 3.23.0
+      '@opentiny/vue-watermark': 3.23.0
+      '@opentiny/vue-wizard': 3.23.0
+      '@opentiny/vue-year-range': 3.23.0
+      '@opentiny/vue-year-table': 3.23.0
+
+  '@rollup/rollup-android-arm-eabi@4.41.1':
+    optional: true
+
+  '@rollup/rollup-android-arm64@4.41.1':
+    optional: true
+
+  '@rollup/rollup-darwin-arm64@4.41.1':
+    optional: true
+
+  '@rollup/rollup-darwin-x64@4.41.1':
+    optional: true
+
+  '@rollup/rollup-freebsd-arm64@4.41.1':
+    optional: true
+
+  '@rollup/rollup-freebsd-x64@4.41.1':
+    optional: true
+
+  '@rollup/rollup-linux-arm-gnueabihf@4.41.1':
+    optional: true
+
+  '@rollup/rollup-linux-arm-musleabihf@4.41.1':
+    optional: true
+
+  '@rollup/rollup-linux-arm64-gnu@4.41.1':
+    optional: true
+
+  '@rollup/rollup-linux-arm64-musl@4.41.1':
+    optional: true
+
+  '@rollup/rollup-linux-loongarch64-gnu@4.41.1':
+    optional: true
+
+  '@rollup/rollup-linux-powerpc64le-gnu@4.41.1':
+    optional: true
+
+  '@rollup/rollup-linux-riscv64-gnu@4.41.1':
+    optional: true
+
+  '@rollup/rollup-linux-riscv64-musl@4.41.1':
+    optional: true
+
+  '@rollup/rollup-linux-s390x-gnu@4.41.1':
+    optional: true
+
+  '@rollup/rollup-linux-x64-gnu@4.41.1':
+    optional: true
+
+  '@rollup/rollup-linux-x64-musl@4.41.1':
+    optional: true
+
+  '@rollup/rollup-win32-arm64-msvc@4.41.1':
+    optional: true
+
+  '@rollup/rollup-win32-ia32-msvc@4.41.1':
+    optional: true
+
+  '@rollup/rollup-win32-x64-msvc@4.41.1':
+    optional: true
+
+  '@types/estree@1.0.7': {}
+
+  '@vitejs/plugin-vue@4.6.2(vite@5.4.19)(vue@3.5.16(typescript@5.8.3))':
+    dependencies:
+      vite: 5.4.19
+      vue: 3.5.16(typescript@5.8.3)
+
+  '@volar/language-core@1.11.1':
+    dependencies:
+      '@volar/source-map': 1.11.1
+
+  '@volar/source-map@1.11.1':
+    dependencies:
+      muggle-string: 0.3.1
+
+  '@volar/typescript@1.11.1':
+    dependencies:
+      '@volar/language-core': 1.11.1
+      path-browserify: 1.0.1
+
+  '@vue/compiler-core@3.5.16':
+    dependencies:
+      '@babel/parser': 7.27.4
+      '@vue/shared': 3.5.16
+      entities: 4.5.0
+      estree-walker: 2.0.2
+      source-map-js: 1.2.1
+
+  '@vue/compiler-dom@3.5.16':
+    dependencies:
+      '@vue/compiler-core': 3.5.16
+      '@vue/shared': 3.5.16
+
+  '@vue/compiler-sfc@3.5.16':
+    dependencies:
+      '@babel/parser': 7.27.4
+      '@vue/compiler-core': 3.5.16
+      '@vue/compiler-dom': 3.5.16
+      '@vue/compiler-ssr': 3.5.16
+      '@vue/shared': 3.5.16
+      estree-walker: 2.0.2
+      magic-string: 0.30.17
+      postcss: 8.5.4
+      source-map-js: 1.2.1
+
+  '@vue/compiler-ssr@3.5.16':
+    dependencies:
+      '@vue/compiler-dom': 3.5.16
+      '@vue/shared': 3.5.16
+
+  '@vue/language-core@1.8.27(typescript@5.8.3)':
+    dependencies:
+      '@volar/language-core': 1.11.1
+      '@volar/source-map': 1.11.1
+      '@vue/compiler-dom': 3.5.16
+      '@vue/shared': 3.5.16
+      computeds: 0.0.1
+      minimatch: 9.0.5
+      muggle-string: 0.3.1
+      path-browserify: 1.0.1
+      vue-template-compiler: 2.7.16
+    optionalDependencies:
+      typescript: 5.8.3
+
+  '@vue/reactivity@3.5.16':
+    dependencies:
+      '@vue/shared': 3.5.16
+
+  '@vue/runtime-core@3.5.16':
+    dependencies:
+      '@vue/reactivity': 3.5.16
+      '@vue/shared': 3.5.16
+
+  '@vue/runtime-dom@3.5.16':
+    dependencies:
+      '@vue/reactivity': 3.5.16
+      '@vue/runtime-core': 3.5.16
+      '@vue/shared': 3.5.16
+      csstype: 3.1.3
+
+  '@vue/server-renderer@3.5.16(vue@3.5.16(typescript@5.8.3))':
+    dependencies:
+      '@vue/compiler-ssr': 3.5.16
+      '@vue/shared': 3.5.16
+      vue: 3.5.16(typescript@5.8.3)
+
+  '@vue/shared@3.5.16': {}
+
+  ansi-regex@5.0.1: {}
+
+  ansi-styles@4.3.0:
+    dependencies:
+      color-convert: 2.0.1
+
+  balanced-match@1.0.2: {}
+
+  brace-expansion@2.0.1:
+    dependencies:
+      balanced-match: 1.0.2
+
+  camelcase@5.3.1: {}
+
+  cliui@6.0.0:
+    dependencies:
+      string-width: 4.2.3
+      strip-ansi: 6.0.1
+      wrap-ansi: 6.2.0
+
+  color-convert@2.0.1:
+    dependencies:
+      color-name: 1.1.4
+
+  color-name@1.1.4: {}
+
+  color-string@1.9.1:
+    dependencies:
+      color-name: 1.1.4
+      simple-swizzle: 0.2.2
+
+  color@4.2.3:
+    dependencies:
+      color-convert: 2.0.1
+      color-string: 1.9.1
+
+  commander@2.20.3: {}
+
+  computeds@0.0.1: {}
+
+  cropperjs@1.6.2: {}
+
+  cssfilter@0.0.10: {}
+
+  csstype@3.1.3: {}
+
+  de-indent@1.0.2: {}
+
+  decamelize@1.2.0: {}
+
+  deepmerge@4.3.1: {}
+
+  dijkstrajs@1.0.3: {}
+
+  echarts@5.4.1:
+    dependencies:
+      tslib: 2.3.0
+      zrender: 5.4.1
+
+  emoji-regex@8.0.0: {}
+
+  encode-utf8@1.0.3: {}
+
+  entities@4.5.0: {}
+
+  esbuild@0.21.5:
+    optionalDependencies:
+      '@esbuild/aix-ppc64': 0.21.5
+      '@esbuild/android-arm': 0.21.5
+      '@esbuild/android-arm64': 0.21.5
+      '@esbuild/android-x64': 0.21.5
+      '@esbuild/darwin-arm64': 0.21.5
+      '@esbuild/darwin-x64': 0.21.5
+      '@esbuild/freebsd-arm64': 0.21.5
+      '@esbuild/freebsd-x64': 0.21.5
+      '@esbuild/linux-arm': 0.21.5
+      '@esbuild/linux-arm64': 0.21.5
+      '@esbuild/linux-ia32': 0.21.5
+      '@esbuild/linux-loong64': 0.21.5
+      '@esbuild/linux-mips64el': 0.21.5
+      '@esbuild/linux-ppc64': 0.21.5
+      '@esbuild/linux-riscv64': 0.21.5
+      '@esbuild/linux-s390x': 0.21.5
+      '@esbuild/linux-x64': 0.21.5
+      '@esbuild/netbsd-x64': 0.21.5
+      '@esbuild/openbsd-x64': 0.21.5
+      '@esbuild/sunos-x64': 0.21.5
+      '@esbuild/win32-arm64': 0.21.5
+      '@esbuild/win32-ia32': 0.21.5
+      '@esbuild/win32-x64': 0.21.5
+
+  estree-walker@2.0.2: {}
+
+  eventemitter3@5.0.1: {}
+
+  fast-diff@1.3.0: {}
+
+  find-up@4.1.0:
+    dependencies:
+      locate-path: 5.0.0
+      path-exists: 4.0.0
+
+  fsevents@2.3.3:
+    optional: true
+
+  get-caller-file@2.0.5: {}
+
+  he@1.2.0: {}
+
+  is-arrayish@0.3.2: {}
+
+  is-fullwidth-code-point@3.0.0: {}
+
+  locate-path@5.0.0:
+    dependencies:
+      p-locate: 4.1.0
+
+  lodash-es@4.17.21: {}
+
+  lodash.clonedeep@4.5.0: {}
+
+  lodash.isequal@4.5.0: {}
+
+  magic-string@0.30.17:
+    dependencies:
+      '@jridgewell/sourcemap-codec': 1.5.0
+
+  mind-elixir@3.3.2: {}
+
+  minimatch@9.0.5:
+    dependencies:
+      brace-expansion: 2.0.1
+
+  muggle-string@0.3.1: {}
+
+  nanoid@3.3.11: {}
+
+  p-limit@2.3.0:
+    dependencies:
+      p-try: 2.2.0
+
+  p-locate@4.1.0:
+    dependencies:
+      p-limit: 2.3.0
+
+  p-try@2.2.0: {}
+
+  parchment@3.0.0: {}
+
+  path-browserify@1.0.1: {}
+
+  path-exists@4.0.0: {}
+
+  picocolors@1.1.1: {}
+
+  pngjs@5.0.0: {}
+
+  postcss@8.5.4:
+    dependencies:
+      nanoid: 3.3.11
+      picocolors: 1.1.1
+      source-map-js: 1.2.1
+
+  qrcode@1.5.1:
+    dependencies:
+      dijkstrajs: 1.0.3
+      encode-utf8: 1.0.3
+      pngjs: 5.0.0
+      yargs: 15.4.1
+
+  quill-delta@5.1.0:
+    dependencies:
+      fast-diff: 1.3.0
+      lodash.clonedeep: 4.5.0
+      lodash.isequal: 4.5.0
+
+  quill@2.0.3:
+    dependencies:
+      eventemitter3: 5.0.1
+      lodash-es: 4.17.21
+      parchment: 3.0.0
+      quill-delta: 5.1.0
+
+  require-directory@2.1.1: {}
+
+  require-main-filename@2.0.0: {}
+
+  rollup@4.41.1:
+    dependencies:
+      '@types/estree': 1.0.7
+    optionalDependencies:
+      '@rollup/rollup-android-arm-eabi': 4.41.1
+      '@rollup/rollup-android-arm64': 4.41.1
+      '@rollup/rollup-darwin-arm64': 4.41.1
+      '@rollup/rollup-darwin-x64': 4.41.1
+      '@rollup/rollup-freebsd-arm64': 4.41.1
+      '@rollup/rollup-freebsd-x64': 4.41.1
+      '@rollup/rollup-linux-arm-gnueabihf': 4.41.1
+      '@rollup/rollup-linux-arm-musleabihf': 4.41.1
+      '@rollup/rollup-linux-arm64-gnu': 4.41.1
+      '@rollup/rollup-linux-arm64-musl': 4.41.1
+      '@rollup/rollup-linux-loongarch64-gnu': 4.41.1
+      '@rollup/rollup-linux-powerpc64le-gnu': 4.41.1
+      '@rollup/rollup-linux-riscv64-gnu': 4.41.1
+      '@rollup/rollup-linux-riscv64-musl': 4.41.1
+      '@rollup/rollup-linux-s390x-gnu': 4.41.1
+      '@rollup/rollup-linux-x64-gnu': 4.41.1
+      '@rollup/rollup-linux-x64-musl': 4.41.1
+      '@rollup/rollup-win32-arm64-msvc': 4.41.1
+      '@rollup/rollup-win32-ia32-msvc': 4.41.1
+      '@rollup/rollup-win32-x64-msvc': 4.41.1
+      fsevents: 2.3.3
+
+  semver@7.7.2: {}
+
+  set-blocking@2.0.0: {}
+
+  shepherd.js@11.1.1:
+    dependencies:
+      '@floating-ui/dom': 1.7.0
+      deepmerge: 4.3.1
+
+  simple-swizzle@0.2.2:
+    dependencies:
+      is-arrayish: 0.3.2
+
+  source-map-js@1.2.1: {}
+
+  streamsaver@2.0.6: {}
+
+  string-width@4.2.3:
+    dependencies:
+      emoji-regex: 8.0.0
+      is-fullwidth-code-point: 3.0.0
+      strip-ansi: 6.0.1
+
+  strip-ansi@6.0.1:
+    dependencies:
+      ansi-regex: 5.0.1
+
+  tailwind-merge@1.14.0: {}
+
+  tslib@2.3.0: {}
+
+  typescript@5.8.3: {}
+
+  vite@5.4.19:
+    dependencies:
+      esbuild: 0.21.5
+      postcss: 8.5.4
+      rollup: 4.41.1
+    optionalDependencies:
+      fsevents: 2.3.3
+
+  vue-template-compiler@2.7.16:
+    dependencies:
+      de-indent: 1.0.2
+      he: 1.2.0
+
+  vue-tsc@1.8.27(typescript@5.8.3):
+    dependencies:
+      '@volar/typescript': 1.11.1
+      '@vue/language-core': 1.8.27(typescript@5.8.3)
+      semver: 7.7.2
+      typescript: 5.8.3
+
+  vue@3.5.16(typescript@5.8.3):
+    dependencies:
+      '@vue/compiler-dom': 3.5.16
+      '@vue/compiler-sfc': 3.5.16
+      '@vue/runtime-dom': 3.5.16
+      '@vue/server-renderer': 3.5.16(vue@3.5.16(typescript@5.8.3))
+      '@vue/shared': 3.5.16
+    optionalDependencies:
+      typescript: 5.8.3
+
+  which-module@2.0.1: {}
+
+  wrap-ansi@6.2.0:
+    dependencies:
+      ansi-styles: 4.3.0
+      string-width: 4.2.3
+      strip-ansi: 6.0.1
+
+  xss@1.0.14:
+    dependencies:
+      commander: 2.20.3
+      cssfilter: 0.0.10
+
+  y18n@4.0.3: {}
+
+  yargs-parser@18.1.3:
+    dependencies:
+      camelcase: 5.3.1
+      decamelize: 1.2.0
+
+  yargs@15.4.1:
+    dependencies:
+      cliui: 6.0.0
+      decamelize: 1.2.0
+      find-up: 4.1.0
+      get-caller-file: 2.0.5
+      require-directory: 2.1.1
+      require-main-filename: 2.0.0
+      set-blocking: 2.0.0
+      string-width: 4.2.3
+      which-module: 2.0.1
+      y18n: 4.0.3
+      yargs-parser: 18.1.3
+
+  zrender@5.4.1:
+    dependencies:
+      tslib: 2.3.0
