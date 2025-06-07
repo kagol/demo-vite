@@ -6,11 +6,17 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "mcp": "npx @modelcontextprotocol/inspector"
   },
   "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "@opentiny/next": "^0.1.4",
+    "@opentiny/tiny-vue-mcp": "0.0.1-beta.1",
     "@opentiny/vue": "^3.23.0",
-    "vue": "^3.3.11"
+    "@opentiny/vue-common": "3.23.0-beta.1",
+    "vue": "^3.3.11",
+    "zod": "^3.25.56"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.5.2",

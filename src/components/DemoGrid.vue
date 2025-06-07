@@ -1,7 +1,14 @@
 <template>
-  <tiny-grid :data="tableData">
+  <tiny-grid :data="tableData" :tiny_mcp_config="{
+    server,
+    business: {
+      id: 'company-list',
+      description: '公司列表',
+    }
+  }">
     <tiny-grid-column type="index" width="60"></tiny-grid-column>
     <tiny-grid-column type="selection" width="60"></tiny-grid-column>
+    <tiny-grid-column field="name" title="公司名称"></tiny-grid-column>
     <tiny-grid-column field="employees" title="员工数"></tiny-grid-column>
     <tiny-grid-column field="createdDate" title="创建日期"></tiny-grid-column>
     <tiny-grid-column field="city" title="城市"></tiny-grid-column>
@@ -10,7 +17,23 @@
 
 <script setup lang="ts">
 import { TinyGrid, TinyGridColumn } from '@opentiny/vue'
-import { reactive } from 'vue'
+import { reactive, inject, onMounted } from 'vue'
+import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js'
+
+const { transport, done } = inject('mcpServer')
+const capabilities = { prompts: {},  resources: {}, tools: {}, logging: {} }
+const server = new McpServer({ name: 'company-list', version: '1.0.0' }, { capabilities })
+console.log('server======', server)
+
+server.tool('test-tool', '测试工具', { value: String }, async ({ value }) => {
+  console.log('test-tool value:', value)
+  return { content: [{ type: 'text', text: `Received: ${value}` }] }
+})
+
+onMounted(async () => {
+  await server.connect(transport)
+  done()
+})
 
 const tableData = reactive([
   {
