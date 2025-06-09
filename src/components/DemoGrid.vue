@@ -25,11 +25,6 @@ const capabilities = { prompts: {},  resources: {}, tools: {}, logging: {} }
 const server = new McpServer({ name: 'company-list', version: '1.0.0' }, { capabilities })
 console.log('server======', server)
 
-server.tool('test-tool', '测试工具', { value: String }, async ({ value }) => {
-  console.log('test-tool value:', value)
-  return { content: [{ type: 'text', text: `Received: ${value}` }] }
-})
-
 onMounted(async () => {
   await server.connect(transport)
   done()
@@ -91,6 +86,13 @@ const tableData = reactive([
     city: '厦门',
     createdDate: '2016-06-03 13:53:25',
     employees: 540
+  },
+  {
+    id: '9',
+    name: '深圳市菊厂有限公司',
+    city: '深圳',
+    createdDate: '2018-06-03 13:53:25',
+    employees: 10000
   }
 ])
 </script>

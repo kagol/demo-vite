@@ -20,7 +20,7 @@ onMounted(async () => {
   const capabilities = { prompts: {},  resources: {}, tools: {}, logging: {} }
   const client = new Client({ name: 'demo-vite', version: '1.0.0' }, { capabilities })
   console.log('client======', client)
-  client.connect(clientTransport)
+  await client.connect(clientTransport)
 
   const { sessionId } = await createSseProxy({
     client,
