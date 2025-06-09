@@ -1,35 +1,12 @@
 <script setup lang="ts">
-import { ref, onMounted, provide } from 'vue'
+import { useNextClient } from './composables/use-next'
 import HelloWorld from './components/HelloWorld.vue'
 import DemoGrid from './components/DemoGrid.vue'
-import { Client } from '@modelcontextprotocol/sdk/client/index.js'
-import { createTransportPair, createSseProxy } from '@opentiny/next'
 
-const mcpServer = {
-  transport: null,
-  done: () => {},
-}
-
-provide('mcpServer', mcpServer)
-const session = ref('')
-
-const [ transport, clientTransport ] = createTransportPair()
-mcpServer.transport = transport
-
-onMounted(async () => {
-  const capabilities = { prompts: {},  resources: {}, tools: {}, logging: {} }
-  const client = new Client({ name: 'demo-vite', version: '1.0.0' }, { capabilities })
-  console.log('client======', client)
-  await client.connect(clientTransport)
-
-  const { sessionId } = await createSseProxy({
-    client,
-    url: 'http://39.108.160.245/sse',
-    token: ''
-  })
-
-  session.value = sessionId
-})
+const { sessionId } = useNextClient({
+  clientOptions: { name: 'demo-vite', version: '1.0.0' },
+  url: 'http://39.108.160.245/sse' }
+)
 </script>
 
 <template>
@@ -42,7 +19,7 @@ onMounted(async () => {
     </a>
   </div>
   <HelloWorld msg="Vite + Vue" />
-  <p>sessionId: http://39.108.160.245/sse?sessionId={{ session }}</p>
+  <p>sessionId: http://39.108.160.245/sse?sessionId={{ sessionId }}</p>
   <DemoGrid />
 </template>
 

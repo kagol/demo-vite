@@ -17,17 +17,11 @@
 
 <script setup lang="ts">
 import { TinyGrid, TinyGridColumn } from '@opentiny/vue'
-import { reactive, inject, onMounted } from 'vue'
-import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js'
+import { reactive } from 'vue'
+import { useNextServer } from '../composables/use-next'
 
-const { transport, done } = inject('mcpServer')
-const capabilities = { prompts: {},  resources: {}, tools: {}, logging: {} }
-const server = new McpServer({ name: 'company-list', version: '1.0.0' }, { capabilities })
-console.log('server======', server)
-
-onMounted(async () => {
-  await server.connect(transport)
-  done()
+const { server } = useNextServer({
+  serverOptions: { name: 'company-list', version: '1.0.0' }
 })
 
 const tableData = reactive([
