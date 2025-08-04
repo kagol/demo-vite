@@ -4,6 +4,11 @@ import { TinyBaseSelect, TinyButton, TinySwitch } from '@opentiny/vue'
 import { Client } from '@modelcontextprotocol/sdk/client/index.js'
 import { createTransportPair } from '@opentiny/next'
 import { z } from 'zod'
+import { add } from '@kagol/vite-lib-template'
+
+const a = add(1, 2)
+console.log('a===', a);
+
 
 // 创建一对可互通的 Transport 实例
 const [serverTransport, clientTransport] = createTransportPair()

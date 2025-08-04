@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.51.0",
+    "@kagol/next-sdk-cline": "^0.0.1",
+    "@kagol/vite-lib-template": "^0.0.1",
     "@modelcontextprotocol/sdk": "^1.11.4",
     "@opentiny/next": "^0.1.1",
     "@opentiny/vue": "^3.21.3",
@@ -22,6 +24,7 @@
     "@vitejs/plugin-vue": "^4.5.2",
     "typescript": "^5.2.2",
     "vite": "^5.0.8",
+    "vite-plugin-vue-mcp": "^0.3.2",
     "vue-tsc": "^1.8.25"
   }
 }
