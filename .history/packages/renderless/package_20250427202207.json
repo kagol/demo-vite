@@ -1,0 +1,6 @@
+{
+  "name": "@opentiny/vue-renderless",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "module": "src/index.ts"
+}

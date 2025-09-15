@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "test/*": ["./packages/renderless/src/*"],
+      "test2/*": ["./packages/renderless/src/*"],
+    }
+  }
+}
