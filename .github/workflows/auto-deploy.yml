@@ -49,4 +49,4 @@ jobs:
           # echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
 
           # 同步 dist/ 到服务器目录（删除旧文件）
-          rsync -avz --delete dist/ "$REMOTE_TARGET"
+          rsync -avz --delete -e 'ssh -p 22 -o StrictHostKeyChecking=no' dist/ "$REMOTE_TARGET"
