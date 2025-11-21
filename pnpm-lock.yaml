@@ -8,9 +8,15 @@ importers:
 
   .:
     dependencies:
+      '@opentiny/fluent-editor':
+        specifier: 4.0.0-alpha.12
+        version: 4.0.0-alpha.12
       '@opentiny/vue':
         specifier: ^3.27.0
         version: 3.27.0
+      quill-table-up:
+        specifier: ^3.2.2
+        version: 3.2.2(quill@2.0.3)
       vue:
         specifier: ^3.5.24
         version: 3.5.24(typescript@5.9.3)
@@ -592,8 +598,17 @@ packages:
   '@floating-ui/core@1.6.9':
     resolution: {integrity: sha512-uMXCuQ3BItDUbAMhIXw7UPXRfAlOAvZzdK9BWpE60MCn+Svt3aLn9jsPTi/WNGlRUu2uI0v5S7JiIUsbsvh3fw==}
 
+  '@floating-ui/core@1.7.3':
+    resolution: {integrity: sha512-sGnvb5dmrJaKEZ+LDIpguvdX3bDlEllmv4/ClQ9awcmCZrlx5jQyyMWFM5kBI+EyNOCDDiKk8il0zeuX3Zlg/w==}
+
   '@floating-ui/dom@1.6.13':
     resolution: {integrity: sha512-umqzocjDgNRGTuO7Q8CU32dkHkECqI8ZdMZ5Swb6QAM0t5rnlrN3lGo1hdpscRd3WS8T6DKYK4ephgIH9iRh3w==}
+
+  '@floating-ui/dom@1.7.4':
+    resolution: {integrity: sha512-OOchDgh4F2CchOX94cRVqhvy7b3AFb+/rQXyswmzmGakRfkMgoWVjfnLWkRirfLEfuD4ysVW16eXzwt3jHIzKA==}
+
+  '@floating-ui/utils@0.2.10':
+    resolution: {integrity: sha512-aGTxbpbg8/b5JfU1HXSrbH3wXZuLPJcNEcZQFMxLs3oSzgtVu6nFPkbbGGUvBcUjKV2YyB9Wxxabo+HEH9tcRQ==}
 
   '@floating-ui/utils@0.2.9':
     resolution: {integrity: sha512-MDWhGtE+eHw5JW7lq4qhc5yRLS11ERl1c7Z6Xd0a58DozHES6EnNNwUWbMiG4J9Cgj053Bhk8zvlhFYKVhULwg==}
@@ -624,6 +639,12 @@ packages:
 
   '@opentiny/fluent-editor@3.25.4':
     resolution: {integrity: sha512-jdXXsBq2AIy9e8L8RkNXVo0ittDhfG7ELVs4lGUmnewIvdNOs64axttj2GGfW9Lup95oeMqdoOW0kf09GAx0Vw==}
+
+  '@opentiny/fluent-editor@3.25.5':
+    resolution: {integrity: sha512-lbfRvYDhPDpvy2hD7U6vSiWcnRH3MnZFmRBIQx61E5MONnp4ZkFargCR3Pj4Bwza6k08At1yHLFVUJ5rAFMyhQ==}
+
+  '@opentiny/fluent-editor@4.0.0-alpha.12':
+    resolution: {integrity: sha512-mN29L+nxT9kXO/GGZFx2QVxEsrKJv1/NT/zxgvy5psnQ/88HPqDhDYyblKXUGIyDCKcifrrARoG61pTKR86W+w==}
 
   '@opentiny/huicharts@1.0.1':
     resolution: {integrity: sha512-KsVNZwCstMJec2vM/uMff9jj/nNHXCchiwGGU4+MGP1nRwg7Hkj8pjgJQh/tJR6+AEKPY/h+TewRM3S6KBtn5g==}
@@ -3042,6 +3063,21 @@ packages:
     resolution: {integrity: sha512-X74oCeRI4/p0ucjb5Ma8adTXd9Scumz367kkMK5V/IatcX6A0vlgLgKbzXWy5nZmCGeNJm2oQX0d2Eqj+ZIlCA==}
     engines: {node: '>= 12.0.0'}
 
+  quill-easy-color@0.0.10:
+    resolution: {integrity: sha512-InFICsoo9w22G2x8h/LlJMXSipORsqiCVQgiCdC/PfQrvIyB3pfMBFbtpGR5GpwtJJIcDOS7lrxhRs119F269Q==}
+    peerDependencies:
+      quill: '>=1.3.7'
+
+  quill-shortcut-key@0.0.5:
+    resolution: {integrity: sha512-7B1KLgkaN4e1a9+ZtT3Fui3I0bqrdeMW3jQaMYJ3W8dHEi4jg2pIwSKW3cFerqH0iSPnNE3pAhX0y9AeDg4vnA==}
+    peerDependencies:
+      quill: ^2.0.0
+
+  quill-table-up@3.2.2:
+    resolution: {integrity: sha512-e1W4tMozSGB5k0GLdXlrlUW/vtHf2DjFhZaOw7CfrfNaknxp1EVzcR/mNWBbwDSdCoZWUx7ub+D96QvJi5qAeA==}
+    peerDependencies:
+      quill: ^2.0.3
+
   quill@2.0.3:
     resolution: {integrity: sha512-xEYQBqfYx/sfb33VJiKnSJp8ehloavImQ2A6564GAbqG55PGw1dAWUn1MUbQB62t0azawUS2CZZhWCjO8gRvTw==}
     engines: {npm: '>=8.2.3'}
@@ -3831,10 +3867,21 @@ snapshots:
     dependencies:
       '@floating-ui/utils': 0.2.9
 
+  '@floating-ui/core@1.7.3':
+    dependencies:
+      '@floating-ui/utils': 0.2.10
+
   '@floating-ui/dom@1.6.13':
     dependencies:
       '@floating-ui/core': 1.6.9
       '@floating-ui/utils': 0.2.9
+
+  '@floating-ui/dom@1.7.4':
+    dependencies:
+      '@floating-ui/core': 1.7.3
+      '@floating-ui/utils': 0.2.10
+
+  '@floating-ui/utils@0.2.10': {}
 
   '@floating-ui/utils@0.2.9': {}
 
@@ -3868,6 +3915,18 @@ snapshots:
     dependencies:
       lodash-es: 4.17.21
       quill: 2.0.3
+
+  '@opentiny/fluent-editor@3.25.5':
+    dependencies:
+      lodash-es: 4.17.21
+      quill: 2.0.3
+
+  '@opentiny/fluent-editor@4.0.0-alpha.12':
+    dependencies:
+      lodash-es: 4.17.21
+      quill: 2.0.3
+      quill-easy-color: 0.0.10(quill@2.0.3)
+      quill-shortcut-key: 0.0.5(quill@2.0.3)
 
   '@opentiny/huicharts@1.0.1': {}
 
@@ -5301,7 +5360,7 @@ snapshots:
 
   '@opentiny/vue-fluent-editor@3.27.0':
     dependencies:
-      '@opentiny/fluent-editor': 3.25.4
+      '@opentiny/fluent-editor': 3.25.5
       '@opentiny/vue-common': 3.27.0
       '@opentiny/vue-icon': 3.27.0
       '@opentiny/vue-image-viewer': 3.27.0
@@ -9228,6 +9287,19 @@ snapshots:
       fast-diff: 1.3.0
       lodash.clonedeep: 4.5.0
       lodash.isequal: 4.5.0
+
+  quill-easy-color@0.0.10(quill@2.0.3):
+    dependencies:
+      quill: 2.0.3
+
+  quill-shortcut-key@0.0.5(quill@2.0.3):
+    dependencies:
+      quill: 2.0.3
+
+  quill-table-up@3.2.2(quill@2.0.3):
+    dependencies:
+      '@floating-ui/dom': 1.7.4
+      quill: 2.0.3
 
   quill@2.0.3:
     dependencies:
