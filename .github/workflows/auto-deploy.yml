@@ -54,4 +54,6 @@ jobs:
                          -e=${{ env.HUAWEI_CLOUD_ENDPOINT }}
 
           # 把本地 dist/ 目录整站同步到桶根目录
-          obsutil cp dist/ obs://${{ env.HUAWEI_CLOUD_BUCKET }}/ -r -f
+          mv dist 0.2.0
+          ls
+          obsutil cp 0.2.0 obs://${{ env.HUAWEI_CLOUD_BUCKET }}/demo-vite/ -r -f
