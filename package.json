@@ -9,10 +9,22 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emoji-mart/data": "^1.2.1",
+    "@floating-ui/dom": "^1.7.4",
+    "@opentiny/fluent-editor": "^4.0.0",
+    "emoji-mart": "^5.6.0",
+    "highlight.js": "^11.11.1",
+    "html2canvas": "^1.4.1",
+    "katex": "^0.16.27",
+    "mathlive": "^0.108.2",
+    "quill-markdown-shortcuts": "^0.0.10",
+    "quill-table-up": "^3.2.2",
+    "quill-toolbar-tip": "^0.0.13",
     "vue": "^3.3.11"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.5.2",
+    "less": "^4.5.1",
     "typescript": "^5.2.2",
     "vite": "^5.0.8",
     "vue-tsc": "^1.8.25"
