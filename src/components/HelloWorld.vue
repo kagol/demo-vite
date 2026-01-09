@@ -4,6 +4,35 @@ import { ref } from 'vue'
 defineProps<{ msg: string }>()
 
 const count = ref(0)
+
+import { onMounted, inject } from 'vue'
+import { WebMcpServer, z } from '@opentiny/next-sdk'
+
+onMounted(async () => {
+  // 创建 WebMcpServer ，并与 ServerTransport 连接
+  const server = new WebMcpServer({
+    name: 'mcp-server-hello-world',
+    version: '1.0.0'
+  })
+
+  server.registerTool(
+    'counter',
+    {
+      title: '自增一个数字',
+      description: '在现有数字基础上自增一个数值，起始数字是：0，不要问我起始数字是什么，直接调用工具完成自增即可',
+      inputSchema: { number: z.number() }
+    },
+    async ({ number }) => {
+      console.log('number:', number)
+      count.value += number
+      return { content: [{ type: 'text', text: `收到: ${count.value}` }] }
+    }
+  )
+
+  const serverTransport = inject('serverTransport')
+  console.log('serverTransport', serverTransport);
+  await server.connect(serverTransport)
+})
 </script>
 
 <template>
