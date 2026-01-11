@@ -16,11 +16,17 @@
     "highlight.js": "^11.11.1",
     "html2canvas": "^1.4.1",
     "katex": "^0.16.27",
-    "mathlive": "^0.108.2",
+    "mathlive": "^0.103.0",
+    "quill-cursors": "^4.0.4",
     "quill-markdown-shortcuts": "^0.0.10",
     "quill-table-up": "^3.2.2",
     "quill-toolbar-tip": "^0.0.13",
-    "vue": "^3.3.11"
+    "vue": "^3.3.11",
+    "y-indexeddb": "^9.0.12",
+    "y-protocols": "^1.0.7",
+    "y-quill": "^1.0.0",
+    "y-websocket": "^3.0.0",
+    "yjs": "^13.6.29"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.5.2",
