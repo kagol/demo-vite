@@ -1,13 +1,16 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import { getCurrentInstance } from 'vue'
 import {
   ChartBar as TinyChartBar,
   HuiCharts,
   Charts as TinyChart,
   HuiChartsBar,
   } from '@opentiny/vue-huicharts'
-import './components/DemoLit'
-import { getValue } from '@opentiny/vue-renderless/src/action-menu/vue'
+// import './components/DemoLit'
+// import { getValue, setValue, getAaa } from 'test/action-menu/vue2'
+
+// console.log('getValue', getValue('test'));
+console.log('getCurrentInstance() returns vue app instance in VDOM components', getCurrentInstance());
 
 const options = {
   padding: [50, 30, 50, 20],
@@ -33,16 +36,7 @@ const options = {
 </script>
 
 <template>
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
-  </div>
   <lit-element></lit-element>
-  <HelloWorld msg="Vite + Vue" />
   <tiny-chart-bar :options="options"></tiny-chart-bar>
   <br>
   <tiny-chart type="bar" :options="options"></tiny-chart>
@@ -51,18 +45,3 @@ const options = {
   <br>
   <hui-charts-bar :options="options"></hui-charts-bar>
 </template>
-
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
-</style>
