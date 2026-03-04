@@ -1,85 +1,112 @@
 <template>
   <div class="login-container">
-    <div class="login-box">
-      <h1 class="login-title">登录</h1>
-      <tiny-form label-width="80px" :model="loginForm" ref="loginFormRef">
-        <tiny-form-item label="用户名">
-          <tiny-input 
-            v-model="loginForm.username" 
+    <div class="login-card">
+      <h2 class="login-title">用户登录</h2>
+      <tiny-form
+        ref="loginFormRef"
+        :model="loginData"
+        :rules="loginRules"
+        label-width="0"
+        @submit.prevent
+      >
+        <tiny-form-item prop="username">
+          <tiny-input
+            v-model="loginData.username"
             placeholder="请输入用户名"
-            clearable>
-          </tiny-input>
+            :prefix-icon="IconUser"
+          ></tiny-input>
         </tiny-form-item>
-        <tiny-form-item label="密码">
-          <tiny-input 
-            v-model="loginForm.password" 
+        <tiny-form-item prop="password">
+          <tiny-input
+            v-model="loginData.password"
             type="password"
             placeholder="请输入密码"
-            show-password>
-          </tiny-input>
-        </tiny-form-item>
-        <tiny-form-item label="记住我">
-          <tiny-checkbox v-model="loginForm.rememberMe">记住我</tiny-checkbox>
+            :prefix-icon="IconLock"
+            show-password
+          ></tiny-input>
         </tiny-form-item>
         <tiny-form-item>
-          <tiny-button type="primary" @click="handleLogin" style="width: 100%">
+          <div class="login-options">
+            <tiny-checkbox v-model="loginData.rememberMe">记住我</tiny-checkbox>
+            <tiny-button type="text">忘记密码？</tiny-button>
+          </div>
+        </tiny-form-item>
+        <tiny-form-item>
+          <tiny-button
+            type="primary"
+            class="login-button"
+            @click="handleLogin"
+            :loading="loading"
+          >
             登录
           </tiny-button>
         </tiny-form-item>
-        <div class="login-footer">
-          <tiny-link href="#" @click="handleForgot">忘记密码？</tiny-link>
-          <span> | </span>
-          <tiny-link href="#" @click="handleRegister">立即注册</tiny-link>
-        </div>
       </tiny-form>
     </div>
   </div>
 </template>
 
-<script>
-import { TinyForm, TinyFormItem, TinyInput, TinyButton, TinyCheckbox, TinyLink } from '@opentiny/vue'
+<script setup lang="ts">
+import { ref, reactive } from 'vue'
+import {
+  TinyForm,
+  TinyFormItem,
+  TinyInput,
+  TinyButton,
+  TinyCheckbox,
+  TinyModal
+} from '@opentiny/vue'
+import { iconUser, iconLock } from '@opentiny/vue-icon'
 
-export default {
-  name: 'Login',
-  components: {
-    TinyForm,
-    TinyFormItem,
-    TinyInput,
-    TinyButton,
-    TinyCheckbox,
-    TinyLink
-  },
-  data() {
-    return {
-      loginForm: {
-        username: '',
-        password: '',
-        rememberMe: false
-      }
+const IconUser = iconUser()
+const IconLock = iconLock()
+
+const loginFormRef = ref()
+const loading = ref(false)
+
+const loginData = reactive({
+  username: '',
+  password: '',
+  rememberMe: false
+})
+
+const loginRules = {
+  username: [
+    { required: true, message: '请输入用户名', trigger: 'blur' },
+    { min: 3, max: 20, message: '长度在 3 到 20 个字符', trigger: 'blur' }
+  ],
+  password: [
+    { required: true, message: '请输入密码', trigger: 'blur' },
+    { min: 6, message: '密码长度不能小于 6 个字符', trigger: 'blur' }
+  ]
+}
+
+const handleLogin = () => {
+  loginFormRef.value.validate((valid: boolean) => {
+    if (valid) {
+      loading.value = true
+      // 模拟登录请求
+      setTimeout(() => {
+        loading.value = false
+        if (loginData.username === 'admin' && loginData.password === '123456') {
+          TinyModal.message({
+            message: '登录成功！欢迎回来，' + loginData.username,
+            status: 'success'
+          })
+        } else {
+          TinyModal.message({
+            message: '登录失败，用户名或密码错误（提示：admin/123456）',
+            status: 'error'
+          })
+        }
+      }, 1500)
+    } else {
+      TinyModal.message({
+        message: '请完善登录信息',
+        status: 'warning'
+      })
     }
-  },
-  methods: {
-    handleLogin() {
-      if (!this.loginForm.username) {
-        alert('请输入用户名')
-        return
-      }
-      if (!this.loginForm.password) {
-        alert('请输入密码')
-        return
-      }
-      alert(`登录成功！用户名：${this.loginForm.username}${this.loginForm.rememberMe ? '（已记住）' : ''}`)
-      // 这里可以调用登录接口
-    },
-    handleForgot(e) {
-      e.preventDefault()
-      alert('忘记密码功能')
-    },
-    handleRegister(e) {
-      e.preventDefault()
-      alert('立即注册功能')
-    }
-  }
+  })
 }
 </script>
 
@@ -88,35 +115,38 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  height: 100vh;
+  background-color: #f5f7fa;
 }
 
-.login-box {
-  background: white;
+.login-card {
+  width: 400px;
   padding: 40px;
+  background: #fff;
   border-radius: 8px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-  width: 100%;
-  max-width: 400px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .login-title {
+  margin-bottom: 30px;
   text-align: center;
-  margin: 0 0 30px 0;
   color: #333;
-  font-size: 28px;
-  font-weight: 600;
+  font-size: 24px;
 }
 
-.login-footer {
-  text-align: center;
-  margin-top: 20px;
-  font-size: 12px;
-  color: #666;
+.login-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
-.login-footer span {
-  margin: 0 8px;
+.login-button {
+  width: 100%;
+  margin-top: 10px;
+}
+
+:deep(.tiny-form-item__content) {
+  margin-left: 0 !important;
 }
 </style>

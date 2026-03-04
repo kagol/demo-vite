@@ -8,9 +8,15 @@ importers:
 
   .:
     dependencies:
+      '@floating-ui/dom':
+        specifier: ^1.7.5
+        version: 1.7.5
       '@opentiny/vue':
         specifier: ^3.28.0
         version: 3.28.0
+      '@opentiny/vue-icon':
+        specifier: ^3.29.0
+        version: 3.29.0
       vue:
         specifier: ^3.3.11
         version: 3.5.26(typescript@5.9.3)
@@ -191,11 +197,11 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@floating-ui/core@1.7.3':
-    resolution: {integrity: sha512-sGnvb5dmrJaKEZ+LDIpguvdX3bDlEllmv4/ClQ9awcmCZrlx5jQyyMWFM5kBI+EyNOCDDiKk8il0zeuX3Zlg/w==}
+  '@floating-ui/core@1.7.4':
+    resolution: {integrity: sha512-C3HlIdsBxszvm5McXlB8PeOEWfBhcGBTZGkGlWc2U0KFY5IwG5OQEuQ8rq52DZmcHDlPLd+YFBK+cZcytwIFWg==}
 
-  '@floating-ui/dom@1.7.4':
-    resolution: {integrity: sha512-OOchDgh4F2CchOX94cRVqhvy7b3AFb+/rQXyswmzmGakRfkMgoWVjfnLWkRirfLEfuD4ysVW16eXzwt3jHIzKA==}
+  '@floating-ui/dom@1.7.5':
+    resolution: {integrity: sha512-N0bD2kIPInNHUHehXhMke1rBGs1dwqvC9O9KYMyyjK7iXt7GAhnro7UlcuYcGdS/yYOlq0MAVgrow8IbWJwyqg==}
 
   '@floating-ui/utils@0.2.10':
     resolution: {integrity: sha512-aGTxbpbg8/b5JfU1HXSrbH3wXZuLPJcNEcZQFMxLs3oSzgtVu6nFPkbbGGUvBcUjKV2YyB9Wxxabo+HEH9tcRQ==}
@@ -208,6 +214,9 @@ packages:
 
   '@opentiny/utils@3.28.0':
     resolution: {integrity: sha512-bHIP634NnFZQELILkD4q/Jg7SfpB32PYEPs+MUGcLaOdf//u2CCXF5rK3BoWnguTx2+bwdPalaoFOTR6QP0Zwg==}
+
+  '@opentiny/utils@3.29.0':
+    resolution: {integrity: sha512-D4n2F0Vdnus4+S/DH7tigiGZp2yAU91PWX2hMSLtkzQd6KKgW0dMde/32O0JS0R/AJdnCBw//bg5LUdG4zjx9A==}
 
   '@opentiny/vue-action-menu@3.28.0':
     resolution: {integrity: sha512-trAOFhMCfhILpigTm4jjPALR2MuE4nshOM6ML+UpvCpPKAnOvAdy5tcPBPeAwJuxg0+I18uUpHhbvTa7J+QtIQ==}
@@ -337,6 +346,9 @@ packages:
 
   '@opentiny/vue-common@3.28.0':
     resolution: {integrity: sha512-BvYQtSF8ABKxCQf/5nsHEzAMRvQE9mJayyQqLXrhPR4fpaOu5LqMWkZ3PvGDixf7aeAGcmWFMeRV2VXufy59AA==}
+
+  '@opentiny/vue-common@3.29.0':
+    resolution: {integrity: sha512-y5pMKfLMmCez/Mp6qkKWIXp+AmhJfgi69wEfp7upeb1+kqf2HktfwQcmVTwMxTKVlDISByePLR3TFDeQU8AY6Q==}
 
   '@opentiny/vue-company@3.28.0':
     resolution: {integrity: sha512-KOMd+Fnrtz4ASvIn5FxZ4aK7THBbBRPGHBSAcW9MSacEmQ1/HVL54Wah5kNEc9aY/r7z8Hqv9u+zefIMxCOvlA==}
@@ -479,11 +491,17 @@ packages:
   '@opentiny/vue-hooks@3.28.0':
     resolution: {integrity: sha512-XCsQxoHBkdCCGII+FZay0f83Jc3mbRb/gMtO0oqCK+SyseW87KtlSiGFS3WfRWx5pLFgsM80tcKLjkXarJTiTw==}
 
+  '@opentiny/vue-hooks@3.29.0':
+    resolution: {integrity: sha512-GPtCGsHG63/0DPr2qhUSyVq/u/uo3htIb5f5pKOHsdeq3xRgoRlV+rIARDraSCrptfrX2fOGlgZz+wyrMd6YjA==}
+
   '@opentiny/vue-hrapprover@3.28.0':
     resolution: {integrity: sha512-4mP8hOQ5TOxVEZKV82UmUWT+8eRHl+a5DlLCBYJT2CisZ463LQ/DjqieWTJplgxf258w96pc+t0PaNxklLl5QQ==}
 
   '@opentiny/vue-icon@3.28.3':
     resolution: {integrity: sha512-gOmR/2m9aEKH26jvCDBtiUtb1DDvjmFX8tn4gKK+Fd32M9HYMyZaZpNPvYrK33/GLSUWIDXUJOmeypnSyOJWog==}
+
+  '@opentiny/vue-icon@3.29.0':
+    resolution: {integrity: sha512-l72P3He1slmG+XCBM464Yp+JPBgoFw+pA/d5NoMfKMiIcvCj2g0T+78F5aIi6mPHAgmeOt1NvrVno+QfS7/FbQ==}
 
   '@opentiny/vue-image-viewer@3.28.0':
     resolution: {integrity: sha512-a24s+7eVNTYAZfuhz4C/oQEwPOocNJb8q4gTOkGobuweVvWNIwJnGYLxloLf2qXlGgUPpWYvt/nJJbqZPbmalA==}
@@ -514,6 +532,9 @@ packages:
 
   '@opentiny/vue-locale@3.28.0':
     resolution: {integrity: sha512-202pQDBs11gfWMXVs5WZ3/mKuzJvde5WoSckVqXoTyPuKf/g2CRq9sp47wDcuC2NkoON2qcs32N/2YftdUuzpw==}
+
+  '@opentiny/vue-locale@3.29.0':
+    resolution: {integrity: sha512-Nn+x8zm6VHexVbTtfiGLSi/JNkWIdY+kI/LHDYA1uPcWbKExCYXJZvTsVGETIjsbyw2BDX4R1+Ip+cPGPoJfwQ==}
 
   '@opentiny/vue-locales@3.28.0':
     resolution: {integrity: sha512-Qd95vh7iaxmg+lbHHAYGlZVJjgk12hwCq/mAa9EogRKfmmtdkcH4TIEPDwhgitnFAr1uLd2IjzWcEq/QjN4uow==}
@@ -626,6 +647,9 @@ packages:
   '@opentiny/vue-renderless@3.28.0':
     resolution: {integrity: sha512-ZGB9RHCmA+SlgdjhUMLMZeUV33g6YM8oaDroIzKRjeCZedVeNNpWscBiJecV1wZRL3fbwTz8PX7ybBCaoDKa/Q==}
 
+  '@opentiny/vue-renderless@3.29.0':
+    resolution: {integrity: sha512-Xp14idgz533HeQI8wDOEhvXVwddaOwWw+Fr6Hfxy85Lrws+cHpj6vUTIo+Uvw785Kne2e/5JvKdKDAZ3YXUvjg==}
+
   '@opentiny/vue-river@3.28.0':
     resolution: {integrity: sha512-3+jTIIW5N8439hDUjLneOL7jn+0oO1FWq+bRoZCqN/qtkNIsRbD10d3g+C5OffmjGdslUlMKjmYTfCva3lMpHw==}
 
@@ -727,6 +751,9 @@ packages:
 
   '@opentiny/vue-theme@3.28.0':
     resolution: {integrity: sha512-Tp3LOzmrMgPipx/8LazXlEKSG1LRsPjxdW+pGxnbSkbdgLg8HkkN7SmzMZLbuBL9nnw+aSlGm/IsAF2hSZFw6w==}
+
+  '@opentiny/vue-theme@3.29.0':
+    resolution: {integrity: sha512-6FzMerLLeC7PrgVH0eBS7JR9n9ivU7BgFfi1hVpZJnJDhMqJPivhRZDpbM4o1m7ZB2naA91xgUFl4U6xLPr+/w==}
 
   '@opentiny/vue-time-line@3.28.0':
     resolution: {integrity: sha512-kQ7vm1m17slKh8VDR7Z0lkq2JbfwoRwvu+rJzBTDPlVMQAB5nCuLlNaOKG1faEI14/N2l/fc9OFpWjOBmvYNxw==}
@@ -1472,13 +1499,13 @@ snapshots:
   '@esbuild/win32-x64@0.21.5':
     optional: true
 
-  '@floating-ui/core@1.7.3':
+  '@floating-ui/core@1.7.4':
     dependencies:
       '@floating-ui/utils': 0.2.10
 
-  '@floating-ui/dom@1.7.4':
+  '@floating-ui/dom@1.7.5':
     dependencies:
-      '@floating-ui/core': 1.7.3
+      '@floating-ui/core': 1.7.4
       '@floating-ui/utils': 0.2.10
 
   '@floating-ui/utils@0.2.10': {}
@@ -1491,6 +1518,10 @@ snapshots:
       quill: 2.0.3
 
   '@opentiny/utils@3.28.0':
+    dependencies:
+      xss: 1.0.14
+
+  '@opentiny/utils@3.29.0':
     dependencies:
       xss: 1.0.14
 
@@ -1873,6 +1904,15 @@ snapshots:
       '@opentiny/vue-locale': 3.28.0
       '@opentiny/vue-renderless': 3.28.0
       '@opentiny/vue-theme': 3.28.0
+      tailwind-merge: 1.14.0
+
+  '@opentiny/vue-common@3.29.0':
+    dependencies:
+      '@opentiny/utils': 3.29.0
+      '@opentiny/vue-hooks': 3.29.0
+      '@opentiny/vue-locale': 3.29.0
+      '@opentiny/vue-renderless': 3.29.0
+      '@opentiny/vue-theme': 3.29.0
       tailwind-merge: 1.14.0
 
   '@opentiny/vue-company@3.28.0':
@@ -2289,7 +2329,7 @@ snapshots:
 
   '@opentiny/vue-guide@3.28.0':
     dependencies:
-      '@floating-ui/dom': 1.7.4
+      '@floating-ui/dom': 1.7.5
       '@opentiny/utils': 3.28.0
       '@opentiny/vue-common': 3.28.0
       '@opentiny/vue-renderless': 3.28.0
@@ -2298,8 +2338,13 @@ snapshots:
 
   '@opentiny/vue-hooks@3.28.0':
     dependencies:
-      '@floating-ui/dom': 1.7.4
+      '@floating-ui/dom': 1.7.5
       '@opentiny/utils': 3.28.0
+
+  '@opentiny/vue-hooks@3.29.0':
+    dependencies:
+      '@floating-ui/dom': 1.7.5
+      '@opentiny/utils': 3.29.0
 
   '@opentiny/vue-hrapprover@3.28.0':
     dependencies:
@@ -2316,6 +2361,11 @@ snapshots:
     dependencies:
       '@opentiny/vue-common': 3.28.0
       '@opentiny/vue-theme': 3.28.0
+
+  '@opentiny/vue-icon@3.29.0':
+    dependencies:
+      '@opentiny/vue-common': 3.29.0
+      '@opentiny/vue-theme': 3.29.0
 
   '@opentiny/vue-image-viewer@3.28.0':
     dependencies:
@@ -2398,6 +2448,12 @@ snapshots:
       '@opentiny/utils': 3.28.0
       '@opentiny/vue-renderless': 3.28.0
       '@opentiny/vue-theme': 3.28.0
+
+  '@opentiny/vue-locale@3.29.0':
+    dependencies:
+      '@opentiny/utils': 3.29.0
+      '@opentiny/vue-renderless': 3.29.0
+      '@opentiny/vue-theme': 3.29.0
 
   '@opentiny/vue-locales@3.28.0':
     dependencies:
@@ -2719,6 +2775,12 @@ snapshots:
       '@opentiny/vue-hooks': 3.28.0
       color: 4.2.3
 
+  '@opentiny/vue-renderless@3.29.0':
+    dependencies:
+      '@opentiny/utils': 3.29.0
+      '@opentiny/vue-hooks': 3.29.0
+      color: 4.2.3
+
   '@opentiny/vue-river@3.28.0':
     dependencies:
       '@opentiny/vue-common': 3.28.0
@@ -2997,6 +3059,8 @@ snapshots:
       '@opentiny/vue-theme': 3.28.0
 
   '@opentiny/vue-theme@3.28.0': {}
+
+  '@opentiny/vue-theme@3.29.0': {}
 
   '@opentiny/vue-time-line@3.28.0':
     dependencies:
@@ -3903,7 +3967,7 @@ snapshots:
 
   shepherd.js@11.1.1:
     dependencies:
-      '@floating-ui/dom': 1.7.4
+      '@floating-ui/dom': 1.7.5
       deepmerge: 4.3.1
 
   simple-swizzle@0.2.4:
