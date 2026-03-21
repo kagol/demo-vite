@@ -36,6 +36,40 @@
 import { ref, nextTick, watch } from 'vue'
 import { useOllama } from '@/composables/useOllama'
 
+// 多模型切换 & 参数调节
+// const { chatStream } = useOllama({
+//   model: 'qwen2.5:7b',  // 可绑定到 select 下拉框
+//   temperature: 0.8,     // 创造性 vs 确定性
+//   top_p: 0.9,
+//   baseUrl: 'http://localhost:11434'
+// })
+
+// 将图片转为 base64
+// const imageBase64 = await fileToBase64(imageFile)
+
+// await ollama.chat({
+//   model: 'llava', // qwen2.5vl:7b
+//   messages: [{
+//     role: 'user',
+//     content: '描述这张图片',
+//     images: [imageBase64]
+//   }]
+// })
+
+// 专门用于代码补全（非对话模式）
+// const generateCode = async (prompt) => {
+//   const response = await fetch('http://localhost:11434/api/generate', {
+//     method: 'POST',
+//     headers: { 'Content-Type': 'application/json' },
+//     body: JSON.stringify({
+//       model: 'codellama:7b-code',
+//       prompt: prompt,
+//       stream: false
+//     })
+//   })
+//   return await response.json()
+// }
+
 const { messages, isLoading, error, chatStream, clearHistory } = useOllama()
 const inputMessage = ref('')
 const messageContainer = ref(null)

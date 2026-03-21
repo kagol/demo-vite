@@ -41,6 +41,8 @@ export function useOllama() {
 
   // 流式调用（打字机效果，推荐）
   const chatStream = async (userMessage, onChunk) => {
+    console.log('chatStream start');
+    
     isLoading.value = true
     error.value = null
     
@@ -60,22 +62,30 @@ export function useOllama() {
           stream: true
         })
       })
+      console.log('response===', response);
 
       if (!response.ok) throw new Error(`HTTP ${response.status}`)
 
       const reader = response.body.getReader()
+      console.log('reader===', reader);
       const decoder = new TextDecoder()
       
       while (true) {
         const { done, value } = await reader.read()
+        // Uint8Array(144) [123, 34, 109, 111, 100, 101, 108, 34, 58, 34, 100, 101, 101, 112, 115, 101, 101, 107, 45, 114, 49, 58, 55, 98, 34, 44, 34, 99, 114, 101, 97, 116, 101, 100, 95, 97, 116, 34, 58, 34, 50, 48, 50, 54, 45, 48, 50, 45, 48, 53, 84, 49, 53, 58, 49, 52, 58, 53, 52, 46, 56, 50, 50, 51, 56, 51, 90, 34, 44, 34, 109, 101, 115, 115, 97, 103, 101, 34, 58, 123, 34, 114, 111, 108, 101, 34, 58, 34, 97, 115, 115, 105, 115, 116, 97, 110, 116, 34, 44, 34, …][0 … 99][100 … 143]buffer: ArrayBuffer(144)byteLength: 144byteOffset: 0length: 144Symbol(Symbol.toStringTag): "Uint8Array"[[Prototype]]: TypedArray
+        console.log('done, value===', done, value);
         if (done) break
         
         const chunk = decoder.decode(value)
         const lines = chunk.split('\n').filter(line => line.trim())
+        console.log('chunk===', chunk);
+        console.log('lines===', lines);
         
         for (const line of lines) {
+          console.log('line===', line);
           try {
             const data = JSON.parse(line)
+            console.log('data===', data, data.message?.content);
             if (data.message?.content) {
               assistantMsg.content += data.message.content
               // 触发 Vue 响应式更新
@@ -88,7 +98,7 @@ export function useOllama() {
           }
         }
       }
-      
+      console.log('chatStream end');
     } catch (err) {
       error.value = err.message
       // 移除失败的助手消息
